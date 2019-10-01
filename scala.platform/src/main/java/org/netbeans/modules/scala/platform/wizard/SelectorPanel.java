@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform.wizard;
+package org.apache.netbeans.modules.scala.platform.wizard;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -55,9 +55,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.event.ChangeListener;
-import org.netbeans.modules.scala.platform.InstallerRegistry;
-import org.netbeans.spi.scala.platform.CustomPlatformInstall;
-import org.netbeans.spi.scala.platform.GeneralPlatformInstall;
+import org.apache.netbeans.modules.scala.platform.InstallerRegistry;
+import org.apache.netbeans.spi.scala.platform.CustomPlatformInstall;
+import org.apache.netbeans.spi.scala.platform.GeneralPlatformInstall;
 import org.openide.WizardDescriptor;
 import org.openide.loaders.TemplateWizard;
 import org.openide.util.ChangeSupport;

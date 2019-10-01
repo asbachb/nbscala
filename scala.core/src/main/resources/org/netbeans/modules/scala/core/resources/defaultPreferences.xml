@@ -52,7 +52,7 @@ made subject to such option by the copyright holder.
 
     <!--
     <entry javaType="methodvalue" name="abbrev-reset-acceptor">
-        <value><![CDATA[org.netbeans.modules.editor.java.NbJavaSettingsInitializer.getAbbrevResetAcceptor]]></value>
+        <value><![CDATA[org.apache.netbeans.modules.editor.java.NbJavaSettingsInitializer.getAbbrevResetAcceptor]]></value>
     </entry>
     <entry javaType="java.lang.Boolean" name="code-folding-collapse-comment">
         <value><![CDATA[false]]></value>
@@ -85,13 +85,13 @@ made subject to such option by the copyright holder.
         <value><![CDATA[true]]></value>
     </entry>
     <entry javaType="methodvalue" name="identifier-acceptor">
-        <value><![CDATA[org.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIdentifierAcceptor]]></value>
+        <value><![CDATA[org.apache.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIdentifierAcceptor]]></value>
     </entry>
     <entry javaType="methodvalue" name="indentEngine" >
-        <value><![CDATA[org.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIndentEngine]]></value>
+        <value><![CDATA[org.apache.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIndentEngine]]></value>
     </entry>
     <entry javaType="methodvalue" name="indent-hot-chars-acceptor">
-        <value><![CDATA[org.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIndentHotCharsAcceptor]]></value>
+        <value><![CDATA[org.apache.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIndentHotCharsAcceptor]]></value>
     </entry>
     <entry javaType="java.lang.Boolean" name="pair-characters-completion">
         <value><![CDATA[true]]></value>
@@ -103,7 +103,7 @@ made subject to such option by the copyright holder.
         <value><![CDATA[true]]></value>
     </entry>
     <entry javaType="methodvalue" name="token-context-list">
-        <value><![CDATA[org.netbeans.modules.editor.java.NbJavaSettingsInitializer.getTokenContextList]]></value>
+        <value><![CDATA[org.apache.netbeans.modules.editor.java.NbJavaSettingsInitializer.getTokenContextList]]></value>
     </entry>
     <entry javaType="java.lang.Boolean" name="word-match-match-case">
         <value><![CDATA[true]]></value>

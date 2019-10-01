@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.console.shell
+package org.apache.netbeans.modules.scala.console.shell
 
 import java.awt.Color
 import java.awt.Font
@@ -14,16 +14,16 @@ import javax.swing.JTextPane
 import javax.swing.SwingUtilities
 import javax.swing.UIManager
 import javax.swing.text.DefaultCaret
-import org.netbeans.api.extexecution.ExecutionDescriptor
-import org.netbeans.api.extexecution.ExecutionService
-import org.netbeans.api.progress.ProgressHandle
-import org.netbeans.api.project.Project
-import org.netbeans.modules.extexecution.base.ExternalProcessBuilder
-import org.netbeans.modules.scala.core.ScalaExecution
-import org.netbeans.modules.scala.console.AnsiConsoleOutputStream
-import org.netbeans.modules.scala.console.ConsoleInputOutput
-import org.netbeans.modules.scala.console.ConsoleTerminal
-import org.netbeans.modules.scala.console.TopComponentId
+import org.apache.netbeans.api.extexecution.ExecutionDescriptor
+import org.apache.netbeans.api.extexecution.ExecutionService
+import org.apache.netbeans.api.progress.ProgressHandle
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.extexecution.base.ExternalProcessBuilder
+import org.apache.netbeans.modules.scala.core.ScalaExecution
+import org.apache.netbeans.modules.scala.console.AnsiConsoleOutputStream
+import org.apache.netbeans.modules.scala.console.ConsoleInputOutput
+import org.apache.netbeans.modules.scala.console.ConsoleTerminal
+import org.apache.netbeans.modules.scala.console.TopComponentId
 import org.openide.ErrorManager
 import org.openide.filesystems.FileUtil
 import org.openide.util.Cancellable
@@ -153,7 +153,7 @@ final class ScalaConsoleTopComponent private (project: Project) extends TopCompo
     textView.setFont(new Font("Monospaced", Font.PLAIN, 13))
     setBorder(BorderFactory.createEmptyBorder)
 
-    // @see core.output2/org.netbeans.core.output2.ui/AbstractOutputPane
+    // @see core.output2/org.apache.netbeans.core.output2.ui/AbstractOutputPane
     val c = UIManager.getColor("nb.output.selectionBackground")
     if (c != null) {
       textView.setSelectionColor(c)
@@ -227,14 +227,14 @@ object ScalaConsoleTopComponent {
 
   private val compName = "ScalaConsole"
   /**
-   * @see org.netbeans.core.windows.persistence.PersistenceManager
+   * @see org.apache.netbeans.core.windows.persistence.PersistenceManager
    */
   private def toPreferredId(project: Project) = {
     compName + project.getProjectDirectory.getPath
   }
 
   /**
-   * @see org.netbeans.core.windows.persistence.PersistenceManager
+   * @see org.apache.netbeans.core.windows.persistence.PersistenceManager
    */
   private def toEscapedPreferredId(project: Project) = {
     TopComponentId.escape(compName + project.getProjectDirectory.getPath)

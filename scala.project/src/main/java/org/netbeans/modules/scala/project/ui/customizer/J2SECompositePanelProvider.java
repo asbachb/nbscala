@@ -39,12 +39,12 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.util.ResourceBundle;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
-import org.netbeans.spi.project.ui.support.ProjectCustomizer;
+import org.apache.netbeans.spi.project.ui.support.ProjectCustomizer;
 import org.openide.util.Lookup;
 import org.openide.util.NbBundle;
 

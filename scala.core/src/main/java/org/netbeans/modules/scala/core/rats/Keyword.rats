@@ -42,10 +42,10 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.Keyword;
+module org.apache.netbeans.modules.scala.core.rats.Keyword;
 
-import org.netbeans.modules.scala.core.rats.Identifier;
-import org.netbeans.modules.scala.core.rats.Spacing;
+import org.apache.netbeans.modules.scala.core.rats.Identifier;
+import org.apache.netbeans.modules.scala.core.rats.Spacing;
 
 body {
   static {

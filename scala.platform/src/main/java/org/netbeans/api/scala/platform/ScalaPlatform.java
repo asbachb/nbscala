@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.api.scala.platform;
+package org.apache.netbeans.api.scala.platform;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
@@ -48,7 +48,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import org.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.classpath.ClassPath;
 import org.openide.filesystems.FileObject;
 
 /**

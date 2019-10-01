@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;

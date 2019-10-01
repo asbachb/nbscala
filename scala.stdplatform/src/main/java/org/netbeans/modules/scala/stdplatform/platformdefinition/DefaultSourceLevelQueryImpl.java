@@ -39,11 +39,11 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.spi.java.queries.SourceLevelQueryImplementation;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.spi.java.queries.SourceLevelQueryImplementation;
 import org.openide.filesystems.FileObject;
 
 /**

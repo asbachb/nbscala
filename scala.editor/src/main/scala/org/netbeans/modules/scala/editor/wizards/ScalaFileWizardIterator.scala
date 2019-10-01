@@ -39,17 +39,17 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.editor.wizards
+package org.apache.netbeans.modules.scala.editor.wizards
 
 import java.awt.Component
 import java.io.IOException
 import java.{ util => ju }
 import javax.swing.JComponent
 import javax.swing.event.ChangeListener
-import org.netbeans.api.java.project.JavaProjectConstants
-import org.netbeans.api.project.{ FileOwnerQuery, Project, ProjectUtils, SourceGroup, Sources }
-import org.netbeans.spi.java.project.support.ui.templates.JavaTemplates
-import org.netbeans.spi.project.ui.templates.support.Templates
+import org.apache.netbeans.api.java.project.JavaProjectConstants
+import org.apache.netbeans.api.project.{ FileOwnerQuery, Project, ProjectUtils, SourceGroup, Sources }
+import org.apache.netbeans.spi.java.project.support.ui.templates.JavaTemplates
+import org.apache.netbeans.spi.project.ui.templates.support.Templates
 import org.openide.WizardDescriptor
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil

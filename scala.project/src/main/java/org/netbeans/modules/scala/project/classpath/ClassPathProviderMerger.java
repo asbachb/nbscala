@@ -25,11 +25,11 @@
  *
  * Portions Copyrighted 2007 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.project.classpath;
+package org.apache.netbeans.modules.scala.project.classpath;
 
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.spi.java.classpath.ClassPathProvider;
-import org.netbeans.spi.project.LookupMerger;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider;
+import org.apache.netbeans.spi.project.LookupMerger;
 import org.openide.filesystems.FileObject;
 import org.openide.util.Lookup;
 

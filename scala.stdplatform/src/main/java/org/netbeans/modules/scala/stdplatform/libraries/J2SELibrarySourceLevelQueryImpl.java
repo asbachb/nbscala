@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.libraries;
+package org.apache.netbeans.modules.scala.stdplatform.libraries;
 
 import java.io.DataInputStream;
 import java.io.IOException;
@@ -51,11 +51,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.WeakHashMap;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.project.libraries.Library;
-import org.netbeans.api.project.libraries.LibraryManager;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
-import org.netbeans.spi.java.queries.SourceLevelQueryImplementation;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.project.libraries.Library;
+import org.apache.netbeans.api.project.libraries.LibraryManager;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.spi.java.queries.SourceLevelQueryImplementation;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.filesystems.URLMapper;

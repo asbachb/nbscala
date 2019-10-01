@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.breakpoints;
+package org.apache.netbeans.modules.scala.debugger.breakpoints;
 
 import java.awt.Dimension;
 import java.net.MalformedURLException;
@@ -49,10 +49,10 @@ import javax.swing.JPanel;
 import javax.swing.text.Document;
 import javax.swing.text.StyledDocument;
 
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.modules.scala.debugger.EditorContextBridge;
-import org.netbeans.spi.debugger.ui.Controller;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.modules.scala.debugger.EditorContextBridge;
+import org.apache.netbeans.spi.debugger.ui.Controller;
 
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;

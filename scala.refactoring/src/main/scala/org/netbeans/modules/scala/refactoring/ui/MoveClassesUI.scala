@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.awt.BorderLayout;
 import java.io.IOException;
@@ -53,14 +53,14 @@ import javax.swing.JScrollPane;
 import javax.swing.ListCellRenderer
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.queries.VisibilityQuery;
-import org.netbeans.modules.refactoring.api.AbstractRefactoring;
-import org.netbeans.modules.refactoring.api.MoveRefactoring;
-import org.netbeans.modules.refactoring.api.Problem;
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel;
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUI;
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUIBypass;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.queries.VisibilityQuery;
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring;
+import org.apache.netbeans.modules.refactoring.api.MoveRefactoring;
+import org.apache.netbeans.modules.refactoring.api.Problem;
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel;
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUI;
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUIBypass;
 import org.openide.awt.Mnemonics;
 import org.openide.explorer.view.NodeRenderer
 import org.openide.filesystems.FileObject;
@@ -75,7 +75,7 @@ import org.openide.util.NbBundle;
 import org.openide.util.datatransfer.PasteType;
 import org.openide.util.lookup.Lookups;
 
-import org.netbeans.modules.scala.refactoring.RetoucheUtils;
+import org.apache.netbeans.modules.scala.refactoring.RetoucheUtils;
 
 /**
  * @author Jan Becicka
@@ -136,7 +136,7 @@ class MoveClassesUI(javaObjects: Set[FileObject], targetFolder: FileObject, past
     if (cp ne null) {
       cp.getResourceName(f, '.', false);
     } else {
-      Logger.getLogger("org.netbeans.modules.scala.refactoring").info("Cannot find classpath for " + f.getPath());
+      Logger.getLogger("org.apache.netbeans.modules.scala.refactoring").info("Cannot find classpath for " + f.getPath());
       f.getName
     }
   }

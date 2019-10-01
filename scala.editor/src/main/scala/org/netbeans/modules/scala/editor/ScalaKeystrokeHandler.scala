@@ -37,20 +37,20 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.swing.text.{ BadLocationException, Caret, Document, JTextComponent }
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.lexer.{ TokenHierarchy, TokenId }
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.{ EditorOptions, KeystrokeHandler, OffsetRange }
-import org.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
-import org.netbeans.modules.editor.indent.api.IndentUtils
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.lexer.{ TokenHierarchy, TokenId }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.{ EditorOptions, KeystrokeHandler, OffsetRange }
+import org.apache.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
+import org.apache.netbeans.modules.editor.indent.api.IndentUtils
 import org.openide.util.Exceptions
 
-import org.netbeans.modules.scala.core.ScalaMimeResolver
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
+import org.apache.netbeans.modules.scala.core.ScalaMimeResolver
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
 
 /**
  * (Based on BracketCompletion class in NetBeans' java editor support)

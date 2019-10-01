@@ -42,17 +42,17 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.LexerScala;
+module org.apache.netbeans.modules.scala.core.rats.LexerScala;
 
-import org.netbeans.modules.scala.core.rats.Character;
-import org.netbeans.modules.scala.core.rats.Identifier;
-import org.netbeans.modules.scala.core.rats.Keyword;
-import org.netbeans.modules.scala.core.rats.Literal;
-import org.netbeans.modules.scala.core.rats.Spacing;
-import org.netbeans.modules.scala.core.rats.Symbol;
-import org.netbeans.modules.scala.core.rats.Xml;
+import org.apache.netbeans.modules.scala.core.rats.Character;
+import org.apache.netbeans.modules.scala.core.rats.Identifier;
+import org.apache.netbeans.modules.scala.core.rats.Keyword;
+import org.apache.netbeans.modules.scala.core.rats.Literal;
+import org.apache.netbeans.modules.scala.core.rats.Spacing;
+import org.apache.netbeans.modules.scala.core.rats.Symbol;
+import org.apache.netbeans.modules.scala.core.rats.Xml;
 
-modify org.netbeans.modules.scala.core.rats.Xml;
+modify org.apache.netbeans.modules.scala.core.rats.Xml;
 
 option flatten;
 

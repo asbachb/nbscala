@@ -15,7 +15,7 @@
  * =========================================================================
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -39,14 +39,14 @@ public class ModInstall extends ModuleInstall {
     @Override
     public void validate() throws IllegalStateException {
         try {
-            java.lang.Class main = java.lang.Class.forName("org.netbeans.core.startup.Main", false,  //NOI18N
+            java.lang.Class main = java.lang.Class.forName("org.apache.netbeans.core.startup.Main", false,  //NOI18N
                     Thread.currentThread().getContextClassLoader());
             Method meth = main.getMethod("getModuleSystem", new Class[0]); //NOI18N
             Object moduleSystem = meth.invoke(null, new Object[0]);
             meth = moduleSystem.getClass().getMethod("getManager", new Class[0]); //NOI18N
             Object mm = meth.invoke(moduleSystem, new Object[0]);
             Method moduleMeth = mm.getClass().getMethod("get", new Class[] {String.class}); //NOI18N
-            Object mavenModule = moduleMeth.invoke(mm, "org.netbeans.modules.maven"); //NOI18N
+            Object mavenModule = moduleMeth.invoke(mm, "org.apache.netbeans.modules.maven"); //NOI18N
             if (mavenModule != null) {
                 Method dataMethod = mavenModule.getClass().getSuperclass().getDeclaredMethod("data");
                 dataMethod.setAccessible(true);
@@ -54,11 +54,11 @@ public class ModInstall extends ModuleInstall {
                 Field frField = data.getClass().getSuperclass().getDeclaredField("friendNames");
                 frField.setAccessible(true);
                 Set friends = (Set)frField.get(data);
-                friends.add("org.netbeans.modules.scala.maven"); //NOI18N
+                friends.add("org.apache.netbeans.modules.scala.maven"); //NOI18N
             }
         } catch (Exception ex) {
             ex.printStackTrace();
-            throw new IllegalStateException("Cannot fix dependencies for org.netbeans.modules.scala.maven."); //NOI18N
+            throw new IllegalStateException("Cannot fix dependencies for org.apache.netbeans.modules.scala.maven."); //NOI18N
         }
     }
     

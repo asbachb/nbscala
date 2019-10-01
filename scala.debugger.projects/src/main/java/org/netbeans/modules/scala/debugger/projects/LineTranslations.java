@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -55,7 +55,7 @@ import java.util.WeakHashMap;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
 
 import org.openide.cookies.LineCookie;
 import org.openide.filesystems.FileObject;

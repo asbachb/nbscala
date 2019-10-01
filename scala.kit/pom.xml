@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.netbeans.modules</groupId>
+        <groupId>org.apache.netbeans.modules</groupId>
         <artifactId>nbscala</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -118,22 +118,22 @@
 
         <!-- The clusters platform, java, ide and nb represent a full functioning Netbeans IDE -->
         <dependency>
-            <groupId>org.netbeans.cluster</groupId>
+            <groupId>org.apache.netbeans.cluster</groupId>
             <artifactId>platform</artifactId>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.cluster</groupId>
+            <groupId>org.apache.netbeans.cluster</groupId>
             <artifactId>java</artifactId>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.cluster</groupId>
+            <groupId>org.apache.netbeans.cluster</groupId>
             <artifactId>nb</artifactId>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.cluster</groupId>
+            <groupId>org.apache.netbeans.cluster</groupId>
             <artifactId>ide</artifactId>
             <type>pom</type>
         </dependency>
@@ -144,7 +144,7 @@
              by excluding javax.mail/javax.jms/jmxtools/jmxri from log4j 1.2.15
         -->
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>org.apache.netbeans.modules</groupId>
             <artifactId>org-netbeans-modules-apisupport-kit</artifactId>
             <type>pom</type>
         </dependency>
@@ -175,24 +175,24 @@
         <!-- modules that is required for Integrity verification passed.
         Here, nbjunit and jelltools are needed for ui tests -->
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-nbjunit</artifactId>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-jellytools-ide</artifactId>
             <type>pom</type>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-websvc-saas-codegen-java</artifactId>
             <type>pom</type>
         </dependency>
 
-        <!-- need for /src/test/org.netbeans.modules.scala.app.ApplicationTest.java -->
+        <!-- need for /src/test/org.apache.netbeans.modules.scala.app.ApplicationTest.java -->
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-jellytools-java</artifactId>
             <scope>test</scope>
         </dependency>

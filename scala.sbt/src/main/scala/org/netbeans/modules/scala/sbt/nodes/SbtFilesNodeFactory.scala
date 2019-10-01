@@ -1,11 +1,11 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import java.awt.Image
 import javax.swing.event.ChangeListener
-import org.netbeans.api.project.Project
-import org.netbeans.spi.project.ui.support.NodeFactory
-import org.netbeans.spi.project.ui.support.NodeList
-import org.netbeans.modules.scala.sbt.project.SBTProject
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.spi.project.ui.support.NodeFactory
+import org.apache.netbeans.spi.project.ui.support.NodeList
+import org.apache.netbeans.modules.scala.sbt.project.SBTProject
 import org.openide.filesystems.FileObject
 import org.openide.loaders.DataNode
 import org.openide.loaders.DataObject

@@ -37,11 +37,11 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
-import org.netbeans.modules.csl.api.Hint
-import org.netbeans.modules.csl.api.Rule
-import org.netbeans.modules.csl.api.Error
+import org.apache.netbeans.modules.csl.api.Hint
+import org.apache.netbeans.modules.csl.api.Rule
+import org.apache.netbeans.modules.csl.api.Error
 
 abstract class ScalaErrorRule extends Rule.ErrorRule {
 

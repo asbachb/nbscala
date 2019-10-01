@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -48,11 +48,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.queries.JavadocForBinaryQuery;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.spi.java.queries.JavadocForBinaryQueryImplementation;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.queries.JavadocForBinaryQuery;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.spi.java.queries.JavadocForBinaryQueryImplementation;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileStateInvalidException;

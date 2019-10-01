@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.libraries;
+package org.apache.netbeans.modules.scala.stdplatform.libraries;
 
 import java.net.URI;
 import javax.swing.AbstractListModel;
@@ -47,9 +47,9 @@ import java.util.ArrayList;
 import java.net.URL;
 
 import java.util.List;
-import org.netbeans.spi.project.libraries.LibraryImplementation;
-import org.netbeans.spi.project.libraries.LibraryImplementation2;
-import org.netbeans.spi.project.libraries.LibraryStorageArea;
+import org.apache.netbeans.spi.project.libraries.LibraryImplementation;
+import org.apache.netbeans.spi.project.libraries.LibraryImplementation2;
+import org.apache.netbeans.spi.project.libraries.LibraryStorageArea;
 import org.openide.util.NbCollections;
 
 class VolumeContentModel extends AbstractListModel/*<String>*/ {

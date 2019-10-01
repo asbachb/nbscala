@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.netbeans.modules.scala.sbt.project.template;
+package org.apache.netbeans.modules.scala.sbt.project.template;
 
 import java.awt.Component;
 import java.util.HashSet;

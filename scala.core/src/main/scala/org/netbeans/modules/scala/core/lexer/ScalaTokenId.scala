@@ -38,20 +38,20 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.core.lexer
+package org.apache.netbeans.modules.scala.core.lexer
 
-import org.netbeans.api.lexer.{
+import org.apache.netbeans.api.lexer.{
   InputAttributes,
   LanguagePath,
   Token,
   TokenId
 }
-import org.netbeans.spi.lexer.{
+import org.apache.netbeans.spi.lexer.{
   LanguageHierarchy,
   Lexer,
   LexerRestartInfo
 }
-import org.netbeans.modules.scala.core.ScalaMimeResolver
+import org.apache.netbeans.modules.scala.core.ScalaMimeResolver
 import scala.collection.mutable
 
 /**

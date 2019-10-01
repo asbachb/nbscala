@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.awt.Color;
 import java.beans.PropertyChangeEvent;
@@ -69,11 +69,11 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.VariableElement;
 
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
 
-import org.netbeans.api.java.source.CompilationController;
+import org.apache.netbeans.api.java.source.CompilationController;
 
-import org.netbeans.modules.parsing.api.ResultIterator;
+import org.apache.netbeans.modules.parsing.api.ResultIterator;
 import org.openide.ErrorManager;
 import org.openide.cookies.EditorCookie;
 import org.openide.filesystems.FileObject;
@@ -85,18 +85,18 @@ import org.openide.text.NbDocument;
 import org.openide.util.Utilities;
 import org.openide.util.WeakListeners;
 
-import org.netbeans.spi.debugger.ui.EditorContextDispatcher;
+import org.apache.netbeans.spi.debugger.ui.EditorContextDispatcher;
 
-import org.netbeans.editor.JumpList;
-import org.netbeans.modules.csl.api.ElementKind;
-import org.netbeans.modules.parsing.api.ParserManager;
-import org.netbeans.modules.parsing.api.Source;
-import org.netbeans.modules.parsing.api.UserTask;
-import org.netbeans.modules.parsing.spi.ParseException;
-import org.netbeans.modules.scala.core.ScalaParserResult;
-import org.netbeans.modules.scala.core.ScalaSourceUtil;
-import org.netbeans.spi.debugger.jpda.EditorContext;
-import org.netbeans.spi.debugger.jpda.SourcePathProvider;
+import org.apache.netbeans.editor.JumpList;
+import org.apache.netbeans.modules.csl.api.ElementKind;
+import org.apache.netbeans.modules.parsing.api.ParserManager;
+import org.apache.netbeans.modules.parsing.api.Source;
+import org.apache.netbeans.modules.parsing.api.UserTask;
+import org.apache.netbeans.modules.parsing.spi.ParseException;
+import org.apache.netbeans.modules.scala.core.ScalaParserResult;
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.spi.debugger.jpda.SourcePathProvider;
 
 /**
  *
@@ -104,8 +104,8 @@ import org.netbeans.spi.debugger.jpda.SourcePathProvider;
  * @author Caoyuan Deng
  * 
  * @todo This EditorContextImpl and the EditorContextImpl in debugger.jpda.projects
- * should be instanced and get lookuped in org.netbeans.modules.debugger.jpda.EditorContextImpl#getContext,
- * but, it seems org.netbeans.api.debugger.Lookup won't init the unloaded modules' META-INFO/debugger/
+ * should be instanced and get lookuped in org.apache.netbeans.modules.debugger.jpda.EditorContextImpl#getContext,
+ * but, it seems org.apache.netbeans.api.debugger.Lookup won't init the unloaded modules' META-INFO/debugger/
  * services. We have to apply following ugly hacking:
  *     1. Add debugger.jpda.projects module as run-dependency of this modules, so, 
  *        when this module is loaded first, debugger.jpda.projects module will also
@@ -997,7 +997,7 @@ public class EditorContextImpl extends EditorContext {
         }
         if (!"text/x-scala".equals(fo.getMIMEType())) {
             /** Should return null instead of "" here, 
-             * @see org.netbeans.modules.debugger.jpda.EditorContextBridge#CompoundContextProvider#getClassName
+             * @see org.apache.netbeans.modules.debugger.jpda.EditorContextBridge#CompoundContextProvider#getClassName
              * @notice this has been fixed in main's rev: 30100e497ae4
              */
             return null;

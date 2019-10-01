@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -50,21 +50,21 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.lang.model.element.TypeElement;
 import javax.swing.SwingUtilities;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.source.ElementHandle;
-import org.netbeans.api.java.source.SourceUtils;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.modules.csl.api.ElementKind;
-import org.netbeans.modules.java.api.common.ant.UpdateHelper;
-import org.netbeans.modules.parsing.api.ParserManager;
-import org.netbeans.modules.parsing.api.ResultIterator;
-import org.netbeans.modules.parsing.api.Source;
-import org.netbeans.modules.parsing.api.UserTask;
-import org.netbeans.modules.parsing.spi.ParseException;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.source.ElementHandle;
+import org.apache.netbeans.api.java.source.SourceUtils;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.modules.csl.api.ElementKind;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateHelper;
+import org.apache.netbeans.modules.parsing.api.ParserManager;
+import org.apache.netbeans.modules.parsing.api.ResultIterator;
+import org.apache.netbeans.modules.parsing.api.Source;
+import org.apache.netbeans.modules.parsing.api.UserTask;
+import org.apache.netbeans.modules.parsing.spi.ParseException;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
 import org.openide.filesystems.FileChangeAdapter;
 import org.openide.filesystems.FileChangeListener;
 import org.openide.filesystems.FileObject;
@@ -75,9 +75,9 @@ import org.openide.util.MutexException;
 import org.openide.util.RequestProcessor;
 import org.openide.util.WeakListeners;
 
-import org.netbeans.api.language.util.ast.AstDfn;
-import org.netbeans.modules.scala.core.ScalaParserResult;
-import org.netbeans.modules.scala.core.ast.ScalaRootScope;
+import org.apache.netbeans.api.language.util.ast.AstDfn;
+import org.apache.netbeans.modules.scala.core.ScalaParserResult;
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope;
 
 /**
  *

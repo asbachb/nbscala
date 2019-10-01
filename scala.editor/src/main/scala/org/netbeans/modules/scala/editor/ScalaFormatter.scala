@@ -37,22 +37,22 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.swing.text.{ BadLocationException, Document }
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.lexer.{ Token, TokenId }
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.Formatter
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
-import org.netbeans.modules.editor.indent.spi.Context
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.lexer.{ Token, TokenId }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.Formatter
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
+import org.apache.netbeans.modules.editor.indent.spi.Context
 import org.openide.filesystems.FileUtil
 import org.openide.loaders.DataObject
 import org.openide.util.Exceptions
 
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
-import org.netbeans.modules.scala.editor.options.{ CodeStyle }
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
+import org.apache.netbeans.modules.scala.editor.options.{ CodeStyle }
 
 import scala.collection.mutable.{ ArrayBuffer, Stack }
 

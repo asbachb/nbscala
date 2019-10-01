@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import com.sun.source.util.TreePath;
 import java.io.IOException;
@@ -48,9 +48,9 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Set;
-import org.netbeans.api.java.source.ElementHandle;
-import org.netbeans.api.java.source.WorkingCopy;
-import org.netbeans.modules.refactoring.api.Problem;
+import org.apache.netbeans.api.java.source.ElementHandle;
+import org.apache.netbeans.api.java.source.WorkingCopy;
+import org.apache.netbeans.modules.refactoring.api.Problem;
 import org.openide.filesystems.FileObject;
 import org.openide.util.Exceptions;
 import org.openide.util.NbBundle;

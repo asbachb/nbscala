@@ -37,9 +37,9 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
-import org.netbeans.spi.editor.bracesmatching.{ BracesMatcher, BracesMatcherFactory, MatcherContext }
+import org.apache.netbeans.spi.editor.bracesmatching.{ BracesMatcher, BracesMatcherFactory, MatcherContext }
 
 /**
  *

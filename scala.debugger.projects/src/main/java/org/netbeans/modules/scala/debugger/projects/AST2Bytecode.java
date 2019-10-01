@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.ExpressionTree;
@@ -60,16 +60,16 @@ import javax.lang.model.element.TypeParameterElement;
 import javax.lang.model.type.TypeKind;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Types;
-import org.netbeans.api.java.source.CompilationController;
-import org.netbeans.api.java.source.ElementUtilities;
+import org.apache.netbeans.api.java.source.CompilationController;
+import org.apache.netbeans.api.java.source.ElementUtilities;
 
-import org.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
 import org.openide.ErrorManager;
 
 /**
  * This class tries to match the AST expression to bytecode. The result
  * of this match is provided as an
- * {@link org.netbeans.spi.debugger.jpda.EditorContext.ExpressionTree} object.
+ * {@link org.apache.netbeans.spi.debugger.jpda.EditorContext.ExpressionTree} object.
  * 
  * @author Martin Entlicher
  */

@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.debugger;
+package org.apache.netbeans.modules.scala.debugger;
 
 import java.awt.AWTKeyStroke;
 import java.awt.Container;
@@ -55,12 +55,12 @@ import java.net.URL;
 import javax.swing.text.Document;
 import javax.swing.text.EditorKit;
 import javax.swing.text.Keymap;
-import org.netbeans.api.debugger.DebuggerEngine;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.CallStackFrame;
-import org.netbeans.api.debugger.jpda.JPDADebugger;
+import org.apache.netbeans.api.debugger.DebuggerEngine;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.CallStackFrame;
+import org.apache.netbeans.api.debugger.jpda.JPDADebugger;
 
-import org.netbeans.api.java.source.JavaSource;
+import org.apache.netbeans.api.java.source.JavaSource;
 
 import org.openide.awt.Mnemonics;
 import org.openide.filesystems.FileObject;
@@ -77,7 +77,7 @@ import java.util.*;
 import java.awt.BorderLayout;
 import java.io.IOException;
 import javax.swing.text.StyledDocument;
-import org.netbeans.api.java.source.ui.DialogBinding;
+import org.apache.netbeans.api.java.source.ui.DialogBinding;
 import org.openide.ErrorManager;
 import org.openide.cookies.EditorCookie;
 import org.openide.text.NbDocument;

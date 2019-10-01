@@ -3,10 +3,10 @@
 <library version="1.0">
     <name>CopyLibs</name>
     <type>j2se</type>
-    <localizing-bundle>org.netbeans.modules.scala.project.Bundle</localizing-bundle>
+    <localizing-bundle>org.apache.netbeans.modules.scala.project.Bundle</localizing-bundle>
     <volume>
         <type>classpath</type>
-        <resource>jar:nbinst://org.netbeans.modules.scala.project/ant/extra/org-netbeans-modules-scala-project-copylibstask.jar!/</resource>
+        <resource>jar:nbinst://org.apache.netbeans.modules.scala.project/ant/extra/org-netbeans-modules-scala-project-copylibstask.jar!/</resource>
     </volume>
     <volume>
         <type>src</type>        

@@ -38,11 +38,11 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden
+package org.apache.netbeans.modules.scala.editor.overridden
 
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.classpath.GlobalPathRegistry
-import org.netbeans.api.java.queries.SourceForBinaryQuery
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery
 import org.openide.filesystems.FileObject
 import scala.collection.mutable.HashSet
 

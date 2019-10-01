@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.ExpressionTree;
@@ -53,7 +53,7 @@ import com.sun.source.tree.VariableTree;
 import com.sun.source.util.SourcePositions;
 import com.sun.source.util.TreeScanner;
 import java.util.List;
-import org.netbeans.spi.debugger.jpda.EditorContext.MethodArgument;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext.MethodArgument;
 
 /**
  * A tree scanner, which collects argument names of a method.

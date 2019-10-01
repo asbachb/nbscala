@@ -42,7 +42,7 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.Unicode;
+module org.apache.netbeans.modules.scala.core.rats.Unicode;
 
 // ----- [Ll] Letter, Lowercase
 transient String unicodeLl =

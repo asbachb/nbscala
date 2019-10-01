@@ -39,18 +39,18 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.io.File;
 
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectInformation;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectInformation;
 
-import org.netbeans.spi.viewmodel.NodeModel;
-import org.netbeans.spi.viewmodel.TreeModel;
-import org.netbeans.spi.viewmodel.ModelListener;
-import org.netbeans.spi.viewmodel.UnknownTypeException;
+import org.apache.netbeans.spi.viewmodel.NodeModel;
+import org.apache.netbeans.spi.viewmodel.TreeModel;
+import org.apache.netbeans.spi.viewmodel.ModelListener;
+import org.apache.netbeans.spi.viewmodel.UnknownTypeException;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.NbBundle;

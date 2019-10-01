@@ -1,2 +1,2 @@
-org.netbeans.modules.scala.refactoring.ui.RefactoringActionsProvider
+org.apache.netbeans.modules.scala.refactoring.ui.RefactoringActionsProvider
 #position=100

@@ -39,24 +39,24 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.actions;
+package org.apache.netbeans.modules.scala.debugger.actions;
 
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.ImageIcon;
 
-import org.netbeans.api.debugger.ActionsManager;
-import org.netbeans.api.debugger.Breakpoint;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.FieldBreakpoint;
-import org.netbeans.api.debugger.jpda.JPDABreakpoint;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.api.debugger.ActionsManager;
+import org.apache.netbeans.api.debugger.Breakpoint;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.FieldBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.JPDABreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
 
-import org.netbeans.modules.scala.debugger.EditorContextBridge;
-import org.netbeans.modules.scala.debugger.breakpoints.FieldBreakpointPanel;
-import org.netbeans.modules.scala.debugger.breakpoints.MethodBreakpointPanel;
+import org.apache.netbeans.modules.scala.debugger.EditorContextBridge;
+import org.apache.netbeans.modules.scala.debugger.breakpoints.FieldBreakpointPanel;
+import org.apache.netbeans.modules.scala.debugger.breakpoints.MethodBreakpointPanel;
 
 import org.openide.util.NbBundle;
 import org.openide.util.RequestProcessor;

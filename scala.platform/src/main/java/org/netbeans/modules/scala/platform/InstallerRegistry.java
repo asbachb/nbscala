@@ -39,18 +39,18 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform;
+package org.apache.netbeans.modules.scala.platform;
 
 import java.io.IOException;
 import java.lang.ref.*;
 import java.util.*;
-import org.netbeans.spi.scala.platform.CustomPlatformInstall;
-import org.netbeans.spi.scala.platform.GeneralPlatformInstall;
+import org.apache.netbeans.spi.scala.platform.CustomPlatformInstall;
+import org.apache.netbeans.spi.scala.platform.GeneralPlatformInstall;
 
 import org.openide.cookies.InstanceCookie;
 import org.openide.filesystems.*;
 import org.openide.loaders.*;
-import org.netbeans.spi.scala.platform.PlatformInstall;
+import org.apache.netbeans.spi.scala.platform.PlatformInstall;
 import org.openide.util.NbCollections;
 
 /**

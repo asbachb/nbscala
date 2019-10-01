@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui.tree
+package org.apache.netbeans.modules.scala.refactoring.ui.tree
 
 import javax.swing.Icon
 import org.openide.filesystems.FileObject

@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.project.classpath;
+package org.apache.netbeans.modules.scala.project.classpath;
 
 import java.beans.PropertyChangeEvent;
 import java.io.File;
@@ -52,15 +52,15 @@ import java.net.URI;
 import java.net.URL;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import org.netbeans.modules.java.api.common.SourceRoots;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.spi.java.classpath.ClassPathImplementation;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
-import org.netbeans.spi.java.classpath.FilteringPathResourceImplementation;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.PathMatcher;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.modules.java.api.common.SourceRoots;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.spi.java.classpath.ClassPathImplementation;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.spi.java.classpath.FilteringPathResourceImplementation;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.PathMatcher;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
 import org.openide.filesystems.FileChangeAdapter;
 import org.openide.filesystems.FileChangeListener;
 import org.openide.filesystems.FileEvent;

@@ -38,27 +38,27 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.java.source.WorkingCopy
-import org.netbeans.modules.parsing.api.UserTask
-import org.netbeans.modules.parsing.spi.ParseException
-import org.netbeans.modules.parsing.spi.Parser
-import org.netbeans.modules.csl.spi.support.ModificationResult
-import org.netbeans.modules.parsing.api.ParserManager
-import org.netbeans.modules.parsing.api.ResultIterator
-import org.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.java.source.WorkingCopy
+import org.apache.netbeans.modules.parsing.api.UserTask
+import org.apache.netbeans.modules.parsing.spi.ParseException
+import org.apache.netbeans.modules.parsing.spi.Parser
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult
+import org.apache.netbeans.modules.parsing.api.ParserManager
+import org.apache.netbeans.modules.parsing.api.ResultIterator
+import org.apache.netbeans.modules.parsing.api.Source
 
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
 
-import org.netbeans.modules.refactoring.api.AbstractRefactoring
-import org.netbeans.modules.refactoring.api.Problem
-import org.netbeans.modules.refactoring.spi.{ RefactoringPlugin, ProgressProviderAdapter }
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring
+import org.apache.netbeans.modules.refactoring.api.Problem
+import org.apache.netbeans.modules.refactoring.spi.{ RefactoringPlugin, ProgressProviderAdapter }
 import org.openide.filesystems.FileObject;
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.HashMap

@@ -39,19 +39,19 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui.tree
+package org.apache.netbeans.modules.scala.refactoring.ui.tree
 
 import javax.swing.Icon;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.modules.csl.api.ElementKind;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources
-import org.netbeans.modules.csl.api.UiUtils
-import org.netbeans.modules.refactoring.spi.ui.TreeElement
-import org.netbeans.modules.refactoring.spi.ui.TreeElementFactory
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.modules.csl.api.ElementKind;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources
+import org.apache.netbeans.modules.csl.api.UiUtils
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElement
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElementFactory
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.NbBundle;

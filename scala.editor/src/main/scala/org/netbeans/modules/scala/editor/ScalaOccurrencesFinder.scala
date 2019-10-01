@@ -37,15 +37,15 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.{ ColoringAttributes, OccurrencesFinder, OffsetRange }
-import org.netbeans.modules.parsing.spi.{ Scheduler, SchedulerEvent }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.{ ColoringAttributes, OccurrencesFinder, OffsetRange }
+import org.apache.netbeans.modules.parsing.spi.{ Scheduler, SchedulerEvent }
 import org.openide.filesystems.FileObject
 
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil }
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil }
 
 /**
  *

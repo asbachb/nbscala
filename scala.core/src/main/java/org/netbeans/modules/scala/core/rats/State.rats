@@ -42,7 +42,7 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.State;
+module org.apache.netbeans.modules.scala.core.rats.State;
 
 option stateful(ParserState);
 

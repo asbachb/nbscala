@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform.ui;
+package org.apache.netbeans.modules.scala.platform.ui;
 
 import java.awt.CardLayout;
 import java.awt.Component;
@@ -63,9 +63,9 @@ import java.util.Locale;
 import java.util.Set;
 import javax.swing.JComponent;
 import javax.swing.UIManager;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.modules.scala.platform.wizard.PlatformInstallIterator;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.modules.scala.platform.wizard.PlatformInstallIterator;
 import org.openide.DialogDisplayer;
 import org.openide.ErrorManager;
 import org.openide.WizardDescriptor;

@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -56,48 +56,48 @@ import javax.swing.Icon;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.classpath.GlobalPathRegistry;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.*;
-import org.netbeans.api.project.ant.AntArtifact;
-import org.netbeans.api.project.ant.AntBuildExtender;
-import org.netbeans.modules.java.api.common.SourceRoots;
-import org.netbeans.modules.java.api.common.ant.UpdateHelper;
-import org.netbeans.modules.java.api.common.ant.UpdateImplementation;
-import org.netbeans.modules.java.api.common.classpath.ClassPathModifier;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.modules.java.api.common.queries.QuerySupport;
-import org.netbeans.modules.scala.project.api.J2SEPropertyEvaluator;
-import org.netbeans.modules.scala.project.classpath.ClassPathProviderImpl;
-import org.netbeans.modules.scala.project.queries.BinaryForSourceQueryImpl;
-import org.netbeans.modules.scala.project.ui.J2SELogicalViewProvider;
-import org.netbeans.modules.scala.project.ui.customizer.CustomizerProviderImpl;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
-import org.netbeans.spi.java.project.support.ExtraSourceJavadocSupport;
-import org.netbeans.spi.java.project.support.LookupMergerSupport;
-import org.netbeans.spi.java.project.support.ui.BrokenReferencesSupport;
-import org.netbeans.spi.project.ActionProvider;
-import org.netbeans.spi.project.AuxiliaryConfiguration;
-import org.netbeans.spi.project.SubprojectProvider;
-import org.netbeans.spi.project.ant.AntArtifactProvider;
-import org.netbeans.spi.project.ant.AntBuildExtenderFactory;
-import org.netbeans.spi.project.ant.AntBuildExtenderImplementation;
-import org.netbeans.spi.project.support.LookupProviderSupport;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.FilterPropertyProvider;
-import org.netbeans.spi.project.support.ant.GeneratedFilesHelper;
-import org.netbeans.spi.project.support.ant.ProjectXmlSavedHook;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
-import org.netbeans.spi.project.support.ant.PropertyProvider;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
-import org.netbeans.spi.project.support.ant.ReferenceHelper;
-import org.netbeans.spi.project.ui.PrivilegedTemplates;
-import org.netbeans.spi.project.ui.ProjectOpenedHook;
-import org.netbeans.spi.project.ui.RecommendedTemplates;
-import org.netbeans.spi.project.ui.support.UILookupMergerSupport;
-import org.netbeans.spi.queries.FileEncodingQueryImplementation;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.*;
+import org.apache.netbeans.api.project.ant.AntArtifact;
+import org.apache.netbeans.api.project.ant.AntBuildExtender;
+import org.apache.netbeans.modules.java.api.common.SourceRoots;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateHelper;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateImplementation;
+import org.apache.netbeans.modules.java.api.common.classpath.ClassPathModifier;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.modules.java.api.common.queries.QuerySupport;
+import org.apache.netbeans.modules.scala.project.api.J2SEPropertyEvaluator;
+import org.apache.netbeans.modules.scala.project.classpath.ClassPathProviderImpl;
+import org.apache.netbeans.modules.scala.project.queries.BinaryForSourceQueryImpl;
+import org.apache.netbeans.modules.scala.project.ui.J2SELogicalViewProvider;
+import org.apache.netbeans.modules.scala.project.ui.customizer.CustomizerProviderImpl;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.spi.java.project.support.ExtraSourceJavadocSupport;
+import org.apache.netbeans.spi.java.project.support.LookupMergerSupport;
+import org.apache.netbeans.spi.java.project.support.ui.BrokenReferencesSupport;
+import org.apache.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.spi.project.AuxiliaryConfiguration;
+import org.apache.netbeans.spi.project.SubprojectProvider;
+import org.apache.netbeans.spi.project.ant.AntArtifactProvider;
+import org.apache.netbeans.spi.project.ant.AntBuildExtenderFactory;
+import org.apache.netbeans.spi.project.ant.AntBuildExtenderImplementation;
+import org.apache.netbeans.spi.project.support.LookupProviderSupport;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.FilterPropertyProvider;
+import org.apache.netbeans.spi.project.support.ant.GeneratedFilesHelper;
+import org.apache.netbeans.spi.project.support.ant.ProjectXmlSavedHook;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.spi.project.support.ant.PropertyProvider;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.spi.project.support.ant.ReferenceHelper;
+import org.apache.netbeans.spi.project.ui.PrivilegedTemplates;
+import org.apache.netbeans.spi.project.ui.ProjectOpenedHook;
+import org.apache.netbeans.spi.project.ui.RecommendedTemplates;
+import org.apache.netbeans.spi.project.ui.support.UILookupMergerSupport;
+import org.apache.netbeans.spi.queries.FileEncodingQueryImplementation;
 import org.openide.DialogDisplayer;
 import org.openide.ErrorManager;
 import org.openide.NotifyDescriptor;
@@ -276,7 +276,7 @@ public final class J2SEProject implements Project {
             final ActionProvider actionProvider) {
         final SubprojectProvider spp = refHelper.createSubprojectProvider();
         FileEncodingQueryImplementation encodingQuery = QuerySupport.createFileEncodingQuery(evaluator(), J2SEProjectProperties.SOURCE_ENCODING);
-        @SuppressWarnings("deprecation") Object cpe = new org.netbeans.modules.java.api.common.classpath.ClassPathExtender(
+        @SuppressWarnings("deprecation") Object cpe = new org.apache.netbeans.modules.java.api.common.classpath.ClassPathExtender(
             cpMod, ProjectProperties.JAVAC_CLASSPATH, null);
         final Lookup base = Lookups.fixed(new Object[]{
                     J2SEProject.this,
@@ -459,7 +459,7 @@ public final class J2SEProject implements Project {
              * @Note:
              * Register classpaths to GlobalPathRegistry will cause GSF indexer to monitor and indexing them.
              * 
-             * Per org.netbeans.modules.gsfret.source.GlobalSourcePath#createResources(Request),
+             * Per org.apache.netbeans.modules.gsfret.source.GlobalSourcePath#createResources(Request),
              * Tor' midifications: Treat bootCps as a source path, not a binary -  I want to scan directories.
              * 
              * We should here register boot source's classpath instead of binary boot classpath.

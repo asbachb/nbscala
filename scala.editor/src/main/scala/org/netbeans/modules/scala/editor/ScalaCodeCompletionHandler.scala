@@ -37,12 +37,12 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.swing.text.{ BadLocationException, JTextComponent }
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.CodeCompletionHandler.QueryType
-import org.netbeans.modules.csl.api.{
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.CodeCompletionHandler.QueryType
+import org.apache.netbeans.modules.csl.api.{
   CodeCompletionContext,
   CodeCompletionHandler,
   CodeCompletionResult,
@@ -50,15 +50,15 @@ import org.netbeans.modules.csl.api.{
   ElementHandle,
   ParameterInfo
 }
-import org.netbeans.modules.csl.spi.{ DefaultCompletionResult, ParserResult }
-import org.netbeans.modules.parsing.spi.indexing.support.QuerySupport
+import org.apache.netbeans.modules.csl.spi.{ DefaultCompletionResult, ParserResult }
+import org.apache.netbeans.modules.parsing.spi.indexing.support.QuerySupport
 import org.openide.util.{ Exceptions, NbBundle }
 
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.language.util.ast.AstElementHandle
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ScalaSourceUtil
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.language.util.ast.AstElementHandle
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
 
 /**
  * Code completion handler for JavaScript

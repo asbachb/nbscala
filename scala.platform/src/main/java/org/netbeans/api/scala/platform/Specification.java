@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.api.scala.platform;
+package org.apache.netbeans.api.scala.platform;
 
 import org.openide.modules.SpecificationVersion;
 

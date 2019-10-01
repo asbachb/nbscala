@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.io.File;
 import javax.swing.JFileChooser;

@@ -36,7 +36,7 @@
  *
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.editor.options
+package org.apache.netbeans.modules.scala.editor.options
 
 import java.awt.{ Container, Rectangle }
 import java.awt.event.{ ActionEvent, ActionListener }
@@ -46,13 +46,13 @@ import javax.swing.{ ComboBoxModel, JCheckBox, JComboBox, JComponent, JEditorPan
 import javax.swing.event.{ DocumentEvent, DocumentListener }
 import javax.swing.text.EditorKit
 
-import org.netbeans.api.editor.mimelookup.{ MimeLookup, MimePath }
-import org.netbeans.api.editor.settings.SimpleValueNames
+import org.apache.netbeans.api.editor.mimelookup.{ MimeLookup, MimePath }
+import org.apache.netbeans.api.editor.settings.SimpleValueNames
 
-import org.netbeans.modules.options.editor.spi.{ PreferencesCustomizer, PreviewProvider }
-import org.netbeans.modules.scala.core.ScalaMimeResolver
-import org.netbeans.modules.scala.editor.{ ScalaFormatter }
-import org.netbeans.spi.options.OptionsPanelController
+import org.apache.netbeans.modules.options.editor.spi.{ PreferencesCustomizer, PreviewProvider }
+import org.apache.netbeans.modules.scala.core.ScalaMimeResolver
+import org.apache.netbeans.modules.scala.editor.{ ScalaFormatter }
+import org.apache.netbeans.spi.options.OptionsPanelController
 import org.openide.util.{ Exceptions, HelpCtx, NbBundle }
 
 import scala.collection.mutable.ArrayBuffer
@@ -102,7 +102,7 @@ object FmtOptions {
 
   // Ruby needs its own indent size; the global "4" isn't a good match
   //    public static int getGlobalIndentSize() {
-  //        org.netbeans.editor.Formatter f = (org.netbeans.editor.Formatter)Settings.getValue(getKitClass(), "formatter");
+  //        org.apache.netbeans.editor.Formatter f = (org.apache.netbeans.editor.Formatter)Settings.getValue(getKitClass(), "formatter");
   //        if (f ne null)
   //            return f.getShiftWidth();
   //        return getDefaultAsInt(indentSize);
@@ -178,7 +178,7 @@ object FmtOptions {
 
   // Customizer section ---------------------------------------------------------
   object Customizer {
-    val OPTION_ID = "org.netbeans.modules.scala.editor.options.FormattingOptions.ID"
+    val OPTION_ID = "org.apache.netbeans.modules.scala.editor.options.FormattingOptions.ID"
     private val LOAD = 0
     private val STORE = 1
     private val ADD_LISTENERS = 2

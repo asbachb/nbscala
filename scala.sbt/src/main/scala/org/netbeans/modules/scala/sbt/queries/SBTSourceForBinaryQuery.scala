@@ -1,28 +1,28 @@
-package org.netbeans.modules.scala.sbt.queries
+package org.apache.netbeans.modules.scala.sbt.queries
 
 import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
 import java.net.URL
 import javax.swing.event.ChangeListener
-import org.netbeans.spi.java.queries.SourceForBinaryQueryImplementation2
+import org.apache.netbeans.spi.java.queries.SourceForBinaryQueryImplementation2
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import org.openide.filesystems.URLMapper
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.queries.JavadocForBinaryQuery
-import org.netbeans.api.java.queries.SourceForBinaryQuery
-import org.netbeans.api.java.queries.SourceForBinaryQuery.Result
-import org.netbeans.api.project.FileOwnerQuery
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.sbt.nodes.ArtifactInfo
-import org.netbeans.modules.scala.sbt.project.SBTResolver
-import org.netbeans.spi.java.queries.JavadocForBinaryQueryImplementation
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.queries.JavadocForBinaryQuery
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery.Result
+import org.apache.netbeans.api.project.FileOwnerQuery
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.sbt.nodes.ArtifactInfo
+import org.apache.netbeans.modules.scala.sbt.project.SBTResolver
+import org.apache.netbeans.spi.java.queries.JavadocForBinaryQueryImplementation
 import org.openide.util.ChangeSupport
 import scala.collection.mutable
 
 /**
- * It will be used first by org.netbeans.modules.parsing.impl.indexing.PathRegistry.getSources
+ * It will be used first by org.apache.netbeans.modules.parsing.impl.indexing.PathRegistry.getSources
  * and by GlobalPathRegistry when get debugging sources.
  *
  * @author Caoyuan Deng
@@ -51,7 +51,7 @@ class SBTSourceForBinaryQuery(project: Project) extends SourceForBinaryQueryImpl
 
   /*
    * Information about where Java sources corresponding to binaries (classfiles) can be found.
-   * A default implementation is registered by the org.netbeans.modules.java.project
+   * A default implementation is registered by the org.apache.netbeans.modules.java.project
    *  module which looks up the project corresponding to the file (if any; jar-protocol 
    *  URLs actually check the owner of the JAR file itself) and checks whether that 
    *  project has an implementation of this interface in its lookup. If so, it delegates 

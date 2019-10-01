@@ -40,10 +40,10 @@
  * Portions Copyrighted 2011 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
-import org.netbeans.modules.maven.spi.queries.JavaLikeRootProvider;
-import org.netbeans.spi.project.ProjectServiceProvider;
+import org.apache.netbeans.modules.maven.spi.queries.JavaLikeRootProvider;
+import org.apache.netbeans.spi.project.ProjectServiceProvider;
 
 @ProjectServiceProvider(service=JavaLikeRootProvider.class, projectType="org-netbeans-modules-maven")
 public class ScalaRootProvider implements JavaLikeRootProvider {

@@ -7,7 +7,7 @@
                 
                 <folder name="Popup">
                     <file name="org-netbeans-modules-refactoring-api-ui-RSMEditorAction.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.refactoring.api.ui.RefactoringActionsFactory.editorSubmenuAction"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.refactoring.api.ui.RefactoringActionsFactory.editorSubmenuAction"/>
                         <attr name="position" intvalue="700"/>
                     </file>
                     <file name="org-netbeans-modules-refactoring-api-ui-WhereUsedAction.shadow">

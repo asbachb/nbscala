@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.console.readline
+package org.apache.netbeans.modules.scala.console.readline
 
 import scala.collection.mutable.ArrayBuffer
 

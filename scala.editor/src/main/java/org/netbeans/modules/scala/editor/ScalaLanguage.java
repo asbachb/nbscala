@@ -36,29 +36,29 @@
  *
  * Portions Copyrighted 2010 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.editor;
+package org.apache.netbeans.modules.scala.editor;
 
 import java.util.Set;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.lexer.Language;
-import org.netbeans.core.spi.multiview.MultiViewElement;
-import org.netbeans.core.spi.multiview.text.MultiViewEditorElement;
-import org.netbeans.modules.csl.api.CodeCompletionHandler;
-import org.netbeans.modules.csl.api.DeclarationFinder;
-import org.netbeans.modules.csl.api.Formatter;
-import org.netbeans.modules.csl.api.HintsProvider;
-import org.netbeans.modules.csl.api.InstantRenamer;
-import org.netbeans.modules.csl.api.KeystrokeHandler;
-import org.netbeans.modules.csl.api.OccurrencesFinder;
-import org.netbeans.modules.csl.api.SemanticAnalyzer;
-import org.netbeans.modules.csl.api.StructureScanner;
-import org.netbeans.modules.csl.spi.DefaultLanguageConfig;
-import org.netbeans.modules.csl.spi.LanguageRegistration;
-import org.netbeans.modules.parsing.spi.indexing.PathRecognizerRegistration;
-import org.netbeans.modules.parsing.spi.Parser;
-import org.netbeans.modules.scala.core.ScalaParser;
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId;
-import org.netbeans.modules.scala.hints.ScalaHintsProvider;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.lexer.Language;
+import org.apache.netbeans.core.spi.multiview.MultiViewElement;
+import org.apache.netbeans.core.spi.multiview.text.MultiViewEditorElement;
+import org.apache.netbeans.modules.csl.api.CodeCompletionHandler;
+import org.apache.netbeans.modules.csl.api.DeclarationFinder;
+import org.apache.netbeans.modules.csl.api.Formatter;
+import org.apache.netbeans.modules.csl.api.HintsProvider;
+import org.apache.netbeans.modules.csl.api.InstantRenamer;
+import org.apache.netbeans.modules.csl.api.KeystrokeHandler;
+import org.apache.netbeans.modules.csl.api.OccurrencesFinder;
+import org.apache.netbeans.modules.csl.api.SemanticAnalyzer;
+import org.apache.netbeans.modules.csl.api.StructureScanner;
+import org.apache.netbeans.modules.csl.spi.DefaultLanguageConfig;
+import org.apache.netbeans.modules.csl.spi.LanguageRegistration;
+import org.apache.netbeans.modules.parsing.spi.indexing.PathRecognizerRegistration;
+import org.apache.netbeans.modules.parsing.spi.Parser;
+import org.apache.netbeans.modules.scala.core.ScalaParser;
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId;
+import org.apache.netbeans.modules.scala.hints.ScalaHintsProvider;
 import org.openide.util.Lookup;
 import org.openide.windows.TopComponent;
 
@@ -70,7 +70,7 @@ import org.openide.windows.TopComponent;
  * files to auto-generate layer, What I have to do is either use manually
  * register all relative instance in layer.xml or write it in Java.
  *
- * @see org.netbeans.modules.csl.core.LanguageRegistrationProcessor
+ * @see org.apache.netbeans.modules.csl.core.LanguageRegistrationProcessor
  * @see https://netbeans.org/bugzilla/show_bug.cgi?id=169991 What
  * LanguageRegistrationProcessor created is under
  * build/classes/META-INF/generated-layer.xml
@@ -120,7 +120,7 @@ public class ScalaLanguage extends DefaultLanguageConfig {
     }
 
     /**
-     * @see org.netbeans.modules.scala.platform.ScalaPlatformClassPathProvider
+     * @see org.apache.netbeans.modules.scala.platform.ScalaPlatformClassPathProvider
      * and ModuleInstall
      */
     @Override

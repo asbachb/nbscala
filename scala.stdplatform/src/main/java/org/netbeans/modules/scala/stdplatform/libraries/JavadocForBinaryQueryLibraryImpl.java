@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.libraries;
+package org.apache.netbeans.modules.scala.stdplatform.libraries;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -49,10 +49,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.queries.JavadocForBinaryQuery;
-import org.netbeans.api.project.libraries.Library;
-import org.netbeans.api.project.libraries.LibraryManager;
-import org.netbeans.spi.java.queries.JavadocForBinaryQueryImplementation;
+import org.apache.netbeans.api.java.queries.JavadocForBinaryQuery;
+import org.apache.netbeans.api.project.libraries.Library;
+import org.apache.netbeans.api.project.libraries.LibraryManager;
+import org.apache.netbeans.spi.java.queries.JavadocForBinaryQueryImplementation;
 import org.openide.ErrorManager;
 import org.openide.util.WeakListeners;
 import org.openide.filesystems.URLMapper;

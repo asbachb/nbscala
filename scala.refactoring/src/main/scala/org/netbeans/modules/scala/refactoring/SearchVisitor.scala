@@ -38,9 +38,9 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring;
+package org.apache.netbeans.modules.scala.refactoring;
 
-import org.netbeans.modules.scala.core.ScalaParserResult;
+import org.apache.netbeans.modules.scala.core.ScalaParserResult;
 
 /**
  *

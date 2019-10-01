@@ -38,16 +38,16 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
-import org.netbeans.modules.refactoring.api.AbstractRefactoring
-import org.netbeans.modules.refactoring.api.RenameRefactoring
-import org.netbeans.modules.refactoring.api.WhereUsedQuery
-import org.netbeans.modules.refactoring.spi.RefactoringPlugin
-import org.netbeans.modules.refactoring.spi.RefactoringPluginFactory
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring
+import org.apache.netbeans.modules.refactoring.api.RenameRefactoring
+import org.apache.netbeans.modules.refactoring.api.WhereUsedQuery
+import org.apache.netbeans.modules.refactoring.spi.RefactoringPlugin
+import org.apache.netbeans.modules.refactoring.spi.RefactoringPluginFactory
 import org.openide.filesystems.FileObject;
 import org.openide.util.Lookup;
-import org.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
 
 /**
  *

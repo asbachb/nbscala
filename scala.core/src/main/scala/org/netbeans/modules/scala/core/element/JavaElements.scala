@@ -36,20 +36,20 @@
  * 
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core.element
+package org.apache.netbeans.modules.scala.core.element
 
-import org.netbeans.modules.csl.api.{ ElementHandle, ElementKind, Modifier, HtmlFormatter, OffsetRange }
-import org.netbeans.modules.csl.api.UiUtils
-import org.netbeans.modules.csl.spi.ParserResult
+import org.apache.netbeans.modules.csl.api.{ ElementHandle, ElementKind, Modifier, HtmlFormatter, OffsetRange }
+import org.apache.netbeans.modules.csl.api.UiUtils
+import org.apache.netbeans.modules.csl.spi.ParserResult
 import org.openide.filesystems.FileObject
 
 import javax.swing.Icon
-import org.netbeans.api.language.util.ast.{ AstElementHandle }
+import org.apache.netbeans.api.language.util.ast.{ AstElementHandle }
 
-import org.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
 
 /**
- * Wrap org.netbeans.api.java.source.ElementHandle to org.netbeans.modules.csl.api.ElementHandle
+ * Wrap org.apache.netbeans.api.java.source.ElementHandle to org.apache.netbeans.modules.csl.api.ElementHandle
  *
  * Represents a program element such as a package, class, or method. Each element
  * represents a static, language-level construct (and not, for example, a runtime
@@ -60,7 +60,7 @@ import org.netbeans.modules.scala.core.ScalaGlobal
 trait JavaElements { self: ScalaGlobal =>
 
   object JavaElement {
-    def apply(element: org.netbeans.api.java.source.ElementHandle[_]) = {
+    def apply(element: org.apache.netbeans.api.java.source.ElementHandle[_]) = {
       new JavaElement(element)
     }
     /*_
@@ -95,7 +95,7 @@ trait JavaElements { self: ScalaGlobal =>
      */
   }
 
-  class JavaElement(element: org.netbeans.api.java.source.ElementHandle[_]) extends AstElementHandle {
+  class JavaElement(element: org.apache.netbeans.api.java.source.ElementHandle[_]) extends AstElementHandle {
 
     def getFileObject: FileObject = null
 

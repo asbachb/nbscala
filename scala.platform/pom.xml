@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.netbeans.modules</groupId>
+        <groupId>org.apache.netbeans.modules</groupId>
         <artifactId>nbscala</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -15,47 +15,47 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-netbeans-api-java-classpath</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-awt</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-dialogs</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-explorer</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-filesystems</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-loaders</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-modules</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-nodes</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-util</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-util-lookup</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.api</groupId>
+            <groupId>org.apache.netbeans.api</groupId>
             <artifactId>org-openide-util-ui</artifactId>
         </dependency>
 
@@ -73,12 +73,12 @@
                 <extensions>true</extensions>
                 <configuration>
                     <author>Caoyuan Deng</author>
-                    <codeNameBase>org.netbeans.modules.scala.platform/1</codeNameBase>
+                    <codeNameBase>org.apache.netbeans.modules.scala.platform/1</codeNameBase>
                     <licenseName>CDDL-GPLV2</licenseName>
                     <licenseFile>license.txt</licenseFile>    
                     <publicPackages>
-                        <publicPackage>org.netbeans.api.scala.platform</publicPackage>
-                        <publicPackage>org.netbeans.spi.scala.platform</publicPackage>
+                        <publicPackage>org.apache.netbeans.api.scala.platform</publicPackage>
+                        <publicPackage>org.apache.netbeans.spi.scala.platform</publicPackage>
                     </publicPackages>
                 </configuration>
             </plugin>

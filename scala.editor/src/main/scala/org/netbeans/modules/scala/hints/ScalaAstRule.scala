@@ -37,11 +37,11 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
-import org.netbeans.modules.csl.api.Hint
-import org.netbeans.modules.csl.api.Rule
-import org.netbeans.modules.scala.core.ast.ScalaRootScope
+import org.apache.netbeans.modules.csl.api.Hint
+import org.apache.netbeans.modules.csl.api.Rule
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope
 
 abstract class ScalaAstRule extends Rule.AstRule {
 

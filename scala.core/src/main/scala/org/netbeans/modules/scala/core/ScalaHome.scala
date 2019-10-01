@@ -38,13 +38,13 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.io.{ File, IOException }
 import java.net.{ MalformedURLException, URL }
 import java.util.{ Properties }
 
-import org.netbeans.spi.java.classpath.support.ClassPathSupport
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport
 import org.openide.filesystems.{ FileObject, FileUtil }
 import org.openide.util.{ Exceptions, Utilities }
 import scala.tools.nsc.{ Settings }

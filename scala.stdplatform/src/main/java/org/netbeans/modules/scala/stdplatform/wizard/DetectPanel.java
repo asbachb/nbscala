@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.wizard;
+package org.apache.netbeans.modules.scala.stdplatform.wizard;
 
 import java.awt.EventQueue;
 import java.awt.GridBagConstraints;
@@ -58,15 +58,15 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.filechooser.FileFilter;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.api.progress.ProgressHandle;
-import org.netbeans.api.progress.ProgressHandleFactory;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.J2SEPlatformImpl;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.api.progress.ProgressHandle;
+import org.apache.netbeans.api.progress.ProgressHandleFactory;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.J2SEPlatformImpl;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
 import org.openide.util.NbBundle;
 import org.openide.util.RequestProcessor;
 import org.openide.util.Task;

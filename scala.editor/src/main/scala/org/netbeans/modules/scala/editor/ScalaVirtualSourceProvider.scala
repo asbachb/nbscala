@@ -36,27 +36,27 @@
  *
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import java.io.File
 import java.io.FileNotFoundException
 import java.util.logging.Level
 import java.util.logging.Logger
-import org.netbeans.modules.csl.api.ElementKind
-import org.netbeans.modules.java.preprocessorbridge.spi.VirtualSourceProvider
-import org.netbeans.modules.parsing.api.ParserManager
-import org.netbeans.modules.parsing.api.ResultIterator
-import org.netbeans.modules.parsing.api.Source
-import org.netbeans.modules.parsing.api.UserTask
-import org.netbeans.modules.parsing.impl.indexing.TimeStamps
-import org.netbeans.modules.parsing.spi.ParseException
+import org.apache.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.modules.java.preprocessorbridge.spi.VirtualSourceProvider
+import org.apache.netbeans.modules.parsing.api.ParserManager
+import org.apache.netbeans.modules.parsing.api.ResultIterator
+import org.apache.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.modules.parsing.api.UserTask
+import org.apache.netbeans.modules.parsing.impl.indexing.TimeStamps
+import org.apache.netbeans.modules.parsing.spi.ParseException
 import org.openide.filesystems.{ FileUtil, FileObject }
 import org.openide.util.Exceptions
 
-import org.netbeans.api.language.util.ast.{ AstScope }
-import org.netbeans.modules.scala.core.ScalaGlobal
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ast.ScalaDfns
+import org.apache.netbeans.api.language.util.ast.{ AstScope }
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ast.ScalaDfns
 
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.HashMap
@@ -80,7 +80,7 @@ import scala.collection.JavaConversions._
  *          <attr name="originalFile" stringvalue="Editors/text/x-java/JavaIndexer.instance"/>
  *      </file>
  *
- * @Note: don't use full class name `classOf[org.netbeans.modules.java.preprocessorbridge.spi.VirtualSourceProvider]`, here
+ * @Note: don't use full class name `classOf[org.apache.netbeans.modules.java.preprocessorbridge.spi.VirtualSourceProvider]`, here
  * instead, should use `classOf[VirtualSourceProvider]`, otherwise, lookup cannot find it. Why? don't know ...
  */
 @org.openide.util.lookup.ServiceProvider(service = classOf[VirtualSourceProvider])

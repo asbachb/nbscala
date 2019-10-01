@@ -36,12 +36,12 @@
  *
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.io.File
 import java.util.logging.{ Logger, Level }
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.project.{ FileOwnerQuery, Project }
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.project.{ FileOwnerQuery, Project }
 import org.openide.filesystems.FileChangeAdapter
 import org.openide.filesystems.FileEvent
 import org.openide.filesystems.FileObject
@@ -49,15 +49,15 @@ import org.openide.filesystems.FileRenameEvent
 import org.openide.filesystems.FileUtil
 import org.openide.filesystems.FileChangeListener
 import org.openide.util.RequestProcessor
-import org.netbeans.modules.scala.core.ast.ScalaAstVisitor
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.core.ast.ScalaDfns
-import org.netbeans.modules.scala.core.ast.ScalaRefs
-import org.netbeans.modules.scala.core.ast.ScalaRootScope
-import org.netbeans.modules.scala.core.ast.ScalaUtils
-import org.netbeans.modules.scala.core.element.ScalaElements
-import org.netbeans.modules.scala.core.element.JavaElements
-import org.netbeans.modules.scala.core.interactive.Global
+import org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.core.ast.ScalaDfns
+import org.apache.netbeans.modules.scala.core.ast.ScalaRefs
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope
+import org.apache.netbeans.modules.scala.core.ast.ScalaUtils
+import org.apache.netbeans.modules.scala.core.element.ScalaElements
+import org.apache.netbeans.modules.scala.core.element.JavaElements
+import org.apache.netbeans.modules.scala.core.interactive.Global
 import scala.collection.mutable
 import scala.tools.nsc.Settings
 import scala.tools.nsc.reporters.Reporter
@@ -67,7 +67,7 @@ import scala.reflect.internal.util.{ Position, SourceFile }
  *
  * @author Caoyuan Deng
  */
-case class ScalaError(pos: Position, msg: String, severity: org.netbeans.modules.csl.api.Severity, force: Boolean)
+case class ScalaError(pos: Position, msg: String, severity: org.apache.netbeans.modules.csl.api.Severity, force: Boolean)
 case class ErrorReporter(var errors: List[ScalaError] = Nil) extends Reporter {
 
   override def reset {
@@ -83,9 +83,9 @@ case class ErrorReporter(var errors: List[ScalaError] = Nil) extends Reporter {
   }
 
   private def toCslSeverity(severity: Severity) = severity match {
-    case INFO    => org.netbeans.modules.csl.api.Severity.INFO
-    case WARNING => org.netbeans.modules.csl.api.Severity.WARNING
-    case ERROR   => org.netbeans.modules.csl.api.Severity.ERROR
+    case INFO    => org.apache.netbeans.modules.csl.api.Severity.INFO
+    case WARNING => org.apache.netbeans.modules.csl.api.Severity.WARNING
+    case ERROR   => org.apache.netbeans.modules.csl.api.Severity.ERROR
     case _       => null
   }
 }

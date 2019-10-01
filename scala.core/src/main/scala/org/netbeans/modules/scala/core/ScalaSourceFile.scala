@@ -1,11 +1,11 @@
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.lang.ref.Reference
 import java.lang.ref.WeakReference
-import org.netbeans.api.lexer.TokenHierarchy
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.parsing.api.Snapshot
-import org.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.api.lexer.TokenHierarchy
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.parsing.api.Snapshot
+import org.apache.netbeans.modules.parsing.api.Source
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import scala.collection.mutable.ArrayBuffer
@@ -56,7 +56,7 @@ class ScalaSourceFile private (val fileObject: FileObject) extends SourceFile {
   }
 
   /**
-   * If has been created, will return existed one @see org.netbeans.modules.parsing.api.Source
+   * If has been created, will return existed one @see org.apache.netbeans.modules.parsing.api.Source
    */
   lazy val source = Source.create(fileObject)
 

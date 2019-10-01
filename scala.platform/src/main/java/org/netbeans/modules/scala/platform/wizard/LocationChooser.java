@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform.wizard;
+package org.apache.netbeans.modules.scala.platform.wizard;
 
 import java.awt.Container;
 import java.awt.Dimension;
@@ -65,8 +65,8 @@ import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.filechooser.FileView;
-import org.netbeans.modules.scala.platform.PlatformSettings;
-import org.netbeans.spi.scala.platform.PlatformInstall;
+import org.apache.netbeans.modules.scala.platform.PlatformSettings;
+import org.apache.netbeans.spi.scala.platform.PlatformInstall;
 import org.openide.WizardDescriptor;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileStateInvalidException;

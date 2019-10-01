@@ -37,12 +37,12 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.swing.text.BadLocationException
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.scala.core.lexer.{ ScalaTokenId, ScalaLexUtil }
-import org.netbeans.spi.editor.bracesmatching.{ BracesMatcher, MatcherContext }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaTokenId, ScalaLexUtil }
+import org.apache.netbeans.spi.editor.bracesmatching.{ BracesMatcher, MatcherContext }
 
 /**
  *

@@ -40,7 +40,7 @@
  */
 
 
-package org.netbeans.modules.scala.project.ui.wizards;
+package org.apache.netbeans.modules.scala.project.ui.wizards;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -52,9 +52,9 @@ import java.text.MessageFormat;
 import java.util.StringTokenizer;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.DocumentEvent;
-import org.netbeans.api.queries.CollocationQuery;
-import org.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.api.queries.CollocationQuery;
+import org.apache.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
 import org.openide.WizardDescriptor;
 import org.openide.WizardValidationException;
 import org.openide.filesystems.FileUtil;

@@ -1,7 +1,7 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.editor.spi.ScalariformPrefsProvider
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.editor.spi.ScalariformPrefsProvider
 
 class ScalariformPrefs(project: Project) extends ScalariformPrefsProvider {
   private lazy val sbtResolver = project.getLookup.lookup(classOf[SBTResolver])

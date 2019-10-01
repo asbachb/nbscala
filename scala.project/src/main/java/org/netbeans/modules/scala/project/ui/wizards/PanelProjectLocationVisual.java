@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.wizards;
+package org.apache.netbeans.modules.scala.project.ui.wizards;
 
 import java.io.File;
 import java.io.IOException;
@@ -48,8 +48,8 @@ import javax.swing.JFileChooser;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Document;
-import org.netbeans.modules.scala.project.ui.FoldersListSettings;
-import org.netbeans.spi.project.ui.support.ProjectChooser;
+import org.apache.netbeans.modules.scala.project.ui.FoldersListSettings;
+import org.apache.netbeans.spi.project.ui.support.ProjectChooser;
 import org.openide.WizardDescriptor;
 import org.openide.WizardValidationException;
 import org.openide.filesystems.FileUtil;

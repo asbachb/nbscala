@@ -38,11 +38,11 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden
+package org.apache.netbeans.modules.scala.editor.overridden
 
-import org.netbeans.modules.parsing.api.Snapshot
-import org.netbeans.modules.parsing.spi.SchedulerTask
-import org.netbeans.modules.parsing.spi.TaskFactory
+import org.apache.netbeans.modules.parsing.api.Snapshot
+import org.apache.netbeans.modules.parsing.spi.SchedulerTask
+import org.apache.netbeans.modules.parsing.spi.TaskFactory
 
 /**
  *

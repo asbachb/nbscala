@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.queries;
+package org.apache.netbeans.modules.scala.project.queries;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -49,13 +49,13 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.queries.BinaryForSourceQuery;
-import org.netbeans.api.java.queries.BinaryForSourceQuery.Result;
-import org.netbeans.modules.java.api.common.SourceRoots;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.spi.java.queries.BinaryForSourceQueryImplementation;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.api.java.queries.BinaryForSourceQuery;
+import org.apache.netbeans.api.java.queries.BinaryForSourceQuery.Result;
+import org.apache.netbeans.modules.java.api.common.SourceRoots;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.spi.java.queries.BinaryForSourceQueryImplementation;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
 import org.openide.util.ChangeSupport;
 import org.openide.util.Exceptions;
 

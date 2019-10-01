@@ -1,8 +1,8 @@
-package org.netbeans.modules.scala.sbt.options
+package org.apache.netbeans.modules.scala.sbt.options
 
 import java.beans.PropertyChangeListener
 import java.beans.PropertyChangeSupport
-import org.netbeans.spi.options.OptionsPanelController
+import org.apache.netbeans.spi.options.OptionsPanelController
 import org.openide.util.Lookup
 
 final class SbtOptionsPanelController extends OptionsPanelController {

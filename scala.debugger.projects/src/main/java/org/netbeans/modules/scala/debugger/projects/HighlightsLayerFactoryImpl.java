@@ -25,12 +25,12 @@
  *
  * Portions Copyrighted 2007 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
-import org.netbeans.spi.editor.highlighting.HighlightsLayer;
-import org.netbeans.spi.editor.highlighting.HighlightsLayerFactory;
-import org.netbeans.spi.editor.highlighting.HighlightsLayerFactory.Context;
-import org.netbeans.spi.editor.highlighting.ZOrder;
+import org.apache.netbeans.spi.editor.highlighting.HighlightsLayer;
+import org.apache.netbeans.spi.editor.highlighting.HighlightsLayerFactory;
+import org.apache.netbeans.spi.editor.highlighting.HighlightsLayerFactory.Context;
+import org.apache.netbeans.spi.editor.highlighting.ZOrder;
 
 /**
  *

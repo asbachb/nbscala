@@ -1,16 +1,16 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import java.beans.PropertyChangeListener
 import javax.swing.Icon
 import javax.swing.ImageIcon
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.ProjectInformation
-import org.netbeans.api.project.ProjectManager
-import org.netbeans.modules.scala.sbt.classpath.SBTClassPathProvider
-import org.netbeans.modules.scala.sbt.classpath.SBTSources
-import org.netbeans.modules.scala.sbt.queries.SBTBinaryForSourceQuery
-import org.netbeans.modules.scala.sbt.queries.SBTSourceForBinaryQuery
-import org.netbeans.spi.project.ProjectState
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.ProjectInformation
+import org.apache.netbeans.api.project.ProjectManager
+import org.apache.netbeans.modules.scala.sbt.classpath.SBTClassPathProvider
+import org.apache.netbeans.modules.scala.sbt.classpath.SBTSources
+import org.apache.netbeans.modules.scala.sbt.queries.SBTBinaryForSourceQuery
+import org.apache.netbeans.modules.scala.sbt.queries.SBTSourceForBinaryQuery
+import org.apache.netbeans.spi.project.ProjectState
 import org.openide.filesystems.FileObject
 import org.openide.util.ImageUtilities
 import org.openide.util.Lookup
@@ -21,7 +21,7 @@ import org.openide.util.lookup.Lookups
  * @author Caoyuan Deng
  */
 class SBTProject(projectDir: FileObject, state: ProjectState) extends Project {
-  // TODO @see org.netbeans.api.project.ProjectUtil for more providers
+  // TODO @see org.apache.netbeans.api.project.ProjectUtil for more providers
   private lazy val lookup: Lookup = Lookups.fixed(
     this,
     new Info(),

@@ -37,25 +37,25 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor.imports
+package org.apache.netbeans.modules.scala.editor.imports
 
 import java.awt.event.ActionEvent
 import javax.swing.text.JTextComponent
 import java.util.logging.Logger
 import java.util.logging.Level
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.modules.editor.NbEditorUtilities
-import org.netbeans.editor.BaseAction
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.editor.NbEditorUtilities
+import org.apache.netbeans.editor.BaseAction
 import org.openide.{ DialogDescriptor, DialogDisplayer, NotifyDescriptor }
 import org.openide.util.NbBundle
 import org.openide.util.RequestProcessor
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.parsing.api.ParserManager
-import org.netbeans.modules.parsing.api.ResultIterator
-import org.netbeans.modules.parsing.api.Source
-import org.netbeans.modules.parsing.api.UserTask
-import org.netbeans.modules.parsing.spi.ParseException
-import org.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.parsing.api.ParserManager
+import org.apache.netbeans.modules.parsing.api.ResultIterator
+import org.apache.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.modules.parsing.api.UserTask
+import org.apache.netbeans.modules.parsing.spi.ParseException
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
 import org.openide.util.Exceptions
 import scala.collection.mutable.ArrayBuffer
 

@@ -36,26 +36,26 @@
  *
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.lang.model.element.ExecutableElement
 import javax.swing.text.BadLocationException
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.java.source.ClassIndex
-import org.netbeans.api.java.source.ClassIndex.NameKind
-import org.netbeans.api.lexer.{ Token, TokenHierarchy, TokenId, TokenSequence }
-import org.netbeans.editor.{ BaseDocument }
-import org.netbeans.modules.csl.api.CodeCompletionHandler.QueryType
-import org.netbeans.modules.csl.api.{ CodeCompletionHandler, CompletionProposal }
-import org.netbeans.modules.csl.spi.{ DefaultCompletionResult, ParserResult }
-import org.netbeans.modules.parsing.spi.indexing.support.QuerySupport
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.java.source.ClassIndex
+import org.apache.netbeans.api.java.source.ClassIndex.NameKind
+import org.apache.netbeans.api.lexer.{ Token, TokenHierarchy, TokenId, TokenSequence }
+import org.apache.netbeans.editor.{ BaseDocument }
+import org.apache.netbeans.modules.csl.api.CodeCompletionHandler.QueryType
+import org.apache.netbeans.modules.csl.api.{ CodeCompletionHandler, CompletionProposal }
+import org.apache.netbeans.modules.csl.spi.{ DefaultCompletionResult, ParserResult }
+import org.apache.netbeans.modules.parsing.spi.indexing.support.QuerySupport
 import org.openide.util.Exceptions
 
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ScalaSourceUtil
-import org.netbeans.modules.scala.core.ScalaSymbolResolver
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
-import org.netbeans.modules.scala.core.rats.ParserScala
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.modules.scala.core.ScalaSymbolResolver
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
+import org.apache.netbeans.modules.scala.core.rats.ParserScala
 
 /**
  *

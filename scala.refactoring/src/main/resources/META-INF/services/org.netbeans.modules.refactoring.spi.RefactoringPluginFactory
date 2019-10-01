@@ -1,2 +1,2 @@
-org.netbeans.modules.scala.refactoring.ScalaRefactoringsFactory
+org.apache.netbeans.modules.scala.refactoring.ScalaRefactoringsFactory
 #position=100

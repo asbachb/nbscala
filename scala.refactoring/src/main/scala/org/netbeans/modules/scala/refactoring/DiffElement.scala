@@ -38,13 +38,13 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring;
+package org.apache.netbeans.modules.scala.refactoring;
 
 import java.io.IOException
 import java.lang.ref.WeakReference
-import org.netbeans.modules.csl.spi.support.ModificationResult
-import org.netbeans.modules.csl.spi.support.ModificationResult.Difference
-import org.netbeans.modules.refactoring.spi.SimpleRefactoringElementImplementation
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult.Difference
+import org.apache.netbeans.modules.refactoring.spi.SimpleRefactoringElementImplementation
 import org.openide.filesystems.FileObject
 import org.openide.text.PositionBounds
 import org.openide.text.PositionRef
@@ -52,7 +52,7 @@ import org.openide.util.Exceptions
 import org.openide.util.Lookup
 import org.openide.util.lookup.Lookups
 
-import org.netbeans.modules.scala.refactoring.ui.tree.ElementGripFactory
+import org.apache.netbeans.modules.scala.refactoring.ui.tree.ElementGripFactory
 
 /**
  *

@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -48,22 +48,22 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Map.Entry;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.platform.JavaPlatform;
-import org.netbeans.api.java.platform.JavaPlatformManager;
-import org.netbeans.api.java.source.ClasspathInfo;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.api.scala.platform.Specification;
-import org.netbeans.api.project.Project;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
-import org.netbeans.modules.scala.project.ui.customizer.MainClassChooser;
-import org.netbeans.spi.project.support.ant.GeneratedFilesHelper;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.platform.JavaPlatform;
+import org.apache.netbeans.api.java.platform.JavaPlatformManager;
+import org.apache.netbeans.api.java.source.ClasspathInfo;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.api.scala.platform.Specification;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.modules.scala.project.ui.customizer.MainClassChooser;
+import org.apache.netbeans.spi.project.support.ant.GeneratedFilesHelper;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 
-import org.netbeans.api.language.util.ast.AstDfn;
-import org.netbeans.modules.scala.core.ScalaSourceUtil;
+import org.apache.netbeans.api.language.util.ast.AstDfn;
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil;
 
 /**
  * Miscellaneous utilities for the j2seproject module.
@@ -192,7 +192,7 @@ public class J2SEProjectUtil {
             return pm.getDefaultPlatform();
         }
         else {
-            JavaPlatform[] installedPlatforms = pm.getPlatforms(null, new org.netbeans.api.java.platform.Specification ("j2se",null));   //NOI18N
+            JavaPlatform[] installedPlatforms = pm.getPlatforms(null, new org.apache.netbeans.api.java.platform.Specification ("j2se",null));   //NOI18N
             for (JavaPlatform p : installedPlatforms) {
                 String antName = p.getProperties().get("platform.ant.name"); // NOI18N
                 if (antName != null && antName.equals(activePlatformId)) {

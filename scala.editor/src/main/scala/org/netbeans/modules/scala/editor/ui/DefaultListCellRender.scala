@@ -23,7 +23,7 @@
  * questions.
  */
 
-package org.netbeans.modules.scala.editor.ui;
+package org.apache.netbeans.modules.scala.editor.ui;
 
 import javax.swing._;
 import javax.swing.event._;

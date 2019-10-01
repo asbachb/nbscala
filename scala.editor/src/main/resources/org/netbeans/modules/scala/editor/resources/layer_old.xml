@@ -4,7 +4,7 @@
     <folder name="Services">
         <folder name="MIMEResolver">
             <file name="Scala.xml" url="ScalaResolver.xml">
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editing.resources.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editing.resources.Bundle"/>
                 <attr name="position" intvalue="95010"/>
             </file>
         </folder>
@@ -19,18 +19,18 @@
             <folder name="Twilight">
                 <folder name="Defaults">
                     <file name="org-netbeans-modules-defaults-highlight-colorings.xml" url="Twilight/editor.xml">
-                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.defaults.Bundle"/>
+                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.defaults.Bundle"/>
                         <attr name="nbeditor-settings-ColoringType" stringvalue="highlight"/>
                     </file>
                     <file name="org-netbeans-modules-defaults-token-colorings.xml" url="Twilight/defaults.xml">
-                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.defaults.Bundle"/>
+                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.defaults.Bundle"/>
                     </file>
                 </folder>
             </folder>
             <folder name="EmacsStandard">
                 <folder name="Defaults">
                     <file name="org-netbeans-modules-defaults-token-colorings.xml" url="EmacsStandard/defaults.xml">
-                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.defaults.Bundle"/>
+                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.defaults.Bundle"/>
                     </file>
                 </folder>
             </folder>
@@ -38,11 +38,11 @@
 
         <folder name="text">
             <folder name="x-scala">
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editing.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editing.Bundle"/>
 
                 <file name="language.instance">
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.editing.lexer.ScalaTokenId.language"/>
-                    <attr name="instanceOf" stringvalue="org.netbeans.api.lexer.Language"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.editing.lexer.ScalaTokenId.language"/>
+                    <attr name="instanceOf" stringvalue="org.apache.netbeans.api.lexer.Language"/>
                 </file>
                 
                 <!-- TODO - this should not be necessary; I'm doing this now to work around
@@ -51,21 +51,21 @@
                     <folder name="NetBeans">
                         <folder name="Defaults">
                             <file name="coloring.xml" url="fontsColors.xml">
-                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editing.Bundle"/>
+                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editing.Bundle"/>
                             </file>
                         </folder>
                     </folder>
                     <folder name="Twilight">
                         <folder name="Defaults">
                             <file name="coloring.xml" url="Twilight/fontsColors.xml">
-                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editing.Bundle"/>
+                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editing.Bundle"/>
                             </file>
                         </folder>
                     </folder>
                     <folder name="EmacsStandard">
                         <folder name="Defaults">
                             <file name="coloring.xml" url="EmacsStandard/fontsColors.xml">
-                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editing.Bundle"/>
+                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editing.Bundle"/>
                             </file>
                         </folder>
                     </folder>
@@ -74,7 +74,7 @@
                 <folder name="CodeTemplates">
                     <folder name="Defaults">
                         <file name="codetemplates.xml" url="codetemplates.xml">
-                            <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editing.Bundle"/>
+                            <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editing.Bundle"/>
                         </file>
                     </folder>
                 </folder>
@@ -93,7 +93,7 @@
                 <!--
                 <folder name="Popup">
                     <file name="org-netbeans-modules-scala-editing-RunScriptAction.instance">
-                        <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editing.RunScriptAction"/>
+                        <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editing.RunScriptAction"/>
                         <attr name="position" intvalue="801"/>
                     </file>
                 </folder>
@@ -111,7 +111,7 @@
     <folder name="Actions">
         <folder name="Scala">
             <file name="org-netbeans-modules-scala-editing-actions-FixImportsAction.instance">
-                <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editing.actions.FixImportsAction"/>
+                <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editing.actions.FixImportsAction"/>
             </file>
         </folder>
     </folder>
@@ -124,16 +124,16 @@
         </folder>
 
         <file name="ScalaOptionsCategory.instance">
-            <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editing.options.ScalaOptionsCategory"/>
+            <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editing.options.ScalaOptionsCategory"/>
             <attr name="position" intvalue="306"/>
         </file>
     </folder>
 
-    <folder name="org.netbeans.modules.scala">
+    <folder name="org.apache.netbeans.modules.scala">
         <folder name="options">
             <file name="Formatting.instance">
                 <attr name="position" intvalue="150"/>
-                <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editing.options.FormattingAdvancedOption"/>
+                <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editing.options.FormattingAdvancedOption"/>
             </file>
         </folder>
     </folder>
@@ -142,10 +142,10 @@
         <folder name="text">
             <folder name="x-scala">
                 <file name="language.instance">
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editing.ScalaLanguage"/>
+                    <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editing.ScalaLanguage"/>
                 </file>
                 <file name="structure.instance">
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editing.ScalaStructureAnalyzer"/>
+                    <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editing.ScalaStructureAnalyzer"/>
                 </file>
             </folder>
         </folder>
@@ -230,7 +230,7 @@
     <folder name="Actions">
         <folder name="Edit">
             <file name="org-netbeans-modules-javascript-editing-ReflowParagraphAction.instance">
-                <attr name="instanceClass" stringvalue="org.netbeans.modules.javascript.editing.ReflowParagraphAction"/>
+                <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.javascript.editing.ReflowParagraphAction"/>
             </file>
         </folder>
     </folder>
@@ -242,7 +242,7 @@
                 <attr name="position" intvalue="400"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.javascript.editing.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.javascript.editing.Bundle"/>
                 <attr name="templateCategory" stringvalue="simple-files"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/javascript/editing/javascript.html"/>
             </file>
@@ -250,7 +250,7 @@
                 <attr name="position" intvalue="450"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.javascript.editing.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.javascript.editing.Bundle"/>
                 <attr name="templateCategory" stringvalue="simple-files"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/javascript/editing/json.html"/>
             </file>

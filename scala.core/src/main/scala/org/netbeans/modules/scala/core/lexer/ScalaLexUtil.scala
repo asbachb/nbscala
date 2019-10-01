@@ -38,13 +38,13 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.core.lexer
+package org.apache.netbeans.modules.scala.core.lexer
 
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.api.lexer.{ Token, TokenHierarchy, TokenId, TokenSequence }
-import org.netbeans.editor.{ BaseDocument }
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.api.lexer.{ Token, TokenHierarchy, TokenId, TokenSequence }
+import org.apache.netbeans.editor.{ BaseDocument }
 import scala.collection.mutable.ArrayBuffer
-import org.netbeans.api.language.util.lex.LexUtil
+import org.apache.netbeans.api.language.util.lex.LexUtil
 
 /**
  * Utilities associated with lexing or analyzing the document at the

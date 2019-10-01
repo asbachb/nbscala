@@ -45,9 +45,9 @@ made subject to such option by the copyright holder.
     <folder name="org-netbeans-api-project-libraries">
         <folder name="LibraryTypeProviders">
             <file name="scalastd_library_provider.instance">
-                <attr name="instanceOf" stringvalue="org.netbeans.spi.project.libraries.LibraryTypeProvider"/>
-                <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.stdplatform.libraries.J2SELibraryTypeProvider"/>
-                <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.stdplatform.libraries.J2SELibraryTypeProvider.create"/>
+                <attr name="instanceOf" stringvalue="org.apache.netbeans.spi.project.libraries.LibraryTypeProvider"/>
+                <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.stdplatform.libraries.J2SELibraryTypeProvider"/>
+                <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.stdplatform.libraries.J2SELibraryTypeProvider.create"/>
                 <attr name="position" intvalue="150"/>
             </file>
         </folder>
@@ -57,8 +57,8 @@ made subject to such option by the copyright holder.
         <folder name="platform">
             <folder name="installers">
                 <file name=".default.instance">
-                    <attr name="instanceOf" stringvalue="org.netbeans.spi.scala.platform.PlatformInstall"/>
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.stdplatform.J2SEInstallImpl.create"/>
+                    <attr name="instanceOf" stringvalue="org.apache.netbeans.spi.scala.platform.PlatformInstall"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.stdplatform.J2SEInstallImpl.create"/>
                     <attr name="position" intvalue="100"/>
                 </file>
             </folder>
@@ -81,10 +81,10 @@ made subject to such option by the copyright holder.
                 <folder name="org-netbeans-api-scala-Platform">
                     <file name="javaplatform.xml" url="templates/javaplatform.xml">
                         <attr name="template" boolvalue="true"/>
-                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.stdplatform.resources.Bundle"/>
+                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.stdplatform.resources.Bundle"/>
                         <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/stdplatform/resources/platform.gif"/>
                         <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/stdplatform/resources/templates/javaplatformdefinition.html"/>
-                        <attr name="templateWizardIterator" methodvalue="org.netbeans.modules.scala.platform.wizard.PlatformInstallIterator.create"/>
+                        <attr name="templateWizardIterator" methodvalue="org.apache.netbeans.modules.scala.platform.wizard.PlatformInstallIterator.create"/>
                     </file>
                 </folder>
             </folder>
@@ -104,9 +104,9 @@ made subject to such option by the copyright holder.
         <folder name="lookups">
             <folder name="NetBeans">
                 <file name="DTD_Scala_PlatformDefinition_1_0.instance">
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor"/>
+                    <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor"/>
                     <attr name="instanceOf" stringvalue="org.openide.loaders.Environment$Provider"/>
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor.createProvider"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor.createProvider"/>
                 </file>
             </folder>
         </folder>

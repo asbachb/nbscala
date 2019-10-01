@@ -1,10 +1,10 @@
-package org.netbeans.modules.scala.maven
+package org.apache.netbeans.modules.scala.maven
 
 import java.io.File
-import org.netbeans.api.project.Project
-import org.netbeans.modules.maven.api.PluginPropertyUtils
-import org.netbeans.modules.scala.editor.spi.ScalariformPrefsProvider
-import org.netbeans.spi.project.LookupProvider
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.maven.api.PluginPropertyUtils
+import org.apache.netbeans.modules.scala.editor.spi.ScalariformPrefsProvider
+import org.apache.netbeans.spi.project.LookupProvider
 import org.openide.filesystems.FileAttributeEvent
 import org.openide.filesystems.FileChangeListener
 import org.openide.filesystems.FileEvent

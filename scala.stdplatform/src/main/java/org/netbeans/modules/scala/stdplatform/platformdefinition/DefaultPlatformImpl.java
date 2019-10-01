@@ -38,18 +38,18 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
 import java.io.*;
 import java.lang.ref.WeakReference;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.platform.JavaPlatform;
-import org.netbeans.api.java.platform.JavaPlatformManager;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.platform.JavaPlatform;
+import org.apache.netbeans.api.java.platform.JavaPlatformManager;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.Exceptions;

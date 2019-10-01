@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.io.IOException;
 import java.util.List;
@@ -56,16 +56,16 @@ import org.openide.text.Line;
 import org.openide.text.NbDocument;
 import org.openide.text.Line.Part;
 import org.openide.util.RequestProcessor;
-import org.netbeans.api.debugger.DebuggerEngine;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.InvalidExpressionException;
-import org.netbeans.api.debugger.jpda.JPDADebugger;
-import org.netbeans.api.debugger.jpda.JPDAThread;
-import org.netbeans.api.debugger.jpda.ObjectVariable;
-import org.netbeans.api.debugger.jpda.Variable;
-import org.netbeans.spi.debugger.jpda.EditorContext.Operation;
+import org.apache.netbeans.api.debugger.DebuggerEngine;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.InvalidExpressionException;
+import org.apache.netbeans.api.debugger.jpda.JPDADebugger;
+import org.apache.netbeans.api.debugger.jpda.JPDAThread;
+import org.apache.netbeans.api.debugger.jpda.ObjectVariable;
+import org.apache.netbeans.api.debugger.jpda.Variable;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext.Operation;
 
-import org.netbeans.spi.debugger.ui.EditorContextDispatcher;
+import org.apache.netbeans.spi.debugger.ui.EditorContextDispatcher;
 
 
 public class ToolTipAnnotation extends Annotation implements Runnable {
@@ -76,8 +76,8 @@ public class ToolTipAnnotation extends Annotation implements Runnable {
     private EditorCookie ec;
 
     public String getShortDescription () {
-        // [TODO] hack for org.netbeans.modules.debugger.jpda.actions.MethodChooser that disables tooltips
-        if ("true".equals(System.getProperty("org.netbeans.modules.debugger.jpda.doNotShowTooltips"))) { // NOI18N
+        // [TODO] hack for org.apache.netbeans.modules.debugger.jpda.actions.MethodChooser that disables tooltips
+        if ("true".equals(System.getProperty("org.apache.netbeans.modules.debugger.jpda.doNotShowTooltips"))) { // NOI18N
             return null;
         }
         DebuggerEngine currentEngine = DebuggerManager.getDebuggerManager ().

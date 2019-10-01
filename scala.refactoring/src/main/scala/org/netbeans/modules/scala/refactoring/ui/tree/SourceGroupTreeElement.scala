@@ -39,17 +39,17 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui.tree
+package org.apache.netbeans.modules.scala.refactoring.ui.tree
 
 import java.awt.Image
 import java.beans.BeanInfo
 import java.lang.ref.WeakReference
 import javax.swing.Icon
 import javax.swing.ImageIcon
-import org.netbeans.api.project.FileOwnerQuery
-import org.netbeans.api.project.SourceGroup
-import org.netbeans.modules.refactoring.spi.ui.TreeElement
-import org.netbeans.modules.refactoring.spi.ui.TreeElementFactory
+import org.apache.netbeans.api.project.FileOwnerQuery
+import org.apache.netbeans.api.project.SourceGroup
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElement
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElementFactory
 import org.openide.filesystems.FileObject
 import org.openide.loaders.DataObject
 import org.openide.loaders.DataObjectNotFoundException

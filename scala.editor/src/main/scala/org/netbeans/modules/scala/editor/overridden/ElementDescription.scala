@@ -38,13 +38,13 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden
+package org.apache.netbeans.modules.scala.editor.overridden
 
 import javax.swing.Icon
 import org.openide.filesystems.FileObject
 
-import org.netbeans.modules.csl.api.Modifier
-import org.netbeans.modules.scala.core.element.ScalaElements
+import org.apache.netbeans.modules.csl.api.Modifier
+import org.apache.netbeans.modules.scala.core.element.ScalaElements
 
 /**
  *

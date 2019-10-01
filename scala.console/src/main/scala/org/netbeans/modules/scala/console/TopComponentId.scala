@@ -1,11 +1,11 @@
-package org.netbeans.modules.scala.console
+package org.apache.netbeans.modules.scala.console
 
 import java.util.logging.Level
 import java.util.logging.Logger
 import org.openide.loaders.InstanceDataObject
 
 /**
- * @see org.netbeans.core.windows.persistence.PersistenceManager
+ * @see org.apache.netbeans.core.windows.persistence.PersistenceManager
  *
  * @author Caoyuan Deng
  */

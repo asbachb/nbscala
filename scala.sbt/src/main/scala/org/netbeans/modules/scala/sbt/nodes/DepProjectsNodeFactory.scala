@@ -1,16 +1,16 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import java.awt.Image
 import java.io.IOException
 import javax.swing.Action
 import javax.swing.event.ChangeListener
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.ProjectManager
-import org.netbeans.modules.scala.sbt.project.ProjectConstants
-import org.netbeans.modules.scala.sbt.project.SBTProject
-import org.netbeans.modules.scala.sbt.project.SBTResolver
-import org.netbeans.spi.project.ui.support.NodeFactory
-import org.netbeans.spi.project.ui.support.NodeList
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.ProjectManager
+import org.apache.netbeans.modules.scala.sbt.project.ProjectConstants
+import org.apache.netbeans.modules.scala.sbt.project.SBTProject
+import org.apache.netbeans.modules.scala.sbt.project.SBTResolver
+import org.apache.netbeans.spi.project.ui.support.NodeFactory
+import org.apache.netbeans.spi.project.ui.support.NodeList
 import org.openide.filesystems.FileUtil
 import org.openide.loaders.DataObjectNotFoundException
 import org.openide.nodes.AbstractNode

@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -47,14 +47,14 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.text.MessageFormat;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.source.TreePathHandle;
-import org.netbeans.modules.refactoring.api.AbstractRefactoring;
-import org.netbeans.modules.refactoring.api.MoveRefactoring;
-import org.netbeans.modules.refactoring.api.Problem;
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel;
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUI;
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUIBypass;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.source.TreePathHandle;
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring;
+import org.apache.netbeans.modules.refactoring.api.MoveRefactoring;
+import org.apache.netbeans.modules.refactoring.api.Problem;
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel;
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUI;
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUIBypass;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.URLMapper;
 import org.openide.loaders.DataObject;
@@ -64,7 +64,7 @@ import org.openide.util.NbBundle;
 import org.openide.util.datatransfer.PasteType;
 import org.openide.util.lookup.Lookups;
 
-import org.netbeans.modules.scala.refactoring.RetoucheUtils
+import org.apache.netbeans.modules.scala.refactoring.RetoucheUtils
 
 class MoveClassUI(javaObject: DataObject, targetFolder: FileObject, pasteType: PasteType, handles: Seq[TreePathHandle]) extends RefactoringUI with RefactoringUIBypass {
 

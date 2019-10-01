@@ -22,7 +22,7 @@ Version 2 license, then the option applies only if the new code is
 made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -41,13 +41,13 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.modules.scala.project.ui.customizer.CustomizerProviderImpl;
-import org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider;
-import org.netbeans.spi.project.ActionProvider;
-import org.netbeans.spi.project.ProjectConfiguration;
-import org.netbeans.spi.project.ProjectConfigurationProvider;
-import org.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.modules.scala.project.ui.customizer.CustomizerProviderImpl;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider;
+import org.apache.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.spi.project.ProjectConfiguration;
+import org.apache.netbeans.spi.project.ProjectConfigurationProvider;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
 import org.openide.filesystems.FileChangeAdapter;
 import org.openide.filesystems.FileChangeListener;
 import org.openide.filesystems.FileEvent;

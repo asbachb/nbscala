@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.spi.scala.platform;
+package org.apache.netbeans.spi.scala.platform;
 
 /**
  * An super class of all the platform installers. You never subclass directly

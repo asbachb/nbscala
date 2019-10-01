@@ -38,29 +38,29 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.text.MessageFormat
 import java.util.ResourceBundle
 import javax.swing.event.ChangeListener
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.project.FileOwnerQuery
-import org.netbeans.modules.csl.api.ElementKind
-import org.netbeans.modules.refactoring.api.AbstractRefactoring
-import org.netbeans.modules.refactoring.api.Problem
-import org.netbeans.modules.refactoring.api.WhereUsedQuery
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUI
-import org.netbeans.spi.java.classpath.support.ClassPathSupport
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.project.FileOwnerQuery
+import org.apache.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring
+import org.apache.netbeans.modules.refactoring.api.Problem
+import org.apache.netbeans.modules.refactoring.api.WhereUsedQuery
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUI
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport
 import org.openide.filesystems.FileObject
 import org.openide.util.HelpCtx
 import org.openide.util.NbBundle
 import org.openide.util.lookup.Lookups
 
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.refactoring.RetoucheUtils
-import org.netbeans.modules.scala.refactoring.WhereUsedQueryConstants
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.refactoring.RetoucheUtils
+import org.apache.netbeans.modules.scala.refactoring.WhereUsedQueryConstants
 import scala.collection.mutable.HashSet
 /**
  * WhereUsedQueryUI from the Java refactoring module, only moderately modified for Ruby

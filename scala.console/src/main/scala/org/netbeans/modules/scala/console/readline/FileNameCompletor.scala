@@ -4,7 +4,7 @@
  * This software is distributable under the BSD license. See the terms of the
  * BSD license in the documentation provided with this software.
  */
-package org.netbeans.modules.scala.console.readline
+package org.apache.netbeans.modules.scala.console.readline
 
 import java.io.File
 import scala.collection.mutable.ArrayBuffer

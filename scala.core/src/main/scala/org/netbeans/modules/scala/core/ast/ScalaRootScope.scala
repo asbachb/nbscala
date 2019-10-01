@@ -36,11 +36,11 @@
  *
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
-import org.netbeans.api.lexer.Token
-import org.netbeans.api.lexer.TokenId
-import org.netbeans.api.language.util.ast.AstRootScope
+import org.apache.netbeans.api.lexer.Token
+import org.apache.netbeans.api.lexer.TokenId
+import org.apache.netbeans.api.language.util.ast.AstRootScope
 
 class ScalaRootScope(boundsTokens: Array[Token[TokenId]]) extends AstRootScope(boundsTokens) {
   //  def findDfnOfSym(symbol:AstSymbol[_]): Option[AstDfn] = {

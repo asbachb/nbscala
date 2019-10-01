@@ -42,9 +42,9 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.Spacing;
+module org.apache.netbeans.modules.scala.core.rats.Spacing;
 
-import org.netbeans.modules.scala.core.rats.Character;
+import org.apache.netbeans.modules.scala.core.rats.Character;
 
 transient generic DocComment =
   DocCommentStart

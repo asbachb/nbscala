@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.awt.Component;
 import java.awt.Dialog;
@@ -68,10 +68,10 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.plaf.UIResource;
-import org.netbeans.api.project.Project;
-import org.netbeans.modules.java.api.common.SourceRoots;
-import org.netbeans.modules.scala.project.J2SEProject;
-import org.netbeans.modules.scala.project.api.J2SERunConfigProvider;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.modules.java.api.common.SourceRoots;
+import org.apache.netbeans.modules.scala.project.J2SEProject;
+import org.apache.netbeans.modules.scala.project.api.J2SERunConfigProvider;
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
@@ -613,7 +613,7 @@ public class CustomizerRun extends JPanel implements HelpCtx.Provider {
                     label = config;
                 }
             } else {
-                label = NbBundle.getBundle("org.netbeans.modules.scala.project.Bundle").getString("J2SEConfigurationProvider.default.label");
+                label = NbBundle.getBundle("org.apache.netbeans.modules.scala.project.Bundle").getString("J2SEConfigurationProvider.default.label");
             }
             setText(label);
             

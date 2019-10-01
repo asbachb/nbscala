@@ -1,16 +1,16 @@
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
 import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.netbeans.modules.maven.api.output.OutputProcessor;
-import org.netbeans.modules.maven.api.output.OutputVisitor;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
+import org.apache.netbeans.modules.maven.api.output.OutputProcessor;
+import org.apache.netbeans.modules.maven.api.output.OutputVisitor;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 

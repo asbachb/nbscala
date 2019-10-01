@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform;
+package org.apache.netbeans.modules.scala.platform;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -51,11 +51,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.api.scala.platform.Specification;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.api.scala.platform.Specification;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.modules.Dependency;

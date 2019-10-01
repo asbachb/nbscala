@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden
+package org.apache.netbeans.modules.scala.editor.overridden
 
 import java.awt.Point
 import java.awt.event.ActionEvent
@@ -48,11 +48,11 @@ import javax.swing.Action
 import javax.swing.text.BadLocationException
 import javax.swing.text.Document
 import javax.swing.text.JTextComponent
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.editor.AnnotationDesc
-import org.netbeans.editor.BaseDocument
-import org.netbeans.editor.ImplementationProvider
-import org.netbeans.editor.JumpList
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.editor.AnnotationDesc
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.editor.ImplementationProvider
+import org.apache.netbeans.editor.JumpList
 import org.openide.ErrorManager
 import org.openide.filesystems.FileObject
 import org.openide.loaders.DataObject

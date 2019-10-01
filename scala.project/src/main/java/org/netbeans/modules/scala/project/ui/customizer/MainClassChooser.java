@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.awt.Component;
 import java.awt.event.MouseEvent;
@@ -57,16 +57,16 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
-import org.netbeans.modules.csl.api.ElementHandle;
-import org.netbeans.modules.scala.project.J2SEProjectUtil;
+import org.apache.netbeans.modules.csl.api.ElementHandle;
+import org.apache.netbeans.modules.scala.project.J2SEProjectUtil;
 import org.openide.awt.Mnemonics;
 import org.openide.awt.MouseUtils;
 import org.openide.filesystems.FileObject;
 import org.openide.util.NbBundle;
 import org.openide.util.RequestProcessor;
 
-import org.netbeans.api.language.util.ast.AstDfn;
-import org.netbeans.modules.scala.core.ScalaSourceUtil;
+import org.apache.netbeans.api.language.util.ast.AstDfn;
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil;
 
 /** Browses and allows to choose a project's main class.
  *

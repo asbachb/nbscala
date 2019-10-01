@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.libraries;
+package org.apache.netbeans.modules.scala.stdplatform.libraries;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -61,8 +61,8 @@ import javax.swing.JList;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.filechooser.FileFilter;
-import org.netbeans.api.project.ant.FileChooser;
-import org.netbeans.spi.project.libraries.LibraryCustomizerContext;
+import org.apache.netbeans.api.project.ant.FileChooser;
+import org.apache.netbeans.spi.project.libraries.LibraryCustomizerContext;
 import org.openide.DialogDisplayer;
 import org.openide.ErrorManager;
 import org.openide.NotifyDescriptor;
@@ -70,9 +70,9 @@ import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.Exceptions;
 import org.openide.util.NbBundle;
-import org.netbeans.spi.project.libraries.LibraryImplementation;
-import org.netbeans.spi.project.libraries.LibraryStorageArea;
-import org.netbeans.spi.project.libraries.support.LibrariesSupport;
+import org.apache.netbeans.spi.project.libraries.LibraryImplementation;
+import org.apache.netbeans.spi.project.libraries.LibraryStorageArea;
+import org.apache.netbeans.spi.project.libraries.support.LibrariesSupport;
 
 /**
  *

@@ -38,23 +38,23 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.project.classpath;
+package org.apache.netbeans.modules.scala.project.classpath;
 
 import java.beans.PropertyChangeEvent;
-import org.netbeans.spi.java.classpath.ClassPathImplementation;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
-import org.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.spi.java.classpath.ClassPathImplementation;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
-import org.netbeans.api.java.platform.JavaPlatform;
-import org.netbeans.api.java.platform.JavaPlatformManager;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.api.java.platform.JavaPlatform;
+import org.apache.netbeans.api.java.platform.JavaPlatformManager;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
 import org.openide.util.WeakListeners;
 
 final class BootClassPathImplementation implements ClassPathImplementation, PropertyChangeListener {

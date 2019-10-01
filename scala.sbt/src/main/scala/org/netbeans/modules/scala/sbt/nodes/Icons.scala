@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import java.awt.Image
 import java.beans.BeanInfo

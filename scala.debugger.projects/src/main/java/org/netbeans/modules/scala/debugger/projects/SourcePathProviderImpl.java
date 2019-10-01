@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -55,26 +55,26 @@ import java.util.logging.Logger;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-import org.netbeans.api.java.platform.JavaPlatformManager;
+import org.apache.netbeans.api.java.platform.JavaPlatformManager;
 
-import org.netbeans.spi.debugger.jpda.SourcePathProvider;
-import org.netbeans.spi.debugger.ContextProvider;
+import org.apache.netbeans.spi.debugger.jpda.SourcePathProvider;
+import org.apache.netbeans.spi.debugger.ContextProvider;
 
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.classpath.GlobalPathRegistry;
-import org.netbeans.api.java.classpath.GlobalPathRegistryEvent;
-import org.netbeans.api.java.classpath.GlobalPathRegistryListener;
-import org.netbeans.api.java.platform.JavaPlatform;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.java.queries.SourceForBinaryQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
-import org.netbeans.api.project.ui.OpenProjects;
-import org.netbeans.spi.java.classpath.ClassPathProvider;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistryEvent;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistryListener;
+import org.apache.netbeans.api.java.platform.JavaPlatform;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
+import org.apache.netbeans.api.project.ui.OpenProjects;
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileStateInvalidException;
@@ -94,7 +94,7 @@ public class SourcePathProviderImpl extends SourcePathProvider {
     private static boolean          verbose = 
         System.getProperty ("netbeans.debugger.sourcepathproviderimpl") != null;
     
-    private static Logger logger = Logger.getLogger("org.netbeans.modules.scala.debugger.projects");
+    private static Logger logger = Logger.getLogger("org.apache.netbeans.modules.scala.debugger.projects");
     
     private static final Pattern thisDirectoryPattern = Pattern.compile("(/|\\A)\\./");
     private static final Pattern parentDirectoryPattern = Pattern.compile("(/|\\A)([^/]+?)/\\.\\./");
@@ -231,7 +231,7 @@ public class SourcePathProviderImpl extends SourcePathProvider {
     
     /** 
      * Creates a ClassPath, while guarding for an IllegalArgumentException, 
-     * as exemplified in  org.netbeans.modules.debugger.jpda.projects.SourcePathProviderImpl
+     * as exemplified in  org.apache.netbeans.modules.debugger.jpda.projects.SourcePathProviderImpl
      * @param froots file object list from which to create the classpath
      * @return 
      */

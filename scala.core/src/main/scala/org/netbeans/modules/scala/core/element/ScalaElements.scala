@@ -37,24 +37,24 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core.element
+package org.apache.netbeans.modules.scala.core.element
 
 import java.io.IOException
 import javax.lang.model.element.Element
 import javax.swing.Icon
 import javax.swing.text.BadLocationException
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.{ ElementHandle, ElementKind, Modifier, OffsetRange, HtmlFormatter }
-import org.netbeans.modules.csl.api.UiUtils
-import org.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
-import org.netbeans.modules.scala.core.ScalaSourceFile
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.{ ElementHandle, ElementKind, Modifier, OffsetRange, HtmlFormatter }
+import org.apache.netbeans.modules.csl.api.UiUtils
+import org.apache.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
+import org.apache.netbeans.modules.scala.core.ScalaSourceFile
 import org.openide.filesystems.{ FileObject }
 import org.openide.util.Exceptions
 
 import scala.reflect.internal.Flags
 
-import org.netbeans.api.language.util.ast.AstElementHandle
-import org.netbeans.modules.scala.core.{ JavaSourceUtil, ScalaGlobal, ScalaSourceUtil, ScalaMimeResolver }
+import org.apache.netbeans.api.language.util.ast.AstElementHandle
+import org.apache.netbeans.modules.scala.core.{ JavaSourceUtil, ScalaGlobal, ScalaSourceUtil, ScalaMimeResolver }
 
 /**
  *

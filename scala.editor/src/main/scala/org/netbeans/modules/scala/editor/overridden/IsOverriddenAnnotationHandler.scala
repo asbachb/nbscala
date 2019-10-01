@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.editor.overridden
+package org.apache.netbeans.modules.scala.editor.overridden
 
 import java.io.IOException
 import java.net.URL
@@ -48,20 +48,20 @@ import java.util.logging.Logger
 import javax.swing.text.BadLocationException
 import javax.swing.text.Position
 import javax.swing.text.StyledDocument
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.queries.SourceForBinaryQuery
-import org.netbeans.api.java.source.CancellableTask
-import org.netbeans.api.java.source.Task
-import org.netbeans.api.java.source.ClassIndex.SearchKind
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.java.source.CompilationController
-import org.netbeans.api.java.source.CompilationInfo
-import org.netbeans.api.java.source.SourceUtils
-import org.netbeans.api.java.source.ClassIndex
-import org.netbeans.modules.parsing.api.ResultIterator
-import org.netbeans.modules.parsing.spi.{ ParserResultTask, ParseException, Scheduler, SchedulerEvent }
-import org.netbeans.modules.parsing.spi.SchedulerTask
-import org.netbeans.spi.java.classpath.support.ClassPathSupport
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery
+import org.apache.netbeans.api.java.source.CancellableTask
+import org.apache.netbeans.api.java.source.Task
+import org.apache.netbeans.api.java.source.ClassIndex.SearchKind
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.java.source.CompilationController
+import org.apache.netbeans.api.java.source.CompilationInfo
+import org.apache.netbeans.api.java.source.SourceUtils
+import org.apache.netbeans.api.java.source.ClassIndex
+import org.apache.netbeans.modules.parsing.api.ResultIterator
+import org.apache.netbeans.modules.parsing.spi.{ ParserResultTask, ParseException, Scheduler, SchedulerEvent }
+import org.apache.netbeans.modules.parsing.spi.SchedulerTask
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import org.openide.text.NbDocument
@@ -74,8 +74,8 @@ import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.HashMap
 import scala.collection.mutable.HashSet
 
-import org.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
-import org.netbeans.modules.scala.core.ast.{ ScalaRootScope }
+import org.apache.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
+import org.apache.netbeans.modules.scala.core.ast.{ ScalaRootScope }
 import scala.reflect.internal.Flags
 import scala.reflect.internal.Symbols
 
@@ -84,7 +84,7 @@ import scala.reflect.internal.Symbols
  * @author Jan Lahoda
  */
 object IsOverriddenAnnotationHandler {
-  private val enableReverseLookups = java.lang.Boolean.getBoolean("org.netbeans.java.editor.enableReverseLookups")
+  private val enableReverseLookups = java.lang.Boolean.getBoolean("org.apache.netbeans.java.editor.enableReverseLookups")
   val Log = Logger.getLogger(classOf[IsOverriddenAnnotationHandler].getName)
 
   /*   def detectOverrides(info: ScalaParserResult, tpe: TypeElement, ee: ExecutableElement, result: ArrayBuffer[ElementDescription]): AnnotationType = {

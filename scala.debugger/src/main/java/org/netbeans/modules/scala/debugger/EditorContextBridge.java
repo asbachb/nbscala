@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.debugger;
+package org.apache.netbeans.modules.scala.debugger;
 
 import com.sun.jdi.AbsentInformationException;
 import java.beans.PropertyChangeListener;
@@ -49,16 +49,16 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.netbeans.api.debugger.Breakpoint.VALIDITY;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.FieldBreakpoint;
-import org.netbeans.api.debugger.jpda.JPDABreakpoint;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
-import org.netbeans.api.debugger.jpda.CallStackFrame;
-import org.netbeans.api.debugger.jpda.JPDAThread;
-import org.netbeans.spi.debugger.jpda.EditorContext;
-import org.netbeans.spi.debugger.jpda.SourcePathProvider;
+import org.apache.netbeans.api.debugger.Breakpoint.VALIDITY;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.FieldBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.JPDABreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.CallStackFrame;
+import org.apache.netbeans.api.debugger.jpda.JPDAThread;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.spi.debugger.jpda.SourcePathProvider;
 
 import org.openide.ErrorManager;
 

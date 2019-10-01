@@ -39,27 +39,27 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import javax.swing.Action;
 
-import org.netbeans.api.debugger.DebuggerEngine;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.ClassLoadUnloadBreakpoint;
-import org.netbeans.api.debugger.jpda.ExceptionBreakpoint;
-import org.netbeans.api.debugger.jpda.FieldBreakpoint;
-import org.netbeans.api.debugger.jpda.JPDABreakpoint;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
-import org.netbeans.api.debugger.jpda.ThreadBreakpoint;
-import org.netbeans.api.java.classpath.GlobalPathRegistry;
-import org.netbeans.spi.debugger.jpda.SourcePathProvider;
-import org.netbeans.spi.viewmodel.NodeActionsProvider;
-import org.netbeans.spi.viewmodel.UnknownTypeException;
-import org.netbeans.spi.viewmodel.Models;
-import org.netbeans.spi.viewmodel.NodeActionsProviderFilter;
+import org.apache.netbeans.api.debugger.DebuggerEngine;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.ClassLoadUnloadBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.ExceptionBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.FieldBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.JPDABreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.ThreadBreakpoint;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry;
+import org.apache.netbeans.spi.debugger.jpda.SourcePathProvider;
+import org.apache.netbeans.spi.viewmodel.NodeActionsProvider;
+import org.apache.netbeans.spi.viewmodel.UnknownTypeException;
+import org.apache.netbeans.spi.viewmodel.Models;
+import org.apache.netbeans.spi.viewmodel.NodeActionsProviderFilter;
 
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileObject;

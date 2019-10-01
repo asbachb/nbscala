@@ -39,21 +39,21 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform.classpth;
+package org.apache.netbeans.modules.scala.platform.classpth;
 
 
 import java.util.Collections;
-import org.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.classpath.ClassPath;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.spi.java.classpath.ClassPathProvider;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 
 
-@org.openide.util.lookup.ServiceProvider(service=org.netbeans.spi.java.classpath.ClassPathProvider.class, position=150)
+@org.openide.util.lookup.ServiceProvider(service=org.apache.netbeans.spi.java.classpath.ClassPathProvider.class, position=150)
 public class PlatformClassPathProvider implements ClassPathProvider {
 
 

@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.console
+package org.apache.netbeans.modules.scala.console
 
 import java.awt.Color
 import java.awt.Point
@@ -32,7 +32,7 @@ import javax.swing.text.SimpleAttributeSet
 import javax.swing.text.StyleConstants
 import javax.swing.text.StyledDocument
 import scala.collection.mutable
-import org.netbeans.api.java.classpath.GlobalPathRegistry
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 

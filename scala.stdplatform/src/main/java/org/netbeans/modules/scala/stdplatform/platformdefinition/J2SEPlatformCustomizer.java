@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
 
 import java.awt.*;
@@ -55,9 +55,9 @@ import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.event.ListSelectionEvent;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 import org.openide.NotifyDescriptor;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileUtil;

@@ -1,2 +1,2 @@
-org.netbeans.modules.scala.refactoring.ui.tree.TreeElementFactoryImpl
+org.apache.netbeans.modules.scala.refactoring.ui.tree.TreeElementFactoryImpl
 #position=100

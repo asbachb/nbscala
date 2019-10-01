@@ -1,17 +1,17 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import java.awt.Image
 import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
 import javax.swing.Action
 import javax.swing.SwingUtilities
-import org.netbeans.api.project.FileOwnerQuery
-import org.netbeans.api.project.Project
-import org.netbeans.spi.java.project.support.ui.PackageView
-import org.netbeans.spi.project.ui.LogicalViewProvider
-import org.netbeans.spi.project.ui.support.CommonProjectActions
-import org.netbeans.spi.project.ui.support.NodeFactorySupport
-import org.netbeans.spi.project.ui.support.ProjectSensitiveActions
+import org.apache.netbeans.api.project.FileOwnerQuery
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.spi.java.project.support.ui.PackageView
+import org.apache.netbeans.spi.project.ui.LogicalViewProvider
+import org.apache.netbeans.spi.project.ui.support.CommonProjectActions
+import org.apache.netbeans.spi.project.ui.support.NodeFactorySupport
+import org.apache.netbeans.spi.project.ui.support.ProjectSensitiveActions
 import org.openide.filesystems.FileObject
 import org.openide.loaders.DataFolder
 import org.openide.loaders.DataObjectNotFoundException

@@ -37,21 +37,21 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
 import java.util.prefs.Preferences
 import javax.swing.JComponent
 import javax.swing.JPanel
-import org.netbeans.api.language.util.ast._
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId
-import org.netbeans.modules.csl.api.Hint
-import org.netbeans.modules.csl.api.HintSeverity
-import org.netbeans.modules.csl.api.RuleContext
-import org.netbeans.modules.scala.editor.util.NbBundler
-import org.netbeans.modules.scala.core.ast.ScalaRootScope
-import org.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.api.language.util.ast._
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId
+import org.apache.netbeans.modules.csl.api.Hint
+import org.apache.netbeans.modules.csl.api.HintSeverity
+import org.apache.netbeans.modules.csl.api.RuleContext
+import org.apache.netbeans.modules.scala.editor.util.NbBundler
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
 import scala.collection.JavaConversions._
 import scala.collection.mutable
 import scala.collection.immutable

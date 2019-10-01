@@ -37,17 +37,17 @@
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.io.IOException;
 import javax.swing.JButton;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.modules.java.api.common.ant.UpdateImplementation;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
-import org.netbeans.spi.project.AuxiliaryConfiguration;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateImplementation;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.spi.project.AuxiliaryConfiguration;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
 import org.openide.util.Mutex;

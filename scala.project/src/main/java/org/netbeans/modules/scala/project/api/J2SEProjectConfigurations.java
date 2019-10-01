@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.api;
+package org.apache.netbeans.modules.scala.project.api;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -47,8 +47,8 @@ import java.io.OutputStream;
 
 import java.util.Properties;
 
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectManager;
 
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileSystem;

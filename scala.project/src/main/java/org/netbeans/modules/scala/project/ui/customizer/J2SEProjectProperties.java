@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.io.File;
 import java.io.IOException;
@@ -65,31 +65,31 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.PlainDocument;
-import org.netbeans.api.queries.FileEncodingQuery;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.ant.AntBuildExtender;
-import org.netbeans.modules.java.api.common.SourceRoots;
-import org.netbeans.modules.java.api.common.ant.UpdateHelper;
-import org.netbeans.modules.java.api.common.classpath.ClassPathSupport;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.modules.java.api.common.project.ui.ClassPathUiSupport;
-import org.netbeans.modules.java.api.common.project.ui.customizer.ClassPathListCellRenderer;
-import org.netbeans.modules.java.api.common.project.ui.customizer.SourceRootsUi;
-import org.netbeans.modules.java.api.common.ui.PlatformUiSupport;
-import org.netbeans.modules.java.api.common.util.CommonProjectUtils;
-import org.netbeans.modules.scala.project.J2SEProject;
-import org.netbeans.modules.scala.project.J2SEProjectType;
-import org.netbeans.modules.scala.project.J2SEProjectUtil;
-import org.netbeans.spi.java.project.support.ui.IncludeExcludeVisualizer;
-import org.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
-import org.netbeans.spi.project.ActionProvider;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.GeneratedFilesHelper;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
-import org.netbeans.spi.project.support.ant.ReferenceHelper;
-import org.netbeans.spi.project.support.ant.ui.StoreGroup;
+import org.apache.netbeans.api.queries.FileEncodingQuery;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.ant.AntBuildExtender;
+import org.apache.netbeans.modules.java.api.common.SourceRoots;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateHelper;
+import org.apache.netbeans.modules.java.api.common.classpath.ClassPathSupport;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.modules.java.api.common.project.ui.ClassPathUiSupport;
+import org.apache.netbeans.modules.java.api.common.project.ui.customizer.ClassPathListCellRenderer;
+import org.apache.netbeans.modules.java.api.common.project.ui.customizer.SourceRootsUi;
+import org.apache.netbeans.modules.java.api.common.ui.PlatformUiSupport;
+import org.apache.netbeans.modules.java.api.common.util.CommonProjectUtils;
+import org.apache.netbeans.modules.scala.project.J2SEProject;
+import org.apache.netbeans.modules.scala.project.J2SEProjectType;
+import org.apache.netbeans.modules.scala.project.J2SEProjectUtil;
+import org.apache.netbeans.spi.java.project.support.ui.IncludeExcludeVisualizer;
+import org.apache.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
+import org.apache.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.GeneratedFilesHelper;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.spi.project.support.ant.ReferenceHelper;
+import org.apache.netbeans.spi.project.support.ant.ui.StoreGroup;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileLock;
 import org.openide.filesystems.FileObject;
@@ -154,13 +154,13 @@ public class J2SEProjectProperties {
     public static final String NO_DEPENDENCIES="no.dependencies"; // NOI18N
     public static final String DEBUG_TEST_CLASSPATH = "debug.test.classpath"; // NOI18N
     public static final String SOURCE_ENCODING="source.encoding"; // NOI18N
-    /** @since org.netbeans.modules.java.j2seproject/1 1.12 */
+    /** @since org.apache.netbeans.modules.java.j2seproject/1 1.12 */
     public static final String DO_DEPEND = "do.depend"; // NOI18N
-    /** @since org.netbeans.modules.java.j2seproject/1 1.12 */
+    /** @since org.apache.netbeans.modules.java.j2seproject/1 1.12 */
     public static final String DO_JAR = "do.jar"; // NOI18N
-    /** @since org.netbeans.modules.java.j2seproject/1 1.21 */
+    /** @since org.apache.netbeans.modules.java.j2seproject/1 1.21 */
     public static final String COMPILE_ON_SAVE = "compile.on.save"; // NOI18N
-    /** @since org.netbeans.modules.java.j2seproject/1 1.19 */
+    /** @since org.apache.netbeans.modules.java.j2seproject/1 1.19 */
     public static final String COMPILE_ON_SAVE_UNSUPPORTED_PREFIX = "compile.on.save.unsupported"; // NOI18N
 
     public static final String SYSTEM_PROPERTIES_RUN_PREFIX = "run-sys-prop."; // NOI18N

@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.debugger.actions;
+package org.apache.netbeans.modules.scala.debugger.actions;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -47,15 +47,15 @@ import java.net.URL;
 import java.util.Collections;
 import java.util.Set;
 import javax.swing.SwingUtilities;
-import org.netbeans.api.debugger.ActionsManager;
-import org.netbeans.api.debugger.Breakpoint;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.jpda.JPDADebugger;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.modules.scala.debugger.EditorContextBridge;
-import org.netbeans.spi.debugger.ActionsProvider;
-import org.netbeans.spi.debugger.ActionsProviderSupport;
-import org.netbeans.spi.debugger.ContextProvider;
+import org.apache.netbeans.api.debugger.ActionsManager;
+import org.apache.netbeans.api.debugger.Breakpoint;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.jpda.JPDADebugger;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.modules.scala.debugger.EditorContextBridge;
+import org.apache.netbeans.spi.debugger.ActionsProvider;
+import org.apache.netbeans.spi.debugger.ActionsProviderSupport;
+import org.apache.netbeans.spi.debugger.ContextProvider;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.URLMapper;
 import org.openide.util.NbBundle;

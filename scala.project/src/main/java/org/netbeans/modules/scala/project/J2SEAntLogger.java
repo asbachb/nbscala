@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.io.File;
 import java.io.IOException;
@@ -47,8 +47,8 @@ import java.util.regex.Pattern;
 import org.apache.tools.ant.module.spi.AntEvent;
 import org.apache.tools.ant.module.spi.AntLogger;
 import org.apache.tools.ant.module.spi.AntSession;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectManager;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;

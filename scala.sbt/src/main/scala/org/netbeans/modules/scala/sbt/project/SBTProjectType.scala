@@ -1,9 +1,9 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import java.io.IOException
-import org.netbeans.api.project.Project
-import org.netbeans.spi.project.ProjectFactory
-import org.netbeans.spi.project.ProjectState
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.spi.project.ProjectFactory
+import org.apache.netbeans.spi.project.ProjectState
 import org.openide.filesystems.FileObject
 import org.openide.util.lookup.ServiceProvider
 

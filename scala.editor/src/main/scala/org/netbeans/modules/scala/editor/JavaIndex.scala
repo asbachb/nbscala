@@ -37,7 +37,7 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.lang.model.element.Element;
 import javax.lang.model.element.ElementKind;
@@ -51,18 +51,18 @@ import javax.lang.model.`type`.TypeKind;
 import javax.lang.model.`type`.TypeMirror;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
-import org.netbeans.api.java.source.ClassIndex;
-import org.netbeans.api.java.source.ClassIndex.NameKind;
-import org.netbeans.api.java.source.ClassIndex.SearchScope;
-import org.netbeans.api.java.source.CompilationInfo;
-import org.netbeans.api.java.source.ElementHandle;
-import org.netbeans.modules.java.source.JavaSourceAccessor;
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.api.java.source.ClassIndex;
+import org.apache.netbeans.api.java.source.ClassIndex.NameKind;
+import org.apache.netbeans.api.java.source.ClassIndex.SearchScope;
+import org.apache.netbeans.api.java.source.CompilationInfo;
+import org.apache.netbeans.api.java.source.ElementHandle;
+import org.apache.netbeans.modules.java.source.JavaSourceAccessor;
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileStateInvalidException;
 import org.openide.util.Exceptions;
-import org.netbeans.modules.csl.spi.ParserResult
+import org.apache.netbeans.modules.csl.spi.ParserResult
 
 import scala.collection.JavaConversions._
 

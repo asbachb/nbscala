@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform.ui;
+package org.apache.netbeans.modules.scala.platform.ui;
 
 import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
@@ -54,7 +54,7 @@ public class PlatformsCustomizerAction extends CallableSystemAction {
     }
 
     public void performAction() {
-        org.netbeans.api.scala.platform.PlatformsCustomizer.showCustomizer(null);
+        org.apache.netbeans.api.scala.platform.PlatformsCustomizer.showCustomizer(null);
     }
 
     public String getName() {

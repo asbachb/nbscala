@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
@@ -56,20 +56,20 @@ import java.util.HashSet;
 import java.util.StringTokenizer;
 import java.util.WeakHashMap;
 import java.util.Collections;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.classpath.GlobalPathRegistry;
-import org.netbeans.api.java.classpath.GlobalPathRegistryEvent;
-import org.netbeans.api.java.classpath.GlobalPathRegistryListener;
-import org.netbeans.api.java.queries.SourceForBinaryQuery;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.modules.classfile.ClassFile;
-import org.netbeans.modules.classfile.ClassName;
-import org.netbeans.spi.java.classpath.ClassPathFactory;
-import org.netbeans.spi.java.classpath.ClassPathImplementation;
-import org.netbeans.spi.java.classpath.ClassPathProvider;
-import org.netbeans.spi.java.classpath.PathResourceImplementation;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistryEvent;
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistryListener;
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.modules.classfile.ClassFile;
+import org.apache.netbeans.modules.classfile.ClassName;
+import org.apache.netbeans.spi.java.classpath.ClassPathFactory;
+import org.apache.netbeans.spi.java.classpath.ClassPathImplementation;
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider;
+import org.apache.netbeans.spi.java.classpath.PathResourceImplementation;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileStateInvalidException;
@@ -79,7 +79,7 @@ import org.openide.filesystems.URLMapper;
  *
  * @author  tom
  */
-@org.openide.util.lookup.ServiceProvider(service=org.netbeans.spi.java.classpath.ClassPathProvider.class, position=10006)
+@org.openide.util.lookup.ServiceProvider(service=org.apache.netbeans.spi.java.classpath.ClassPathProvider.class, position=10006)
 public class DefaultClassPathProvider implements ClassPathProvider {
     
     /** Name of package keyword. */

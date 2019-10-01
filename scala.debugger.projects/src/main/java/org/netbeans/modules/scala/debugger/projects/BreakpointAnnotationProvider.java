@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -52,18 +52,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.netbeans.api.debugger.Breakpoint;
-import org.netbeans.api.debugger.Breakpoint.VALIDITY;
-import org.netbeans.api.debugger.DebuggerEngine;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.DebuggerManagerListener;
-import org.netbeans.api.debugger.Session;
-import org.netbeans.api.debugger.Watch;
-import org.netbeans.api.debugger.jpda.FieldBreakpoint;
-import org.netbeans.api.debugger.jpda.JPDABreakpoint;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
-import org.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.api.debugger.Breakpoint;
+import org.apache.netbeans.api.debugger.Breakpoint.VALIDITY;
+import org.apache.netbeans.api.debugger.DebuggerEngine;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.DebuggerManagerListener;
+import org.apache.netbeans.api.debugger.Session;
+import org.apache.netbeans.api.debugger.Watch;
+import org.apache.netbeans.api.debugger.jpda.FieldBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.JPDABreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
 
 import org.openide.cookies.LineCookie;
 import org.openide.filesystems.FileObject;
@@ -85,9 +85,9 @@ import org.openide.util.WeakSet;
  * =====================================================
  * To enabale this provider, needs to add a META-INFO.services as:
  * org.openide.text.AnnotationProvider with content:
- * org.netbeans.modules.scala.debugger.projects.BreakpointAnnotationProvider
+ * org.apache.netbeans.modules.scala.debugger.projects.BreakpointAnnotationProvider
  * But, since there has been another BreakpointAnnotationProvider from:
- * org.netbeans.modules.debugger.jpda.projects, which also process add/remove
+ * org.apache.netbeans.modules.debugger.jpda.projects, which also process add/remove
  * annotation when breakpoint is added/removed, we should not enable this provider
  * again, otherwise, the annotation will be added twice for each breakpoint, and
  * showing "Multiple breakpoints".

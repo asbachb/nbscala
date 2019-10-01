@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.sbt.console
+package org.apache.netbeans.modules.scala.sbt.console
 
 import java.awt.Color
 import java.awt.Font
@@ -16,17 +16,17 @@ import javax.swing.JTextPane
 import javax.swing.SwingUtilities
 import javax.swing.UIManager
 import javax.swing.text.DefaultCaret
-import org.netbeans.api.extexecution.ExecutionDescriptor
-import org.netbeans.api.extexecution.ExecutionService
-import org.netbeans.api.progress.ProgressHandle
-import org.netbeans.api.project.Project
-import org.netbeans.modules.extexecution.base.ExternalProcessBuilder
-import org.netbeans.modules.scala.core.ScalaExecution
-import org.netbeans.modules.scala.console.AnsiConsoleOutputStream
-import org.netbeans.modules.scala.console.ConsoleInputOutput
-import org.netbeans.modules.scala.console.ConsoleTerminal
-import org.netbeans.modules.scala.console.TerminalInput
-import org.netbeans.modules.scala.console.TopComponentId
+import org.apache.netbeans.api.extexecution.ExecutionDescriptor
+import org.apache.netbeans.api.extexecution.ExecutionService
+import org.apache.netbeans.api.progress.ProgressHandle
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.extexecution.base.ExternalProcessBuilder
+import org.apache.netbeans.modules.scala.core.ScalaExecution
+import org.apache.netbeans.modules.scala.console.AnsiConsoleOutputStream
+import org.apache.netbeans.modules.scala.console.ConsoleInputOutput
+import org.apache.netbeans.modules.scala.console.ConsoleTerminal
+import org.apache.netbeans.modules.scala.console.TerminalInput
+import org.apache.netbeans.modules.scala.console.TopComponentId
 import org.openide.filesystems.FileUtil
 import org.openide.util.Cancellable
 import org.openide.util.ImageUtilities
@@ -186,7 +186,7 @@ class SBTConsoleTopComponent private (project: Project, val isDebug: Boolean) ex
     textView.setFont(new Font("Monospaced", Font.PLAIN, 13))
     setBorder(BorderFactory.createEmptyBorder)
 
-    // @see core.output2/org.netbeans.core.output2.ui/AbstractOutputPane
+    // @see core.output2/org.apache.netbeans.core.output2.ui/AbstractOutputPane
     val c = UIManager.getColor("nb.output.selectionBackground")
     if (c != null) {
       textView.setSelectionColor(c)
@@ -282,7 +282,7 @@ object SBTConsoleTopComponent {
   private var sn = 0
 
   /**
-   * @see org.netbeans.core.windows.persistence.PersistenceManager
+   * @see org.apache.netbeans.core.windows.persistence.PersistenceManager
    */
   private def toPreferredId(project: Project, sn: Int) = CompName + project.getProjectDirectory.getPath + "_" + sn
   private def toEscapedPreferredId(project: Project, sn: Int) = TopComponentId.escape(toPreferredId(project, sn))

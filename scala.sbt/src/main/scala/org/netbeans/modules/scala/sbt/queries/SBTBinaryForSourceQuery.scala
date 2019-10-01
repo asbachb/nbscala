@@ -1,15 +1,15 @@
-package org.netbeans.modules.scala.sbt.queries
+package org.apache.netbeans.modules.scala.sbt.queries
 
 import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
 import java.net.URL
 import javax.swing.event.ChangeListener
-import org.netbeans.api.java.queries.BinaryForSourceQuery
-import org.netbeans.api.java.queries.BinaryForSourceQuery.Result
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.sbt.project.SBTResolver
-import org.netbeans.spi.java.queries.BinaryForSourceQueryImplementation
+import org.apache.netbeans.api.java.queries.BinaryForSourceQuery
+import org.apache.netbeans.api.java.queries.BinaryForSourceQuery.Result
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.sbt.project.SBTResolver
+import org.apache.netbeans.spi.java.queries.BinaryForSourceQueryImplementation
 import org.openide.util.ChangeSupport
 import scala.collection.mutable
 

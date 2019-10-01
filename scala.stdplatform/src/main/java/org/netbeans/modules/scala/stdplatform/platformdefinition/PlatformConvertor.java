@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.platformdefinition;
+package org.apache.netbeans.modules.scala.stdplatform.platformdefinition;
 
 import java.beans.*;
 import java.io.*;
@@ -52,12 +52,12 @@ import java.net.URI;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.modules.scala.stdplatform.wizard.J2SEWizardIterator;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.modules.scala.stdplatform.wizard.J2SEWizardIterator;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
 
 import org.openide.ErrorManager;
 import org.openide.modules.SpecificationVersion;

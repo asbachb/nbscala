@@ -39,14 +39,14 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.breakpoints;
+package org.apache.netbeans.modules.scala.debugger.breakpoints;
 
 import java.awt.Dimension;
 
-import org.netbeans.api.debugger.Breakpoint.HIT_COUNT_FILTERING_STYLE;
+import org.apache.netbeans.api.debugger.Breakpoint.HIT_COUNT_FILTERING_STYLE;
 
-import org.netbeans.modules.scala.debugger.FilteredKeymap;
-import org.netbeans.modules.scala.debugger.WatchPanel;
+import org.apache.netbeans.modules.scala.debugger.FilteredKeymap;
+import org.apache.netbeans.modules.scala.debugger.WatchPanel;
 
 import org.openide.loaders.DataObject;
 import org.openide.util.NbBundle;

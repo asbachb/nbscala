@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.wizards;
+package org.apache.netbeans.modules.scala.project.ui.wizards;
 
 import java.awt.Component;
 import java.io.File;
@@ -51,14 +51,14 @@ import java.util.NoSuchElementException;
 import java.util.Set;
 import javax.swing.JComponent;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.progress.ProgressHandle;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.modules.scala.project.J2SEProjectGenerator;
-import org.netbeans.modules.scala.project.ui.FoldersListSettings;
-import org.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.ui.support.ProjectChooser;
+import org.apache.netbeans.api.progress.ProgressHandle;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.modules.scala.project.J2SEProjectGenerator;
+import org.apache.netbeans.modules.scala.project.ui.FoldersListSettings;
+import org.apache.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.ui.support.ProjectChooser;
 import org.openide.ErrorManager;
 import org.openide.WizardDescriptor;
 import org.openide.filesystems.FileLock;

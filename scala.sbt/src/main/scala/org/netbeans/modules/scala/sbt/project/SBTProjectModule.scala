@@ -1,8 +1,8 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import javax.swing.Action
-import org.netbeans.spi.project.ActionProvider
-import org.netbeans.spi.project.ui.support.FileSensitiveActions
+import org.apache.netbeans.spi.project.ActionProvider
+import org.apache.netbeans.spi.project.ui.support.FileSensitiveActions
 import org.openide.util.NbBundle
 
 /**

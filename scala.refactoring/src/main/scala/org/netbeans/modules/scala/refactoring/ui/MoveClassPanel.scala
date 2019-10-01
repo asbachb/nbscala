@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
@@ -58,16 +58,16 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.plaf.UIResource;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectInformation;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
-import org.netbeans.api.project.ui.OpenProjects;
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel;
-import org.netbeans.spi.java.project.support.ui.PackageView;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectInformation;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
+import org.apache.netbeans.api.project.ui.OpenProjects;
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel;
+import org.apache.netbeans.spi.java.project.support.ui.PackageView;
 import org.openide.filesystems.FileObject;
 
 /**

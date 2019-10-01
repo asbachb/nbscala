@@ -38,14 +38,14 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.stdplatform.libraries;
+package org.apache.netbeans.modules.scala.stdplatform.libraries;
 
-import org.netbeans.spi.project.libraries.LibraryTypeProvider;
-import org.netbeans.spi.project.libraries.LibraryImplementation;
-import org.netbeans.spi.project.libraries.support.LibrariesSupport;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
-import org.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.spi.project.libraries.LibraryTypeProvider;
+import org.apache.netbeans.spi.project.libraries.LibraryImplementation;
+import org.apache.netbeans.spi.project.libraries.support.LibrariesSupport;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.api.project.ProjectManager;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileUtil;
 import org.openide.filesystems.URLMapper;

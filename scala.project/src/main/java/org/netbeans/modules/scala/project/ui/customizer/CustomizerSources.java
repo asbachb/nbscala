@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.awt.Component;
 import java.awt.Font;
@@ -68,7 +68,7 @@ import javax.swing.event.ListDataListener;
 import javax.swing.plaf.UIResource;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
-import org.netbeans.spi.java.project.support.ui.IncludeExcludeVisualizer;
+import org.apache.netbeans.spi.java.project.support.ui.IncludeExcludeVisualizer;
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;

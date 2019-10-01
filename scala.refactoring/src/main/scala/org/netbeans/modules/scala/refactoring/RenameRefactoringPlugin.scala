@@ -38,42 +38,42 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import java.util.logging.Level
-import org.netbeans.modules.csl.api.Error
-import org.netbeans.modules.csl.api.Severity
-import org.netbeans.modules.csl.spi.GsfUtilities
-import org.netbeans.modules.parsing.api.ParserManager
-import org.netbeans.modules.parsing.api.UserTask
+import org.apache.netbeans.modules.csl.api.Error
+import org.apache.netbeans.modules.csl.api.Severity
+import org.apache.netbeans.modules.csl.spi.GsfUtilities
+import org.apache.netbeans.modules.parsing.api.ParserManager
+import org.apache.netbeans.modules.parsing.api.UserTask
 import org.openide.filesystems.FileUtil
 import org.openide.util.Exceptions
 import java.io.IOException
 import java.util.logging.Logger
 import javax.swing.text.BadLocationException
 import javax.swing.text.Position.Bias
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.language.util.ast.AstDfn
-import org.netbeans.api.language.util.text.BoyerMoore
-import org.netbeans.api.lexer.Token
-import org.netbeans.api.lexer.TokenHierarchy
-import org.netbeans.api.lexer.TokenId
-import org.netbeans.api.lexer.TokenSequence
-import org.netbeans.api.lexer.TokenUtilities
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.modules.csl.spi.support.ModificationResult
-import org.netbeans.modules.csl.spi.support.ModificationResult.Difference
-import org.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
-import org.netbeans.modules.scala.core.ast.{ ScalaItems, ScalaRootScope }
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
-import org.netbeans.modules.refactoring.api._
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.language.util.ast.AstDfn
+import org.apache.netbeans.api.language.util.text.BoyerMoore
+import org.apache.netbeans.api.lexer.Token
+import org.apache.netbeans.api.lexer.TokenHierarchy
+import org.apache.netbeans.api.lexer.TokenId
+import org.apache.netbeans.api.lexer.TokenSequence
+import org.apache.netbeans.api.lexer.TokenUtilities
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult.Difference
+import org.apache.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
+import org.apache.netbeans.modules.scala.core.ast.{ ScalaItems, ScalaRootScope }
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.modules.refactoring.api._
 import org.openide.filesystems.FileObject
-import org.netbeans.modules.refactoring.spi.RefactoringElementsBag
-import org.netbeans.modules.parsing.api.ResultIterator
-import org.netbeans.modules.parsing.api.Source
-import org.netbeans.modules.parsing.spi.ParseException
+import org.apache.netbeans.modules.refactoring.spi.RefactoringElementsBag
+import org.apache.netbeans.modules.parsing.api.ResultIterator
+import org.apache.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.modules.parsing.spi.ParseException
 import org.openide.util.NbBundle
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.HashSet

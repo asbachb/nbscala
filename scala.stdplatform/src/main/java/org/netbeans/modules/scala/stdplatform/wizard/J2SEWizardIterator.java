@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.wizard;
+package org.apache.netbeans.modules.scala.stdplatform.wizard;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -48,9 +48,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.Util;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.Util;
 import org.openide.ErrorManager;
 import org.openide.WizardDescriptor;
 import org.openide.filesystems.FileObject;

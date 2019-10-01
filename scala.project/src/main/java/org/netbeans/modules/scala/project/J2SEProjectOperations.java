@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.io.File;
 import java.io.IOException;
@@ -48,18 +48,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 import org.apache.tools.ant.module.api.support.ActionUtils;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectInformation;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
-import org.netbeans.spi.project.ActionProvider;
-import org.netbeans.spi.project.CopyOperationImplementation;
-import org.netbeans.spi.project.DeleteOperationImplementation;
-import org.netbeans.spi.project.MoveOperationImplementation;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.GeneratedFilesHelper;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectInformation;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.spi.project.CopyOperationImplementation;
+import org.apache.netbeans.spi.project.DeleteOperationImplementation;
+import org.apache.netbeans.spi.project.MoveOperationImplementation;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.GeneratedFilesHelper;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
 import org.openide.filesystems.FileObject;
 import org.openide.util.Lookup;
 import org.openide.util.NbBundle;

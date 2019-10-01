@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.api.scala.platform;
+package org.apache.netbeans.api.scala.platform;
 
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
@@ -60,8 +60,8 @@ public final class PlatformsCustomizer {
      * @return boolean for future extension, currently always true
      */
     public static boolean showCustomizer (ScalaPlatform platform) {
-        org.netbeans.modules.scala.platform.ui.PlatformsCustomizer  customizer =
-                new org.netbeans.modules.scala.platform.ui.PlatformsCustomizer (platform);
+        org.apache.netbeans.modules.scala.platform.ui.PlatformsCustomizer  customizer =
+                new org.apache.netbeans.modules.scala.platform.ui.PlatformsCustomizer (platform);
         javax.swing.JButton close = new javax.swing.JButton(NbBundle.getMessage(PlatformsCustomizer.class,"CTL_Close"));
         close.getAccessibleContext().setAccessibleDescription(NbBundle.getMessage(PlatformsCustomizer.class,"AD_Close"));
         DialogDescriptor descriptor = new DialogDescriptor (customizer,NbBundle.getMessage(PlatformsCustomizer.class,

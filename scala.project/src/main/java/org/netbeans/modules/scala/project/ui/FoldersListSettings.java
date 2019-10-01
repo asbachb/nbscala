@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui;
+package org.apache.netbeans.modules.scala.project.ui;
 
 import org.openide.filesystems.FileUtil;
 import org.openide.util.NbBundle;

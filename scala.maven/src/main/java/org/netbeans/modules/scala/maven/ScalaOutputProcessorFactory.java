@@ -40,16 +40,16 @@
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import org.netbeans.api.project.Project;
-import org.netbeans.modules.maven.api.execute.RunConfig;
-import org.netbeans.modules.maven.api.output.ContextOutputProcessorFactory;
-import org.netbeans.modules.maven.api.output.OutputProcessor;
-import org.netbeans.modules.maven.api.output.OutputProcessorFactory;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.modules.maven.api.execute.RunConfig;
+import org.apache.netbeans.modules.maven.api.output.ContextOutputProcessorFactory;
+import org.apache.netbeans.modules.maven.api.output.OutputProcessor;
+import org.apache.netbeans.modules.maven.api.output.OutputProcessorFactory;
 import org.openide.util.lookup.ServiceProvider;
 
 @ServiceProvider(service=OutputProcessorFactory.class)

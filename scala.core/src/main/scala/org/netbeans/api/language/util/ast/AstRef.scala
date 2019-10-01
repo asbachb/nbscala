@@ -36,9 +36,9 @@
  * 
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.api.language.util.ast
+package org.apache.netbeans.api.language.util.ast
 
-import org.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.modules.csl.api.ElementKind
 
 /**
  * Mirror with AstDfn information

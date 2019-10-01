@@ -37,10 +37,10 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
-import org.netbeans.modules.csl.api.Hint
-import org.netbeans.modules.csl.api.Rule.SelectionRule
+import org.apache.netbeans.modules.csl.api.Hint
+import org.apache.netbeans.modules.csl.api.Rule.SelectionRule
 
 abstract class ScalaSelectionRule extends SelectionRule {
 

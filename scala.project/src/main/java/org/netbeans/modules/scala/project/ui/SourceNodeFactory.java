@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui;
+package org.apache.netbeans.modules.scala.project.ui;
 
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
@@ -50,16 +50,16 @@ import javax.swing.Action;
 import javax.swing.SwingUtilities;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
-import org.netbeans.modules.scala.project.J2SEProject;
-import org.netbeans.modules.scala.project.ui.customizer.CustomizerProviderImpl;
-import org.netbeans.spi.java.project.support.ui.PackageView;
-import org.netbeans.spi.project.ui.support.NodeFactory;
-import org.netbeans.spi.project.ui.support.NodeList;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
+import org.apache.netbeans.modules.scala.project.J2SEProject;
+import org.apache.netbeans.modules.scala.project.ui.customizer.CustomizerProviderImpl;
+import org.apache.netbeans.spi.java.project.support.ui.PackageView;
+import org.apache.netbeans.spi.project.ui.support.NodeFactory;
+import org.apache.netbeans.spi.project.ui.support.NodeList;
 import org.openide.filesystems.FileObject;
 import org.openide.nodes.FilterNode;
 import org.openide.nodes.Node;

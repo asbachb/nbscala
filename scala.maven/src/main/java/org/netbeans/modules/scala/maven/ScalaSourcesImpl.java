@@ -40,19 +40,19 @@
  * Portions Copyrighted 2011 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
-import static org.netbeans.modules.scala.maven.Bundle.*;
-import org.netbeans.spi.project.ProjectServiceProvider;
-import org.netbeans.spi.project.SourceGroupModifierImplementation;
-import org.netbeans.spi.project.support.GenericSources;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
+import static org.apache.netbeans.modules.scala.maven.Bundle.*;
+import org.apache.netbeans.spi.project.ProjectServiceProvider;
+import org.apache.netbeans.spi.project.SourceGroupModifierImplementation;
+import org.apache.netbeans.spi.project.support.GenericSources;
 import org.openide.filesystems.FileObject;
 import org.openide.util.NbBundle;
 

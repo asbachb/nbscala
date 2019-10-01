@@ -1,22 +1,22 @@
-package org.netbeans.modules.scala.app;
+package org.apache.netbeans.modules.scala.app;
 
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.util.logging.Level;
 import junit.framework.Test;
-import org.netbeans.jellytools.NbDialogOperator;
-import org.netbeans.jellytools.NewProjectWizardOperator;
-import org.netbeans.jellytools.ProjectsTabOperator;
-import org.netbeans.jellytools.TopComponentOperator;
-import org.netbeans.jellytools.actions.ActionNoBlock;
-import org.netbeans.jellytools.nodes.Node;
-import org.netbeans.jellytools.nodes.ProjectRootNode;
-import org.netbeans.jellytools.properties.editors.FileCustomEditorOperator;
-import org.netbeans.jemmy.operators.JButtonOperator;
-import org.netbeans.jemmy.operators.JTableOperator;
-import org.netbeans.jemmy.operators.JTextPaneOperator;
-import org.netbeans.junit.NbModuleSuite;
-import org.netbeans.junit.NbTestCase;
+import org.apache.netbeans.jellytools.NbDialogOperator;
+import org.apache.netbeans.jellytools.NewProjectWizardOperator;
+import org.apache.netbeans.jellytools.ProjectsTabOperator;
+import org.apache.netbeans.jellytools.TopComponentOperator;
+import org.apache.netbeans.jellytools.actions.ActionNoBlock;
+import org.apache.netbeans.jellytools.nodes.Node;
+import org.apache.netbeans.jellytools.nodes.ProjectRootNode;
+import org.apache.netbeans.jellytools.properties.editors.FileCustomEditorOperator;
+import org.apache.netbeans.jemmy.operators.JButtonOperator;
+import org.apache.netbeans.jemmy.operators.JTableOperator;
+import org.apache.netbeans.jemmy.operators.JTextPaneOperator;
+import org.apache.netbeans.junit.NbModuleSuite;
+import org.apache.netbeans.junit.NbTestCase;
 
 public class ApplicationTest extends NbTestCase {
 
@@ -28,8 +28,8 @@ public class ApplicationTest extends NbTestCase {
                 gui(true).
                 clusters(".*").
                 failOnMessage(Level.SEVERE).
-                // TODO: Can be enables if the java.lang.ClassCastException: org.netbeans.api.project.ProjectUtils$AnnotateIconProxyProjectInformation
-                // cannot be cast to org.netbeans.modules.scala.project.J2SEProject$Info is solved
+                // TODO: Can be enables if the java.lang.ClassCastException: org.apache.netbeans.api.project.ProjectUtils$AnnotateIconProxyProjectInformation
+                // cannot be cast to org.apache.netbeans.modules.scala.project.J2SEProject$Info is solved
                 //                failOnException(Level.INFO).
                 suite();
     }

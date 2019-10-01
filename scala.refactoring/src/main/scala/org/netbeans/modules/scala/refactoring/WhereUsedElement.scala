@@ -38,22 +38,22 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import javax.swing.Icon
 import javax.swing.text.Position.Bias
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.modules.csl.spi.GsfUtilities
-import org.netbeans.modules.refactoring.spi.SimpleRefactoringElementImplementation
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.csl.spi.GsfUtilities
+import org.apache.netbeans.modules.refactoring.spi.SimpleRefactoringElementImplementation
 import org.openide.filesystems.FileObject
 import org.openide.text.PositionBounds
 import org.openide.util.Exceptions
 import org.openide.util.Lookup
 import org.openide.util.lookup.Lookups
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.refactoring.ui.tree.ElementGripFactory
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.refactoring.ui.tree.ElementGripFactory
 
 /**
  * An element in the refactoring preview list which holds information about the find-usages-match

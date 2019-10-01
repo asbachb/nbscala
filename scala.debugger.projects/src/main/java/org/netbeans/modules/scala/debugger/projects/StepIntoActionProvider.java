@@ -39,26 +39,26 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.Collections;
 import java.util.Set;
 import javax.swing.SwingUtilities;
-import org.netbeans.api.debugger.ActionsManager;
+import org.apache.netbeans.api.debugger.ActionsManager;
 
-import org.netbeans.api.debugger.Breakpoint;
-import org.netbeans.api.debugger.DebuggerEngine;
+import org.apache.netbeans.api.debugger.Breakpoint;
+import org.apache.netbeans.api.debugger.DebuggerEngine;
 
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.DebuggerManagerListener;
-import org.netbeans.api.debugger.Session;
-import org.netbeans.api.debugger.Watch;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
-import org.netbeans.api.project.Project;
-import org.netbeans.spi.debugger.ActionsProviderSupport;
-import org.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.DebuggerManagerListener;
+import org.apache.netbeans.api.debugger.Session;
+import org.apache.netbeans.api.debugger.Watch;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.spi.debugger.ActionsProviderSupport;
+import org.apache.netbeans.spi.project.ActionProvider;
 import org.openide.ErrorManager;
 import org.openide.util.WeakListeners;
 

@@ -1,15 +1,15 @@
-package org.netbeans.modules.scala.sbt.classpath
+package org.apache.netbeans.modules.scala.sbt.classpath
 
 import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
 import javax.swing.event.ChangeListener
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.sbt.project.ProjectConstants
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.SourceGroup
-import org.netbeans.api.project.Sources
-import org.netbeans.modules.scala.sbt.project.SBTResolver
-import org.netbeans.spi.project.support.GenericSources
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.sbt.project.ProjectConstants
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.SourceGroup
+import org.apache.netbeans.api.project.Sources
+import org.apache.netbeans.modules.scala.sbt.project.SBTResolver
+import org.apache.netbeans.spi.project.support.GenericSources
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import org.openide.util.ChangeSupport
@@ -44,7 +44,7 @@ class SBTSources(project: Project) extends Sources {
     tpe match {
       case Sources.TYPE_GENERIC =>
         // It's necessary for project's PhysicalView (in Files window),
-        // @see org.netbeans.modules.project.ui.PhysicalView#createNodesForProject(Project)
+        // @see org.apache.netbeans.modules.project.ui.PhysicalView#createNodesForProject(Project)
         val projectDir = project.getProjectDirectory
         Array(GenericSources.group(project, projectDir, projectDir.getNameExt, projectDir.getNameExt, null, null))
 

@@ -37,10 +37,10 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
-import org.netbeans.api.lexer.{ Token, TokenId }
-import org.netbeans.api.language.util.ast.AstScope
+import org.apache.netbeans.api.lexer.{ Token, TokenId }
+import org.apache.netbeans.api.language.util.ast.AstScope
 
 object ScalaScope {
   def apply(boundsToken: Token[TokenId]) = new AstScope(Array(boundsToken))

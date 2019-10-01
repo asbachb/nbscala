@@ -1,10 +1,10 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.classpath.GlobalPathRegistry
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.sbt.classpath.SBTClassPathProvider
-import org.netbeans.spi.project.ui.ProjectOpenedHook
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.sbt.classpath.SBTClassPathProvider
+import org.apache.netbeans.spi.project.ui.ProjectOpenedHook
 
 /**
  *

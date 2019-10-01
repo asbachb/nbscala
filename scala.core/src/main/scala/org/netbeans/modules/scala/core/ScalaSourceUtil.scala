@@ -25,31 +25,31 @@
  *
  * Portions Copyrighted 2007 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.io.File
 import java.net.URL
 import java.util.logging.Logger
 import javax.swing.text.BadLocationException
 import javax.swing.text.StyledDocument
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.classpath.GlobalPathRegistry
-import org.netbeans.api.java.queries.SourceForBinaryQuery
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.language.util.ast.{ AstDfn, AstScope }
-import org.netbeans.api.lexer.TokenHierarchy
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.classfile.ClassFile
-import org.netbeans.modules.csl.api.{ ElementKind, OffsetRange }
-import org.netbeans.modules.csl.spi.ParserResult
-import org.netbeans.modules.parsing.api.{ ParserManager, ResultIterator, Source, UserTask }
-import org.netbeans.modules.parsing.impl.indexing.friendapi.IndexingController
-import org.netbeans.modules.parsing.spi.{ ParseException, Parser }
-import org.netbeans.modules.scala.core.ast.{ ScalaDfns }
-import org.netbeans.modules.scala.core.element.{ JavaElements }
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
-import org.netbeans.spi.java.classpath.support.ClassPathSupport
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.language.util.ast.{ AstDfn, AstScope }
+import org.apache.netbeans.api.lexer.TokenHierarchy
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.classfile.ClassFile
+import org.apache.netbeans.modules.csl.api.{ ElementKind, OffsetRange }
+import org.apache.netbeans.modules.csl.spi.ParserResult
+import org.apache.netbeans.modules.parsing.api.{ ParserManager, ResultIterator, Source, UserTask }
+import org.apache.netbeans.modules.parsing.impl.indexing.friendapi.IndexingController
+import org.apache.netbeans.modules.parsing.spi.{ ParseException, Parser }
+import org.apache.netbeans.modules.scala.core.ast.{ ScalaDfns }
+import org.apache.netbeans.modules.scala.core.element.{ JavaElements }
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport
 import org.openide.filesystems.{ FileObject, FileUtil }
 import org.openide.text.NbDocument
 import org.openide.util.{ Exceptions }
@@ -454,7 +454,7 @@ object ScalaSourceUtil {
     }
   }
 
-  /** @see org.netbeans.api.java.source.SourceUtils#getDependentRoots */
+  /** @see org.apache.netbeans.api.java.source.SourceUtils#getDependentRoots */
   def getDependentRoots(root: URL): Set[URL] = {
     val deps = IndexingController.getDefault.getRootDependencies
     getDependentRootsImpl(root, deps)
@@ -810,7 +810,7 @@ object ScalaSourceUtil {
   /**
    * Utility method to get the raw end in doc, reserved here for reference
    */
-  private def getRawEnd(doc: org.netbeans.editor.BaseDocument, offset: Int) = {
+  private def getRawEnd(doc: org.apache.netbeans.editor.BaseDocument, offset: Int) = {
     val end = try {
       LineDocumentUtils.getLineLastNonWhitespace(doc, offset) + 1 // * @Note line should plus 1 to equal NetBeans' doc offset
     } catch {

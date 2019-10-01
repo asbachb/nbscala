@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -49,16 +49,16 @@ import javax.swing.DefaultListModel;
 import javax.swing.JPanel;
 import javax.swing.event.ListDataEvent;
 import javax.swing.event.ListDataListener;
-import org.netbeans.api.java.platform.JavaPlatform;
-import org.netbeans.api.java.platform.PlatformsCustomizer;
-import org.netbeans.api.project.libraries.LibraryManager;
-import org.netbeans.modules.java.api.common.classpath.ClassPathSupport;
-import org.netbeans.modules.java.api.common.project.ui.ClassPathUiSupport;
-import org.netbeans.modules.java.api.common.project.ui.customizer.EditMediator;
-import org.netbeans.modules.java.api.common.ui.PlatformUiSupport;
-import org.netbeans.modules.scala.project.ui.J2SELogicalViewProvider;
-import org.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.api.java.platform.JavaPlatform;
+import org.apache.netbeans.api.java.platform.PlatformsCustomizer;
+import org.apache.netbeans.api.project.libraries.LibraryManager;
+import org.apache.netbeans.modules.java.api.common.classpath.ClassPathSupport;
+import org.apache.netbeans.modules.java.api.common.project.ui.ClassPathUiSupport;
+import org.apache.netbeans.modules.java.api.common.project.ui.customizer.EditMediator;
+import org.apache.netbeans.modules.java.api.common.ui.PlatformUiSupport;
+import org.apache.netbeans.modules.scala.project.ui.J2SELogicalViewProvider;
+import org.apache.netbeans.spi.java.project.support.ui.SharableLibrariesUtils;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
 import org.openide.awt.Mnemonics;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.Exceptions;

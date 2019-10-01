@@ -1,7 +1,7 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.sbt.project.SBTResolver
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.sbt.project.SBTResolver
 import org.openide.filesystems.FileUtil
 import org.openide.nodes.AbstractNode
 import org.openide.nodes.ChildFactory

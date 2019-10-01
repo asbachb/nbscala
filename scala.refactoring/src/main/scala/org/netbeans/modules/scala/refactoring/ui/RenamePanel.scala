@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.awt.Component
 import java.awt.event.ItemEvent
@@ -46,8 +46,8 @@ import javax.swing.JPanel
 import javax.swing.event.ChangeListener
 import javax.swing.event.DocumentEvent
 import javax.swing.event.DocumentListener
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
-import org.netbeans.modules.scala.refactoring.RefactoringModule
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
+import org.apache.netbeans.modules.scala.refactoring.RefactoringModule
 
 /**
  * Rename refactoring parameters panel

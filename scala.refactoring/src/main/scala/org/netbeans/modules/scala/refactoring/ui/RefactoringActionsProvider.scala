@@ -37,7 +37,7 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.util.Dictionary
 import java.util.logging.Level;
@@ -45,24 +45,24 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.text.Document;
 import javax.swing.text.JTextComponent;
-import org.netbeans.api.fileinfo.NonRecursiveFolder;
-import org.netbeans.editor.BaseDocument;
-import org.netbeans.api.language.util.ast.{ AstDfn, AstScope }
-import org.netbeans.modules.csl.api.ElementKind
-import org.netbeans.modules.parsing.api.ResultIterator;
-import org.netbeans.modules.parsing.api.UserTask;
-import org.netbeans.modules.refactoring.spi.ui.UI;
-import org.netbeans.modules.refactoring.spi.ui.ActionsImplementationProvider;
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUI;
-import org.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
-import org.netbeans.modules.scala.core.ast.{ ScalaItems, ScalaRootScope }
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil;
-import org.netbeans.modules.scala.refactoring.RetoucheUtils;
+import org.apache.netbeans.api.fileinfo.NonRecursiveFolder;
+import org.apache.netbeans.editor.BaseDocument;
+import org.apache.netbeans.api.language.util.ast.{ AstDfn, AstScope }
+import org.apache.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.modules.parsing.api.ResultIterator;
+import org.apache.netbeans.modules.parsing.api.UserTask;
+import org.apache.netbeans.modules.refactoring.spi.ui.UI;
+import org.apache.netbeans.modules.refactoring.spi.ui.ActionsImplementationProvider;
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUI;
+import org.apache.netbeans.modules.scala.core.{ ScalaMimeResolver, ScalaParserResult }
+import org.apache.netbeans.modules.scala.core.ast.{ ScalaItems, ScalaRootScope }
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil;
+import org.apache.netbeans.modules.scala.refactoring.RetoucheUtils;
 
-import org.netbeans.modules.parsing.api.Embedding;
-import org.netbeans.modules.parsing.api.ParserManager;
-import org.netbeans.modules.parsing.api.Source;
-import org.netbeans.modules.parsing.spi.ParseException;
+import org.apache.netbeans.modules.parsing.api.Embedding;
+import org.apache.netbeans.modules.parsing.api.ParserManager;
+import org.apache.netbeans.modules.parsing.api.Source;
+import org.apache.netbeans.modules.parsing.spi.ParseException;
 import org.openide.cookies.EditorCookie;
 import org.openide.filesystems.FileObject;
 import org.openide.loaders.DataObject;

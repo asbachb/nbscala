@@ -39,21 +39,21 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.io.IOException;
-import org.netbeans.api.project.Project;
-import org.netbeans.spi.project.support.ant.AntBasedProjectType;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.spi.project.support.ant.AntBasedProjectType;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
 
 /**
  * Factory for simple J2SE projects.
  * @author Jesse Glick
  */
-@org.openide.util.lookup.ServiceProvider(service=org.netbeans.spi.project.support.ant.AntBasedProjectType.class)
+@org.openide.util.lookup.ServiceProvider(service=org.apache.netbeans.spi.project.support.ant.AntBasedProjectType.class)
 public final class J2SEProjectType implements AntBasedProjectType {
 
-    public static final String TYPE = "org.netbeans.modules.scala.project"; // NOI18N
+    public static final String TYPE = "org.apache.netbeans.modules.scala.project"; // NOI18N
     private static final String PROJECT_CONFIGURATION_NAME = "data"; // NOI18N
     public static final String PROJECT_CONFIGURATION_NAMESPACE = "http://www.netbeans.org/ns/scala-project/1"; // NOI18N
     private static final String PRIVATE_CONFIGURATION_NAME = "data"; // NOI18N

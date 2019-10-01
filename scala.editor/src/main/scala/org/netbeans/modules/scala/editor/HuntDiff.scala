@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import java.io.BufferedReader
 import java.io.IOException

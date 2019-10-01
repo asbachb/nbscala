@@ -39,17 +39,17 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.io.File
 import java.io.IOException
 import java.util.logging.Level
 import java.util.logging.Logger
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.ProjectUtils
-import org.netbeans.api.project.ui.OpenProjects
-import org.netbeans.spi.java.classpath.ClassPathProvider
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.ProjectUtils
+import org.apache.netbeans.api.project.ui.OpenProjects
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider
 import org.openide.DialogDisplayer
 import org.openide.NotifyDescriptor
 import org.openide.filesystems.FileObject
@@ -283,14 +283,14 @@ object ScalaExecution {
   }
 
   private def getEmbeddedSbtLaunchJar: Option[File] = {
-    val codeNameBase = "org.netbeans.libs.sbt" // @see codeNameBase in pom.xml
+    val codeNameBase = "org.apache.netbeans.libs.sbt" // @see codeNameBase in pom.xml
     val version = "1"
     val sbtJar = InstalledFileLocator.getDefault.locate("modules/ext/" + codeNameBase + "/" + version + "/org-scala-sbt/sbt-launch.jar", codeNameBase, false)
     if (sbtJar != null && sbtJar.exists) Some(sbtJar) else None
   }
 
   def getPluginJarsDir: Option[File] = {
-    val codeNameBase = "org.netbeans.libs.scala.continuations.plugin"
+    val codeNameBase = "org.apache.netbeans.libs.scala.continuations.plugin"
     val version = "1"
     val pluginDir = InstalledFileLocator.getDefault.locate("modules/ext/" + codeNameBase + "/" + version + "/org-scala-lang", codeNameBase, false)
     if (pluginDir != null && pluginDir.exists && pluginDir.isDirectory) Some(pluginDir) else None

@@ -40,7 +40,7 @@
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
 import java.awt.Toolkit;
 import java.io.File;

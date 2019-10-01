@@ -36,11 +36,11 @@
  *
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.api.language.util.ast
+package org.apache.netbeans.api.language.util.ast
 
 import javax.swing.Icon
-import org.netbeans.modules.csl.api.ElementHandle
-import org.netbeans.modules.csl.api.HtmlFormatter
+import org.apache.netbeans.modules.csl.api.ElementHandle
+import org.apache.netbeans.modules.csl.api.HtmlFormatter
 
 /**
  *

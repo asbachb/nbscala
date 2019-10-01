@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.spi.scala.platform;
+package org.apache.netbeans.spi.scala.platform;
 
 import org.openide.WizardDescriptor;
 

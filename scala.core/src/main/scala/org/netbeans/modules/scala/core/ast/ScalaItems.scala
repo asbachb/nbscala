@@ -37,11 +37,11 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
-import org.netbeans.modules.csl.api.ElementKind
-import org.netbeans.api.language.util.ast.AstItem
-import org.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.api.language.util.ast.AstItem
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
 import scala.reflect.internal.Flags
 
 trait ScalaItems { self: ScalaGlobal =>

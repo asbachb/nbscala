@@ -39,14 +39,14 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import javax.swing.Action;
-import org.netbeans.api.project.Project;
-import org.netbeans.spi.project.ui.support.MainProjectSensitiveActions;
-import org.netbeans.spi.project.ui.support.ProjectActionPerformer;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.spi.project.ui.support.MainProjectSensitiveActions;
+import org.apache.netbeans.spi.project.ui.support.ProjectActionPerformer;
 
 /**
 *

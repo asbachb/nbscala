@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
@@ -49,15 +49,15 @@ import java.awt.event.WindowEvent;
 import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.modules.java.api.common.ant.UpdateHelper;
-import org.netbeans.modules.scala.project.J2SEProject;
-import org.netbeans.spi.project.support.ant.GeneratedFilesHelper;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
-import org.netbeans.spi.project.support.ant.ReferenceHelper;
-import org.netbeans.spi.project.ui.CustomizerProvider;
-import org.netbeans.spi.project.ui.support.ProjectCustomizer;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateHelper;
+import org.apache.netbeans.modules.scala.project.J2SEProject;
+import org.apache.netbeans.spi.project.support.ant.GeneratedFilesHelper;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.spi.project.support.ant.ReferenceHelper;
+import org.apache.netbeans.spi.project.ui.CustomizerProvider;
+import org.apache.netbeans.spi.project.ui.support.ProjectCustomizer;
 import org.openide.util.Lookup;
 import org.openide.util.NbBundle;
 import org.openide.util.lookup.Lookups;

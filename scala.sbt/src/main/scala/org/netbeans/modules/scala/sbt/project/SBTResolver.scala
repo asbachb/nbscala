@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import java.beans.PropertyChangeListener
 import java.beans.PropertyChangeSupport
@@ -7,9 +7,9 @@ import java.util.Timer
 import java.util.logging.Logger
 import javax.swing.event.ChangeEvent
 import javax.swing.event.ChangeListener
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.sbt.console.SBTConsoleTopComponent
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.sbt.console.SBTConsoleTopComponent
 import org.openide.filesystems.FileUtil
 import scala.collection.mutable.ArrayBuffer
 import scalariform.formatter.preferences.AllPreferences

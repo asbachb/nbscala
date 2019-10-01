@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.sbt
+package org.apache.netbeans.modules.scala.sbt
 
 import org.openide.filesystems.FileObject
 import org.openide.loaders.MultiDataObject

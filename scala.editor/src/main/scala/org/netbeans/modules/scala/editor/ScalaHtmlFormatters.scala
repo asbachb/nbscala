@@ -37,9 +37,9 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
-import org.netbeans.modules.csl.api.{ ElementKind, HtmlFormatter }
+import org.apache.netbeans.modules.csl.api.{ ElementKind, HtmlFormatter }
 
 trait ScalaHtmlFormatters {
 
@@ -164,8 +164,8 @@ trait ScalaHtmlFormatters {
     }
   }
 
-  import org.netbeans.api.lexer.{ TokenHierarchy }
-  import org.netbeans.modules.scala.core.lexer.ScalaTokenId
+  import org.apache.netbeans.api.lexer.{ TokenHierarchy }
+  import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId
   import org.openide.util.NbBundle
 
   /**

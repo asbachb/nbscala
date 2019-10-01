@@ -1,13 +1,13 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import java.awt.Image
 import javax.swing.Action
 import javax.swing.event.ChangeListener
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.sbt.project.ProjectConstants
-import org.netbeans.spi.project.ui.support.NodeFactory
-import org.netbeans.spi.project.ui.support.NodeList
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.sbt.project.ProjectConstants
+import org.apache.netbeans.spi.project.ui.support.NodeFactory
+import org.apache.netbeans.spi.project.ui.support.NodeList
 import org.openide.nodes.AbstractNode
 import org.openide.nodes.Children
 import org.openide.nodes.Node

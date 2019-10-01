@@ -36,12 +36,12 @@
  * 
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.api.language.util.ast
+package org.apache.netbeans.api.language.util.ast
 
-import org.netbeans.api.lexer.{ Token, TokenId, TokenHierarchy }
-import org.netbeans.editor.{ BaseDocument }
-import org.netbeans.modules.csl.api.{ ElementKind, Modifier, OffsetRange }
-import org.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
+import org.apache.netbeans.api.lexer.{ Token, TokenId, TokenHierarchy }
+import org.apache.netbeans.editor.{ BaseDocument }
+import org.apache.netbeans.modules.csl.api.{ ElementKind, Modifier, OffsetRange }
+import org.apache.netbeans.modules.csl.spi.{ GsfUtilities, ParserResult }
 import org.openide.filesystems.FileObject
 
 /**

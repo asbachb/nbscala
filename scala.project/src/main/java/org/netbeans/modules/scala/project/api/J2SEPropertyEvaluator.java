@@ -39,9 +39,9 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.api;
+package org.apache.netbeans.modules.scala.project.api;
 
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
 
 /**
  * Readonly access to project properties through PropertyEvaluator,

@@ -38,9 +38,9 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.platform;
+package org.apache.netbeans.modules.scala.platform;
 
-import org.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
 import org.openide.filesystems.*;
 import org.openide.cookies.InstanceCookie;
 import org.openide.ErrorManager;
@@ -51,10 +51,10 @@ import java.io.IOException;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeSupport;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
 import org.openide.util.Lookup;
 
-@org.openide.util.lookup.ServiceProvider(service=org.netbeans.modules.scala.platform.ScalaPlatformProvider.class)
+@org.openide.util.lookup.ServiceProvider(service=org.apache.netbeans.modules.scala.platform.ScalaPlatformProvider.class)
 public class DefaultScalaPlatformProvider implements ScalaPlatformProvider, FileChangeListener {
 
     private static final String PLATFORM_STORAGE = "Services/Platforms/org-netbeans-api-scala-Platform";  //NOI18N

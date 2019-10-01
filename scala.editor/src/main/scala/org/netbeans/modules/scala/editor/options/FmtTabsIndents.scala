@@ -17,16 +17,16 @@
  * Microsystems, Inc. All Rights Reserved.
  */
 
-package org.netbeans.modules.scala.editor.options
+package org.apache.netbeans.modules.scala.editor.options
 
-import org.netbeans.api.editor.settings.SimpleValueNames
-import org.netbeans.modules.options.editor.spi.PreferencesCustomizer
+import org.apache.netbeans.api.editor.settings.SimpleValueNames
+import org.apache.netbeans.modules.options.editor.spi.PreferencesCustomizer
 import org.openide.util.NbBundle
 
 import javax.swing.GroupLayout
 import javax.swing.LayoutStyle
 
-import org.netbeans.modules.scala.editor.options.FmtOptions._
+import org.apache.netbeans.modules.scala.editor.options.FmtOptions._
 
 /**
  *

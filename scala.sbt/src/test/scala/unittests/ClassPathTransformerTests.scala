@@ -3,11 +3,11 @@ package unittests
 
 import java.io.File
 import org.junit.Test
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
-import org.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
-import org.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
-import org.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
+import org.apache.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
+import org.apache.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
+import org.apache.netbeans.modules.scala.sbt.classpath.ProjectFileUrlConverter
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import org.junit.Assert

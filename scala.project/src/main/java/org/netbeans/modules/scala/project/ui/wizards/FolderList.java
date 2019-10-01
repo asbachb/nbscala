@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.wizards;
+package org.apache.netbeans.modules.scala.project.ui.wizards;
 
 
 import java.awt.Component;
@@ -52,14 +52,14 @@ import javax.swing.JFileChooser;
 import javax.swing.JList;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.event.ListSelectionEvent;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.modules.scala.project.ui.customizer.J2SESourceRootsUi;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SESourceRootsUi;
 
 
 /**

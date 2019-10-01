@@ -792,7 +792,7 @@ is divided into following sections:
                 <target name="wscompile-init" depends="init">
                     <taskdef name="wscompile" classname="com.sun.xml.rpc.tools.ant.Wscompile"
                              classpath="${{wscompile.classpath}}"/>
-                    <taskdef name="wsclientuptodate" classname="org.netbeans.modules.websvc.jaxrpc.ant.WsClientUpToDate"
+                    <taskdef name="wsclientuptodate" classname="org.apache.netbeans.modules.websvc.jaxrpc.ant.WsClientUpToDate"
                              classpath="${{wsclientuptodate.classpath}}"/>
 
                     <mkdir dir="${{build.classes.dir}}"/>
@@ -1020,7 +1020,7 @@ is divided into following sections:
                         <globmapper from="*" to="lib/*"/>
                     </chainedmapper>
                 </pathconvert>
-                <taskdef classname="org.netbeans.modules.java.j2seproject.copylibstask.CopyLibs" name="copylibs" classpath="${{libs.CopyLibs.classpath}}"/>
+                <taskdef classname="org.apache.netbeans.modules.java.j2seproject.copylibstask.CopyLibs" name="copylibs" classpath="${{libs.CopyLibs.classpath}}"/>
                 <copylibs manifest="${{manifest.file}}" runtimeclasspath="${{run.classpath.without.build.classes.dir}}" jarfile="${{dist.jar}}" compress="${{jar.compress}}">
                     <fileset dir="${{build.classes.dir}}"/>
                     <manifest>

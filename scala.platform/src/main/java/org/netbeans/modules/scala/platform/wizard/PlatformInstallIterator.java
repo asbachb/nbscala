@@ -39,16 +39,16 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.platform.wizard;
+package org.apache.netbeans.modules.scala.platform.wizard;
 
 import java.io.IOException;
 import java.util.*;
 import javax.swing.JComponent;
 import javax.swing.event.*;
-import org.netbeans.modules.scala.platform.InstallerRegistry;
-import org.netbeans.spi.scala.platform.CustomPlatformInstall;
-import org.netbeans.spi.scala.platform.GeneralPlatformInstall;
-import org.netbeans.spi.scala.platform.PlatformInstall;
+import org.apache.netbeans.modules.scala.platform.InstallerRegistry;
+import org.apache.netbeans.spi.scala.platform.CustomPlatformInstall;
+import org.apache.netbeans.spi.scala.platform.GeneralPlatformInstall;
+import org.apache.netbeans.spi.scala.platform.PlatformInstall;
 
 import org.openide.loaders.*;
 import org.openide.util.NbBundle;

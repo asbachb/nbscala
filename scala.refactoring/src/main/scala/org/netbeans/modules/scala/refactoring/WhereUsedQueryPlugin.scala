@@ -38,38 +38,38 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring;
+package org.apache.netbeans.modules.scala.refactoring;
 
 import java.io.IOException
 import java.util.logging.Logger
 //import javax.swing.Icon;
 //import javax.swing.text.Document;
-import org.netbeans.modules.csl.api.ElementKind;
-import org.netbeans.modules.csl.api.Error;
-import org.netbeans.modules.csl.api.Modifier;
-import org.netbeans.modules.csl.api.OffsetRange;
-import org.netbeans.modules.csl.api.Severity;
-//import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.language.util.text.BoyerMoore
-import org.netbeans.api.lexer.Token;
-//import org.netbeans.api.lexer.TokenHierarchy;
-import org.netbeans.api.lexer.TokenId;
-import org.netbeans.api.lexer.TokenSequence;
-import org.netbeans.api.lexer.TokenUtilities;
-//import org.netbeans.editor.BaseDocument;
-import org.netbeans.modules.csl.api.UiUtils
-//import org.netbeans.modules.csl.spi.GsfUtilities;
-import org.netbeans.modules.csl.spi.support.ModificationResult;
-//import org.netbeans.modules.parsing.api.Source
-import org.netbeans.modules.refactoring.api.Problem;
-import org.netbeans.modules.refactoring.api.ProgressEvent;
-import org.netbeans.modules.refactoring.api.WhereUsedQuery;
-import org.netbeans.modules.refactoring.spi.RefactoringElementsBag;
+import org.apache.netbeans.modules.csl.api.ElementKind;
+import org.apache.netbeans.modules.csl.api.Error;
+import org.apache.netbeans.modules.csl.api.Modifier;
+import org.apache.netbeans.modules.csl.api.OffsetRange;
+import org.apache.netbeans.modules.csl.api.Severity;
+//import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.language.util.text.BoyerMoore
+import org.apache.netbeans.api.lexer.Token;
+//import org.apache.netbeans.api.lexer.TokenHierarchy;
+import org.apache.netbeans.api.lexer.TokenId;
+import org.apache.netbeans.api.lexer.TokenSequence;
+import org.apache.netbeans.api.lexer.TokenUtilities;
+//import org.apache.netbeans.editor.BaseDocument;
+import org.apache.netbeans.modules.csl.api.UiUtils
+//import org.apache.netbeans.modules.csl.spi.GsfUtilities;
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult;
+//import org.apache.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.modules.refactoring.api.Problem;
+import org.apache.netbeans.modules.refactoring.api.ProgressEvent;
+import org.apache.netbeans.modules.refactoring.api.WhereUsedQuery;
+import org.apache.netbeans.modules.refactoring.spi.RefactoringElementsBag;
 
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ast.{ ScalaItems, ScalaRootScope }
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ast.{ ScalaItems, ScalaRootScope }
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
 import org.openide.filesystems.FileObject
 import org.openide.util.NbBundle;
 import scala.collection.mutable.MutableList

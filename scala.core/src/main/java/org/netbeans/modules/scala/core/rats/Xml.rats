@@ -42,7 +42,7 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.Xml;
+module org.apache.netbeans.modules.scala.core.rats.Xml;
 
 // ----- XML
 

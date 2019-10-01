@@ -39,12 +39,12 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.breakpoints;
+package org.apache.netbeans.modules.scala.debugger.breakpoints;
 
 import java.awt.Dimension;
 import java.awt.Rectangle;
 
-import org.netbeans.api.debugger.jpda.JPDABreakpoint;
+import org.apache.netbeans.api.debugger.jpda.JPDABreakpoint;
 
 /**
  * @author  jj97931

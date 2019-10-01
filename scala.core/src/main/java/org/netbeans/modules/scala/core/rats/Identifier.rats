@@ -42,13 +42,13 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.Identifier;
+module org.apache.netbeans.modules.scala.core.rats.Identifier;
 
-import org.netbeans.modules.scala.core.rats.Character;
-import org.netbeans.modules.scala.core.rats.Keyword;
-import org.netbeans.modules.scala.core.rats.Spacing;
-import org.netbeans.modules.scala.core.rats.Literal;
-import org.netbeans.modules.scala.core.rats.Unicode;
+import org.apache.netbeans.modules.scala.core.rats.Character;
+import org.apache.netbeans.modules.scala.core.rats.Keyword;
+import org.apache.netbeans.modules.scala.core.rats.Spacing;
+import org.apache.netbeans.modules.scala.core.rats.Literal;
+import org.apache.netbeans.modules.scala.core.rats.Unicode;
 
 
 // ----- Identifier

@@ -1,10 +1,10 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import javax.swing.event.ChangeListener
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.sbt.project.ProjectConstants
-import org.netbeans.spi.project.ui.support.NodeFactory
-import org.netbeans.spi.project.ui.support.NodeList
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.sbt.project.ProjectConstants
+import org.apache.netbeans.spi.project.ui.support.NodeFactory
+import org.apache.netbeans.spi.project.ui.support.NodeList
 import org.openide.filesystems.FileObject
 import org.openide.loaders.DataObject
 import org.openide.loaders.DataObjectNotFoundException

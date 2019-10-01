@@ -37,13 +37,13 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
-import org.netbeans.modules.csl.api.{ ElementKind, Modifier }
-import org.netbeans.api.language.util.ast.AstItem
-import org.netbeans.modules.csl.api.HtmlFormatter
+import org.apache.netbeans.modules.csl.api.{ ElementKind, Modifier }
+import org.apache.netbeans.api.language.util.ast.AstItem
+import org.apache.netbeans.modules.csl.api.HtmlFormatter
 
-import org.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
 
 import scala.reflect.internal.Flags
 
@@ -606,38 +606,38 @@ trait ScalaUtils { self: ScalaGlobal =>
                at scala.tools.nsc.typechecker.Namers$$anon$1.completeImpl(Namers.scala:1498)
                at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter$class.complete(Namers.scala:1506)
                at scala.tools.nsc.typechecker.Namers$$anon$1.complete(Namers.scala:1496)
-               at org.netbeans.modules.scala.core.ast.ScalaUtils$ScalaUtil$.completeIfWithLazyType(ScalaUtils.scala:491)
-               at org.netbeans.modules.scala.core.ast.ScalaUtils$ScalaUtil$.isProperType(ScalaUtils.scala:499)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$$importedSymbol$1.apply(ScalaAstVisitor.scala:658)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$$importedSymbol$1.apply(ScalaAstVisitor.scala:658)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaUtils$ScalaUtil$.completeIfWithLazyType(ScalaUtils.scala:491)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaUtils$ScalaUtil$.isProperType(ScalaUtils.scala:499)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$$importedSymbol$1.apply(ScalaAstVisitor.scala:658)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$$importedSymbol$1.apply(ScalaAstVisitor.scala:658)
                at scala.collection.Iterator$class.find(Iterator.scala:780)
                at scala.collection.AbstractIterator.find(Iterator.scala:1156)
                at scala.collection.IterableLike$class.find(IterableLike.scala:79)
                at scala.reflect.internal.Scopes$Scope.find(Scopes.scala:44)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$$importedSymbol(ScalaAstVisitor.scala:658)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse$15.apply(ScalaAstVisitor.scala:299)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse$15.apply(ScalaAstVisitor.scala:287)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$$importedSymbol(ScalaAstVisitor.scala:658)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse$15.apply(ScalaAstVisitor.scala:299)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse$15.apply(ScalaAstVisitor.scala:287)
                at scala.collection.immutable.List.foreach(List.scala:309)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse(ScalaAstVisitor.scala:287)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverseTrees$1.apply(ScalaAstVisitor.scala:554)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverseTrees$1.apply(ScalaAstVisitor.scala:554)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse(ScalaAstVisitor.scala:287)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverseTrees$1.apply(ScalaAstVisitor.scala:554)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverseTrees$1.apply(ScalaAstVisitor.scala:554)
                at scala.collection.immutable.List.foreach(List.scala:309)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverseTrees(ScalaAstVisitor.scala:554)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse$1.apply$mcV$sp(ScalaAstVisitor.scala:144)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$atOwner(ScalaAstVisitor.scala:580)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse(ScalaAstVisitor.scala:142)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.apply(ScalaAstVisitor.scala:114)
-               at org.netbeans.modules.scala.core.ast.ScalaAstVisitor.visit(ScalaAstVisitor.scala:104)
-               at org.netbeans.modules.scala.core.ScalaGlobal.getSemanticRoot(ScalaGlobal.scala:280)
-               [catch] at org.netbeans.modules.scala.core.ScalaGlobal.askForSemantic(ScalaGlobal.scala:193)
-               at org.netbeans.modules.scala.core.ScalaParserResult.toSemanticed(ScalaParserResult.scala:121)
-               at org.netbeans.modules.scala.core.ScalaParserResult.rootScope$lzycompute(ScalaParserResult.scala:167)
-               at org.netbeans.modules.scala.core.ScalaParserResult.rootScope(ScalaParserResult.scala:164)
-               at org.netbeans.modules.scala.editor.overridden.IsOverriddenAnnotationHandler.process(IsOverriddenAnnotationHandler.scala:241)
-               at org.netbeans.modules.scala.editor.overridden.IsOverriddenAnnotationHandler.run(IsOverriddenAnnotationHandler.scala:218)
-               at org.netbeans.modules.scala.editor.overridden.IsOverriddenAnnotationHandler.run(IsOverriddenAnnotationHandler.scala:180)
-               at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:559)
-               at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:735)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverseTrees(ScalaAstVisitor.scala:554)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$$anonfun$org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse$1.apply$mcV$sp(ScalaAstVisitor.scala:144)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$atOwner(ScalaAstVisitor.scala:580)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.org$netbeans$modules$scala$core$ast$ScalaAstVisitor$treeTraverser$$traverse(ScalaAstVisitor.scala:142)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor$treeTraverser$.apply(ScalaAstVisitor.scala:114)
+               at org.apache.netbeans.modules.scala.core.ast.ScalaAstVisitor.visit(ScalaAstVisitor.scala:104)
+               at org.apache.netbeans.modules.scala.core.ScalaGlobal.getSemanticRoot(ScalaGlobal.scala:280)
+               [catch] at org.apache.netbeans.modules.scala.core.ScalaGlobal.askForSemantic(ScalaGlobal.scala:193)
+               at org.apache.netbeans.modules.scala.core.ScalaParserResult.toSemanticed(ScalaParserResult.scala:121)
+               at org.apache.netbeans.modules.scala.core.ScalaParserResult.rootScope$lzycompute(ScalaParserResult.scala:167)
+               at org.apache.netbeans.modules.scala.core.ScalaParserResult.rootScope(ScalaParserResult.scala:164)
+               at org.apache.netbeans.modules.scala.editor.overridden.IsOverriddenAnnotationHandler.process(IsOverriddenAnnotationHandler.scala:241)
+               at org.apache.netbeans.modules.scala.editor.overridden.IsOverriddenAnnotationHandler.run(IsOverriddenAnnotationHandler.scala:218)
+               at org.apache.netbeans.modules.scala.editor.overridden.IsOverriddenAnnotationHandler.run(IsOverriddenAnnotationHandler.scala:180)
+               at org.apache.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:559)
+               at org.apache.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:735)
                at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
                at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
                at java.util.concurrent.FutureTask.run(FutureTask.java:166)

@@ -39,20 +39,20 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.libraries;
+package org.apache.netbeans.modules.scala.stdplatform.libraries;
 
 import java.net.URL;
 import java.util.List;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.project.libraries.Library;
-import org.netbeans.api.project.libraries.LibraryManager;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.spi.java.classpath.ClassPathProvider;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.project.libraries.Library;
+import org.apache.netbeans.api.project.libraries.LibraryManager;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 
-@org.openide.util.lookup.ServiceProvider(service=org.netbeans.spi.java.classpath.ClassPathProvider.class, position=156)
+@org.openide.util.lookup.ServiceProvider(service=org.apache.netbeans.spi.java.classpath.ClassPathProvider.class, position=156)
 public class J2SELibraryClassPathProvider implements ClassPathProvider {
 
     public ClassPath findClassPath(FileObject file, String type) {

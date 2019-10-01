@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden
+package org.apache.netbeans.modules.scala.editor.overridden
 
 import java.awt.Component
 import java.awt.Cursor
@@ -47,12 +47,12 @@ import java.awt.event.FocusEvent
 import java.awt.event.FocusListener
 import java.awt.event.KeyEvent
 import java.awt.event.MouseEvent
-import org.netbeans.modules.scala.editor.ui.DefaultListCellRenderer
+import org.apache.netbeans.modules.scala.editor.ui.DefaultListCellRenderer
 import javax.swing.DefaultListModel
 import javax.swing.JList
 import javax.swing.JPanel
 import javax.swing.ListModel
-import org.netbeans.modules.csl.api.UiUtils
+import org.apache.netbeans.modules.csl.api.UiUtils
 
 /**
  *

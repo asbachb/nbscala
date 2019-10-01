@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.applet;
+package org.apache.netbeans.modules.scala.project.applet;
 
 import com.sun.source.tree.CompilationUnitTree;
 import com.sun.source.tree.Tree;
@@ -52,20 +52,20 @@ import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
-import org.netbeans.api.java.source.CancellableTask;
-import org.netbeans.api.java.source.CompilationController;
-import org.netbeans.api.java.source.JavaSource;
+import org.apache.netbeans.api.java.source.CancellableTask;
+import org.apache.netbeans.api.java.source.CompilationController;
+import org.apache.netbeans.api.java.source.JavaSource;
 
 import org.openide.*;
 import org.openide.modules.SpecificationVersion;
 import org.openide.filesystems.*;
 import org.openide.util.*;
 
-import org.netbeans.api.java.classpath.*;
+import org.apache.netbeans.api.java.classpath.*;
 
-import org.netbeans.api.java.platform.*;
+import org.apache.netbeans.api.java.platform.*;
 
-import org.netbeans.modules.scala.project.J2SEProjectUtil;
+import org.apache.netbeans.modules.scala.project.J2SEProjectUtil;
 
 /** Support for execution of applets.
 *

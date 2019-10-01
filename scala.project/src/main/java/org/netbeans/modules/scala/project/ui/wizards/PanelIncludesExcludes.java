@@ -39,14 +39,14 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.wizards;
+package org.apache.netbeans.modules.scala.project.ui.wizards;
 
 import java.awt.Component;
 import java.io.File;
 import javax.swing.event.ChangeListener;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
-import org.netbeans.spi.java.project.support.ui.IncludeExcludeVisualizer;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.spi.java.project.support.ui.IncludeExcludeVisualizer;
 import org.openide.WizardDescriptor;
 import org.openide.util.HelpCtx;
 

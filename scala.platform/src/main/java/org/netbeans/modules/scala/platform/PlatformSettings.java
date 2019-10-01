@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.platform;
+package org.apache.netbeans.modules.scala.platform;
 
 import java.io.File;
 import java.util.prefs.Preferences;

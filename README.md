@@ -177,7 +177,7 @@ The Project targets version 2.10.x and 2.11.x of the Scala release.
 
 * Add nbsbt to your plugin definition file. You can use either the global one at  **~/.sbt/0.13/plugins/plugins.sbt** or the project-specific one at **PROJECT_DIR/project/plugins.sbt**
 
-        addSbtPlugin("org.netbeans.nbsbt" % "nbsbt-plugin" % "1.1.4")
+        addSbtPlugin("org.apache.netbeans.nbsbt" % "nbsbt-plugin" % "1.1.4")
 
 
 ## FAQ
@@ -199,7 +199,7 @@ The Project targets version 2.10.x and 2.11.x of the Scala release.
 
 **A**: Try to remove published nbsbt plugin from your local .ivy2 repository and sbt plugins cache:
 
-    rm -r ~/.ivy2/local/org.netbeans.nbsbt
+    rm -r ~/.ivy2/local/org.apache.netbeans.nbsbt
     rm -r ~/.sbt/0.13/plugins/target
 
 and redo 'publish-local' for the NetBeans sbt plugin <https://github.com/dcaoyuan/nbsbt>.

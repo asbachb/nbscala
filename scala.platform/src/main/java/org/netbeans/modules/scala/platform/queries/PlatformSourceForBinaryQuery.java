@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.platform.queries;
+package org.apache.netbeans.modules.scala.platform.queries;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -47,14 +47,14 @@ import java.net.MalformedURLException;
 import java.util.Map;
 import java.util.HashMap;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.queries.SourceForBinaryQuery;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.filesystems.URLMapper;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.spi.java.queries.SourceForBinaryQueryImplementation;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.spi.java.queries.SourceForBinaryQueryImplementation;
 import org.openide.util.ChangeSupport;
 import org.openide.util.Exceptions;
 import org.openide.util.WeakListeners;
@@ -65,7 +65,7 @@ import org.openide.util.WeakListeners;
  * provides sources for the active platform and project libraries
  */
 
-@org.openide.util.lookup.ServiceProvider(service=org.netbeans.spi.java.queries.SourceForBinaryQueryImplementation.class, position=150)
+@org.openide.util.lookup.ServiceProvider(service=org.apache.netbeans.spi.java.queries.SourceForBinaryQueryImplementation.class, position=150)
 public class PlatformSourceForBinaryQuery implements SourceForBinaryQueryImplementation {
     
     private static final String JAR_FILE = "jar:file:";                 //NOI18N

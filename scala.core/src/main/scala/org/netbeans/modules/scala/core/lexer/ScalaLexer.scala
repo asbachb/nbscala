@@ -38,15 +38,15 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.core.lexer
+package org.apache.netbeans.modules.scala.core.lexer
 
 import java.io.Reader
 import java.util.logging.Level
 import java.util.logging.Logger
-import org.netbeans.api.lexer.{ Token, TokenId }
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId._
-import org.netbeans.modules.scala.core.rats.LexerScala
-import org.netbeans.spi.lexer.{ Lexer, LexerInput, LexerRestartInfo }
+import org.apache.netbeans.api.lexer.{ Token, TokenId }
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId._
+import org.apache.netbeans.modules.scala.core.rats.LexerScala
+import org.apache.netbeans.spi.lexer.{ Lexer, LexerInput, LexerRestartInfo }
 import xtc.tree.GNode
 import xtc.util.Pair
 

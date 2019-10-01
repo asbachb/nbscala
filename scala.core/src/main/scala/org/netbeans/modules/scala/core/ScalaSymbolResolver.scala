@@ -37,13 +37,13 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
-import org.netbeans.api.lexer.TokenHierarchy
+import org.apache.netbeans.api.lexer.TokenHierarchy
 
-import org.netbeans.api.language.util.ast.AstItem
+import org.apache.netbeans.api.language.util.ast.AstItem
 
-import org.netbeans.modules.scala.core.lexer.{ ScalaTokenId }
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaTokenId }
 
 abstract class ScalaSymbolResolver {
 

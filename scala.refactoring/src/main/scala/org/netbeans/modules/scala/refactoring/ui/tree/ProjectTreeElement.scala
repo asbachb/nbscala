@@ -39,15 +39,15 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui.tree
+package org.apache.netbeans.modules.scala.refactoring.ui.tree
 
 import java.lang.ref.WeakReference;
 import javax.swing.Icon;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectInformation;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.modules.refactoring.spi.ui.TreeElement
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectInformation;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElement
 import org.openide.filesystems.FileObject;
 
 /**

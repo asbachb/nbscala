@@ -39,17 +39,17 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.breakpoints;
+package org.apache.netbeans.modules.scala.debugger.breakpoints;
 
 import java.awt.Dimension;
 import javax.swing.JEditorPane;
 import javax.swing.JPanel;
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.Breakpoint.HIT_COUNT_FILTERING_STYLE;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
-import org.netbeans.modules.scala.debugger.EditorContextBridge;
-import org.netbeans.modules.scala.debugger.WatchPanel;
-import org.netbeans.spi.debugger.ui.Controller;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.Breakpoint.HIT_COUNT_FILTERING_STYLE;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.modules.scala.debugger.EditorContextBridge;
+import org.apache.netbeans.modules.scala.debugger.WatchPanel;
+import org.apache.netbeans.spi.debugger.ui.Controller;
 import org.openide.DialogDisplayer;
 import org.openide.NotifyDescriptor;
 import org.openide.ErrorManager;

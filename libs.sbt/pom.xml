@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.netbeans.modules</groupId>
+        <groupId>org.apache.netbeans.modules</groupId>
         <artifactId>nbscala</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -259,7 +259,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <author>Caoyuan Deng</author>
-                    <codeNameBase>org.netbeans.libs.sbt/1</codeNameBase>
+                    <codeNameBase>org.apache.netbeans.libs.sbt/1</codeNameBase>
                     <licenseName>BSD-style License</licenseName>
                     <licenseFile>license.txt</licenseFile>
                     <publicPackages>

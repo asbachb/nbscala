@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.console
+package org.apache.netbeans.modules.scala.console
 
 import java.io.FilterOutputStream
 import java.io.IOException

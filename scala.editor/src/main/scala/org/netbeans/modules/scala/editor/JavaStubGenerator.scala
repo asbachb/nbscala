@@ -36,12 +36,12 @@
  *
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import java.io.FileNotFoundException
 import java.util.logging.Logger
 
-import org.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
 
 import scala.collection.mutable.HashSet
 import scala.reflect.NameTransformer

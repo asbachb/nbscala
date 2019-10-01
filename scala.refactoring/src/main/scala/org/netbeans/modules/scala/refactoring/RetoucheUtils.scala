@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import java.awt.Color;
 import java.io.CharConversionException;
@@ -51,33 +51,33 @@ import java.util.StringTokenizer
 import java.util.logging.Logger
 import javax.swing.text.AttributeSet;
 import javax.swing.text.StyleConstants;
-import org.netbeans.api.editor.mimelookup.MimeLookup;
-import org.netbeans.api.editor.mimelookup.MimePath;
-import org.netbeans.api.editor.settings.FontColorSettings;
-import org.netbeans.editor.BaseDocument;
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.java.classpath.GlobalPathRegistry
-import org.netbeans.api.java.queries.SourceForBinaryQuery
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.language.util.ast.{ AstDfn, AstScope }
-import org.netbeans.api.lexer.Token;
-import org.netbeans.api.lexer.TokenHierarchy;
-import org.netbeans.api.lexer.TokenId;
-import org.netbeans.api.lexer.TokenSequence;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.Sources;
-import org.netbeans.api.project.ui.OpenProjects;
-import org.netbeans.modules.csl.api.ElementKind
-import org.netbeans.modules.scala.core.ScalaMimeResolver
-import org.netbeans.modules.scala.core.ScalaSourceUtil
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId
-import org.netbeans.modules.parsing.spi.Parser;
-import org.netbeans.modules.parsing.spi.indexing.support.QuerySupport;
-import org.netbeans.spi.java.classpath.support.ClassPathSupport
+import org.apache.netbeans.api.editor.mimelookup.MimeLookup;
+import org.apache.netbeans.api.editor.mimelookup.MimePath;
+import org.apache.netbeans.api.editor.settings.FontColorSettings;
+import org.apache.netbeans.editor.BaseDocument;
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.java.classpath.GlobalPathRegistry
+import org.apache.netbeans.api.java.queries.SourceForBinaryQuery
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.language.util.ast.{ AstDfn, AstScope }
+import org.apache.netbeans.api.lexer.Token;
+import org.apache.netbeans.api.lexer.TokenHierarchy;
+import org.apache.netbeans.api.lexer.TokenId;
+import org.apache.netbeans.api.lexer.TokenSequence;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.Sources;
+import org.apache.netbeans.api.project.ui.OpenProjects;
+import org.apache.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.modules.scala.core.ScalaMimeResolver
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId
+import org.apache.netbeans.modules.parsing.spi.Parser;
+import org.apache.netbeans.modules.parsing.spi.indexing.support.QuerySupport;
+import org.apache.netbeans.spi.java.classpath.support.ClassPathSupport
 import org.openide.filesystems.FileObject;
 import org.openide.util.Lookup;
 import org.openide.filesystems.FileUtil;

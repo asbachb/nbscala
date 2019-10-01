@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.awt.Dialog;
 import java.awt.event.MouseEvent;
@@ -63,33 +63,33 @@ import javax.swing.JButton;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import org.apache.tools.ant.module.api.support.ActionUtils;
-import org.netbeans.api.fileinfo.NonRecursiveFolder;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.java.queries.UnitTestForSourceQuery;
-import org.netbeans.api.java.source.ui.ScanDialog;
-import org.netbeans.api.project.ProjectInformation;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.Sources;
-import org.netbeans.modules.csl.api.ElementKind;
-import org.netbeans.modules.java.api.common.ant.UpdateHelper;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.modules.parsing.api.ParserManager;
-import org.netbeans.modules.parsing.api.ResultIterator;
-import org.netbeans.modules.parsing.api.Source;
-import org.netbeans.modules.parsing.api.UserTask;
-import org.netbeans.modules.parsing.spi.ParseException;
-import org.netbeans.modules.scala.project.classpath.ClassPathProviderImpl;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
-import org.netbeans.modules.scala.project.ui.customizer.MainClassChooser;
-import org.netbeans.modules.scala.project.ui.customizer.MainClassWarning;
-import org.netbeans.spi.project.ActionProvider;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.GeneratedFilesHelper;
-import org.netbeans.spi.project.ui.support.DefaultProjectOperations;
+import org.apache.netbeans.api.fileinfo.NonRecursiveFolder;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.java.queries.UnitTestForSourceQuery;
+import org.apache.netbeans.api.java.source.ui.ScanDialog;
+import org.apache.netbeans.api.project.ProjectInformation;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.Sources;
+import org.apache.netbeans.modules.csl.api.ElementKind;
+import org.apache.netbeans.modules.java.api.common.ant.UpdateHelper;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.modules.parsing.api.ParserManager;
+import org.apache.netbeans.modules.parsing.api.ResultIterator;
+import org.apache.netbeans.modules.parsing.api.Source;
+import org.apache.netbeans.modules.parsing.api.UserTask;
+import org.apache.netbeans.modules.parsing.spi.ParseException;
+import org.apache.netbeans.modules.scala.project.classpath.ClassPathProviderImpl;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.modules.scala.project.ui.customizer.MainClassChooser;
+import org.apache.netbeans.modules.scala.project.ui.customizer.MainClassWarning;
+import org.apache.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.GeneratedFilesHelper;
+import org.apache.netbeans.spi.project.ui.support.DefaultProjectOperations;
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
 import org.openide.ErrorManager;
@@ -110,10 +110,10 @@ import org.openide.util.NbBundle;
 import org.openide.util.Task;
 import org.openide.util.TaskListener;
 
-import org.netbeans.api.language.util.ast.AstDfn;
-import org.netbeans.modules.scala.console.shell.ScalaConsoleTopComponent;
-import org.netbeans.modules.scala.core.ScalaParserResult;
-import org.netbeans.modules.scala.core.ast.ScalaRootScope;
+import org.apache.netbeans.api.language.util.ast.AstDfn;
+import org.apache.netbeans.modules.scala.console.shell.ScalaConsoleTopComponent;
+import org.apache.netbeans.modules.scala.core.ScalaParserResult;
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope;
 
 /**
  * Action provider of the J2SE project. This is the place where to do strange

@@ -39,13 +39,13 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui.tree
+package org.apache.netbeans.modules.scala.refactoring.ui.tree
 
 import javax.swing.Icon
-import org.netbeans.modules.refactoring.api.RefactoringElement
-import org.netbeans.modules.refactoring.spi.ui.TreeElement
-import org.netbeans.modules.refactoring.spi.ui.TreeElementFactory
-import org.netbeans.modules.scala.refactoring.RetoucheUtils
+import org.apache.netbeans.modules.refactoring.api.RefactoringElement
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElement
+import org.apache.netbeans.modules.refactoring.spi.ui.TreeElementFactory
+import org.apache.netbeans.modules.scala.refactoring.RetoucheUtils
 
 /**
  *

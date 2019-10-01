@@ -36,14 +36,14 @@
  *
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.swing.ImageIcon
 import javax.swing.text.{ BadLocationException }
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.language.util.ast.{ AstDfn, AstScope }
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.{
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.language.util.ast.{ AstDfn, AstScope }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.{
   ElementHandle,
   ElementKind,
   Modifier,
@@ -52,11 +52,11 @@ import org.netbeans.modules.csl.api.{
   StructureItem,
   StructureScanner
 }
-import org.netbeans.modules.csl.api.StructureScanner._
-import org.netbeans.modules.csl.spi.ParserResult
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ast.{ ScalaDfns }
-import org.netbeans.modules.scala.core.lexer.{ ScalaTokenId, ScalaLexUtil }
+import org.apache.netbeans.modules.csl.api.StructureScanner._
+import org.apache.netbeans.modules.csl.spi.ParserResult
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ast.{ ScalaDfns }
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaTokenId, ScalaLexUtil }
 import org.openide.util.Exceptions
 
 import scala.collection.mutable.{ Stack }

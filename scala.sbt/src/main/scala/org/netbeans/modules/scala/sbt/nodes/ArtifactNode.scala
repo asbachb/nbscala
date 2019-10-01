@@ -1,13 +1,13 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import java.awt.Image
 import java.beans.PropertyChangeListener
 import java.io.File
 import javax.swing.Action
 import javax.swing.Icon
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.SourceGroup
-import org.netbeans.spi.java.project.support.ui.PackageView
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.SourceGroup
+import org.apache.netbeans.spi.java.project.support.ui.PackageView
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import org.openide.nodes.AbstractNode

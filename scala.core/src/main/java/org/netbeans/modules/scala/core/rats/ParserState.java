@@ -37,7 +37,7 @@
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core.rats;
+package org.apache.netbeans.modules.scala.core.rats;
 
 import java.util.Stack;
 import xtc.util.State;

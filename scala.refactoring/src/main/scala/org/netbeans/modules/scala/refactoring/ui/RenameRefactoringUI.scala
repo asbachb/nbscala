@@ -38,20 +38,20 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.io.IOException
 import java.text.MessageFormat
 import javax.swing.event.ChangeListener
-import org.netbeans.api.fileinfo.NonRecursiveFolder
-import org.netbeans.modules.csl.api.ElementKind
-import org.netbeans.modules.refactoring.api.AbstractRefactoring
-import org.netbeans.modules.refactoring.api.RenameRefactoring
-import org.netbeans.modules.refactoring.api.Problem
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUI
-import org.netbeans.modules.refactoring.spi.ui.RefactoringUIBypass
-import org.netbeans.modules.refactoring.spi.ui.UI
+import org.apache.netbeans.api.fileinfo.NonRecursiveFolder
+import org.apache.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring
+import org.apache.netbeans.modules.refactoring.api.RenameRefactoring
+import org.apache.netbeans.modules.refactoring.api.Problem
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUI
+import org.apache.netbeans.modules.refactoring.spi.ui.RefactoringUIBypass
+import org.apache.netbeans.modules.refactoring.spi.ui.UI
 import org.openide.filesystems.FileObject
 import org.openide.loaders.DataFolder
 import org.openide.loaders.DataObject
@@ -59,8 +59,8 @@ import org.openide.util.HelpCtx
 import org.openide.util.NbBundle
 import org.openide.util.lookup.Lookups
 
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.refactoring.RetoucheUtils
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.refactoring.RetoucheUtils
 
 /**
  *

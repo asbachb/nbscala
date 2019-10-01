@@ -38,14 +38,14 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.util.logging.Logger
 import javax.swing.event.ChangeListener
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.modules.parsing.api.{ Snapshot, Task }
-import org.netbeans.modules.parsing.impl.indexing.TimeStamps
-import org.netbeans.modules.parsing.spi.{ ParseException, Parser, ParserFactory, SourceModificationEvent }
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.modules.parsing.api.{ Snapshot, Task }
+import org.apache.netbeans.modules.parsing.impl.indexing.TimeStamps
+import org.apache.netbeans.modules.parsing.spi.{ ParseException, Parser, ParserFactory, SourceModificationEvent }
 import org.openide.filesystems.{ FileObject, FileUtil }
 
 /**

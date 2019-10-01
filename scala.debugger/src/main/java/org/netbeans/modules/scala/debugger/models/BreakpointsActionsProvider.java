@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.models;
+package org.apache.netbeans.modules.scala.debugger.models;
 
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
@@ -48,23 +48,23 @@ import javax.swing.Action;
 import javax.swing.JButton;
 import javax.swing.JComponent;
 
-import org.netbeans.api.debugger.Breakpoint;
-import org.netbeans.api.debugger.jpda.ClassLoadUnloadBreakpoint;
-import org.netbeans.api.debugger.jpda.ExceptionBreakpoint;
-import org.netbeans.api.debugger.jpda.FieldBreakpoint;
-import org.netbeans.api.debugger.jpda.JPDABreakpoint;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.debugger.jpda.MethodBreakpoint;
-import org.netbeans.api.debugger.jpda.ThreadBreakpoint;
-import org.netbeans.spi.viewmodel.NodeActionsProvider;
-import org.netbeans.spi.viewmodel.ModelListener;
-import org.netbeans.spi.viewmodel.UnknownTypeException;
-import org.netbeans.spi.viewmodel.Models;
+import org.apache.netbeans.api.debugger.Breakpoint;
+import org.apache.netbeans.api.debugger.jpda.ClassLoadUnloadBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.ExceptionBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.FieldBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.JPDABreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.MethodBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.ThreadBreakpoint;
+import org.apache.netbeans.spi.viewmodel.NodeActionsProvider;
+import org.apache.netbeans.spi.viewmodel.ModelListener;
+import org.apache.netbeans.spi.viewmodel.UnknownTypeException;
+import org.apache.netbeans.spi.viewmodel.Models;
 
-import org.netbeans.modules.scala.debugger.EditorContextBridge;
-import org.netbeans.modules.scala.debugger.breakpoints.*;
-import org.netbeans.spi.debugger.ui.Controller;
-import org.netbeans.spi.viewmodel.NodeActionsProviderFilter;
+import org.apache.netbeans.modules.scala.debugger.EditorContextBridge;
+import org.apache.netbeans.modules.scala.debugger.breakpoints.*;
+import org.apache.netbeans.spi.debugger.ui.Controller;
+import org.apache.netbeans.spi.viewmodel.NodeActionsProviderFilter;
 
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;

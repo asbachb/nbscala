@@ -36,14 +36,14 @@
  *
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
-import org.netbeans.api.lexer.{ Token, TokenId, TokenHierarchy }
-import org.netbeans.modules.csl.api.{ ElementKind, HtmlFormatter, Modifier }
+import org.apache.netbeans.api.lexer.{ Token, TokenId, TokenHierarchy }
+import org.apache.netbeans.modules.csl.api.{ ElementKind, HtmlFormatter, Modifier }
 import org.openide.filesystems.FileObject
 
-import org.netbeans.api.language.util.ast.{ AstDfn, AstRef, AstScope }
-import org.netbeans.modules.scala.core.{ ScalaGlobal, ScalaMimeResolver, ScalaSourceUtil }
+import org.apache.netbeans.api.language.util.ast.{ AstDfn, AstRef, AstScope }
+import org.apache.netbeans.modules.scala.core.{ ScalaGlobal, ScalaMimeResolver, ScalaSourceUtil }
 
 /**
  * Scala AstDfn special functions, which will be enabled in ScalaGlobal

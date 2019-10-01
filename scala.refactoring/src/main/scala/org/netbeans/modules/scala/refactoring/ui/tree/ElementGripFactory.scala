@@ -39,10 +39,10 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.refactoring.ui.tree
+package org.apache.netbeans.modules.scala.refactoring.ui.tree
 
 import javax.swing.Icon;
-import org.netbeans.modules.csl.api.OffsetRange;
+import org.apache.netbeans.modules.csl.api.OffsetRange;
 import org.openide.filesystems.FileObject;
 import scala.collection.mutable.HashSet
 import scala.collection.mutable.WeakHashMap

@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.console.old
+package org.apache.netbeans.modules.scala.console.old
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *

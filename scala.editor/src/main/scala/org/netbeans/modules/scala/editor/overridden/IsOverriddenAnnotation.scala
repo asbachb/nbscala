@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden;
+package org.apache.netbeans.modules.scala.editor.overridden;
 
 import java.awt.Point
 import java.awt.Toolkit
@@ -46,7 +46,7 @@ import javax.swing.SwingUtilities
 import javax.swing.text.JTextComponent
 import javax.swing.text.Position
 import javax.swing.text.StyledDocument
-import org.netbeans.modules.csl.api.UiUtils
+import org.apache.netbeans.modules.csl.api.UiUtils
 import org.openide.text.Annotation
 import org.openide.text.NbDocument
 import org.openide.util.NbBundle

@@ -37,17 +37,17 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import java.util.logging.Logger
-import org.netbeans.api.lexer.TokenHierarchy
-import org.netbeans.modules.csl.api.{ ElementKind, ColoringAttributes, OffsetRange, SemanticAnalyzer }
-import org.netbeans.modules.parsing.spi.{ Scheduler, SchedulerEvent }
-import org.netbeans.modules.scala.core.ScalaGlobal
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ast.ScalaRootScope
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId
+import org.apache.netbeans.api.lexer.TokenHierarchy
+import org.apache.netbeans.modules.csl.api.{ ElementKind, ColoringAttributes, OffsetRange, SemanticAnalyzer }
+import org.apache.netbeans.modules.parsing.spi.{ Scheduler, SchedulerEvent }
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId
 import scala.reflect.internal.Flags
 
 /**

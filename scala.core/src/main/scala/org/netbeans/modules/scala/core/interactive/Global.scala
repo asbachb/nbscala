@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.core.interactive
+package org.apache.netbeans.modules.scala.core.interactive
 
 import scala.tools.nsc._
 import scala.reflect.internal.util.SourceFile

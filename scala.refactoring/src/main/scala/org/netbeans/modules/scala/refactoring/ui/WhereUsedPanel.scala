@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring.ui
+package org.apache.netbeans.modules.scala.refactoring.ui
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -53,21 +53,21 @@ import javax.swing.SwingConstants;
 import javax.swing.plaf.UIResource;
 import javax.swing.SwingUtilities;
 import javax.swing.event.ChangeListener;
-import org.netbeans.api.project.FileOwnerQuery
-import org.netbeans.api.project.ProjectUtils
-import org.netbeans.modules.csl.api.{ ElementKind, Modifier }
-import org.netbeans.modules.parsing.spi.ParseException
-import org.netbeans.modules.parsing.api.ParserManager
-import org.netbeans.modules.parsing.api.ResultIterator
-import org.netbeans.modules.parsing.api.Source
-import org.netbeans.modules.parsing.api.UserTask
-import org.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
+import org.apache.netbeans.api.project.FileOwnerQuery
+import org.apache.netbeans.api.project.ProjectUtils
+import org.apache.netbeans.modules.csl.api.{ ElementKind, Modifier }
+import org.apache.netbeans.modules.parsing.spi.ParseException
+import org.apache.netbeans.modules.parsing.api.ParserManager
+import org.apache.netbeans.modules.parsing.api.ResultIterator
+import org.apache.netbeans.modules.parsing.api.Source
+import org.apache.netbeans.modules.parsing.api.UserTask
+import org.apache.netbeans.modules.refactoring.spi.ui.CustomRefactoringPanel
 import org.openide.awt.Mnemonics
 import org.openide.util.NbBundle
 
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ast.ScalaItems
-import org.netbeans.modules.scala.refactoring.RefactoringModule
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.refactoring.RefactoringModule
 import scala.reflect.internal.Flags
 
 import javax.swing.GroupLayout

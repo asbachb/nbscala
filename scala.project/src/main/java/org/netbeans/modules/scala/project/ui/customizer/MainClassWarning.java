@@ -39,14 +39,14 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.util.Collection;
 import javax.swing.JPanel;
 import javax.swing.event.ChangeListener;
 import org.openide.filesystems.FileObject;
 
-import org.netbeans.api.language.util.ast.AstDfn;
+import org.apache.netbeans.api.language.util.ast.AstDfn;
 
 /** Shows a warning that no main class is set and allows choose a main class.
  *

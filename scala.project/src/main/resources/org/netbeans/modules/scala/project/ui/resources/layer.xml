@@ -54,17 +54,17 @@ made subject to such option by the copyright holder.
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
                     <file name="RunFile.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ScalaProjectModule.run"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ScalaProjectModule.run"/>
                         <attr name="position" intvalue="550"/>
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
                     <file name="DebugFile.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ScalaProjectModule.debug"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ScalaProjectModule.debug"/>
                         <attr name="position" intvalue="560"/>
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
                     <file name="DebugTestFile.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ScalaProjectModule.debugTest"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ScalaProjectModule.debugTest"/>
                         <attr name="position" intvalue="570"/>
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
@@ -79,15 +79,15 @@ made subject to such option by the copyright holder.
         <folder name="Project">
 
             <folder name="Scala">
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.project.ui.wizards.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.project.ui.wizards.Bundle"/>
                 <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/desktop.html"/>
 
                 <attr name="position" intvalue="730"/>
                 <file name="emptyScala.xml">
                     <attr name="position" intvalue="100"/>
                     <attr name="template" boolvalue="true"/>
-                    <attr name="instantiatingIterator" newvalue="org.netbeans.modules.scala.project.ui.wizards.NewJ2SEProjectWizardIterator"/>
-                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.project.ui.wizards.Bundle"/>
+                    <attr name="instantiatingIterator" newvalue="org.apache.netbeans.modules.scala.project.ui.wizards.NewJ2SEProjectWizardIterator"/>
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.project.ui.wizards.Bundle"/>
                     <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/scalaProject.png"/>
                     <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/emptyProject.html"/>
                 </file>
@@ -97,8 +97,8 @@ made subject to such option by the copyright holder.
                 <file name="emptyScalalibrary.xml">
                     <attr name="position" intvalue="200"/>
                     <attr name="template" boolvalue="true"/>
-                    <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.scala.project.ui.wizards.NewJ2SEProjectWizardIterator.library"/>
-                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.project.ui.wizards.Bundle"/>
+                    <attr name="instantiatingIterator" methodvalue="org.apache.netbeans.modules.scala.project.ui.wizards.NewJ2SEProjectWizardIterator.library"/>
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.project.ui.wizards.Bundle"/>
                     <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/scalaProject.png"/>
                     <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/emptyLibrary.html"/>
                 </file>                
@@ -108,8 +108,8 @@ made subject to such option by the copyright holder.
                 <file name="existingScala.xml">
                     <attr name="position" intvalue="300"/>
                     <attr name="template" boolvalue="true"/>
-                    <attr name="templateWizardIterator" methodvalue="org.netbeans.modules.scala.project.ui.wizards.NewJ2SEProjectWizardIterator.existing"/>
-                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.project.ui.wizards.Bundle"/>
+                    <attr name="templateWizardIterator" methodvalue="org.apache.netbeans.modules.scala.project.ui.wizards.NewJ2SEProjectWizardIterator.existing"/>
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.project.ui.wizards.Bundle"/>
                     <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/scalaProject.png"/>
                     <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/project/ui/resources/existingProject.html"/>
                 </file>
@@ -131,44 +131,44 @@ made subject to such option by the copyright holder.
             <!--
             <folder name="Customizer">
                 <file name="Sources.instance">
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createSources"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createSources"/>
                     <attr name="position" intvalue="100"/>
                 </file>
                 <file name="Libraries.instance">
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createLibraries"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createLibraries"/>
                     <attr name="position" intvalue="200"/>
                 </file>
                 <folder name="BuildCategory">
-                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.project.ui.customizer.Bundle"/>
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.project.ui.customizer.Bundle"/>
                     <attr name="position" intvalue="300"/>
                     <file name="Build.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createBuild"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createBuild"/>
                         <attr name="position" intvalue="100"/>
                     </file>
                     <file name="Jar.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createJar"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createJar"/>
                         <attr name="position" intvalue="200"/>
                     </file>
                     <file name="Javadoc.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createJavadoc"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createJavadoc"/>
                         <attr name="position" intvalue="300"/>
                     </file>
                 </folder>
                 <file name="Run.instance">
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createRun"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createRun"/>
                     <attr name="position" intvalue="400"/>
                 </file>
                 <folder name="Application">
-                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.project.ui.customizer.Bundle"/>
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.project.ui.customizer.Bundle"/>
                     <attr name="position" intvalue="500"/>
                     <file name="Self.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createApplication"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.project.ui.customizer.J2SECompositePanelProvider.createApplication"/>
                         <attr name="position" intvalue="0"/>
                     </file>
                 </folder>
                 <file name="Formatting.instance">
-                    <attr name="instanceOf" stringvalue="org.netbeans.spi.project.ui.support.ProjectCustomizer$CompositeCategoryProvider"/>
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.editor.indent.project.api.Customizers.createFormattingCategoryProvider"/>
+                    <attr name="instanceOf" stringvalue="org.apache.netbeans.spi.project.ui.support.ProjectCustomizer$CompositeCategoryProvider"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.editor.indent.project.api.Customizers.createFormattingCategoryProvider"/>
                     <attr name="allowedMimeTypes" stringvalue="text/x-scala"/>
                     <attr name="position" intvalue="1000"/>
                 </file>

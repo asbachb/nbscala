@@ -1,2 +1,2 @@
-org.netbeans.modules.scala.debugger.projects.StepIntoActionProvider
-org.netbeans.modules.scala.debugger.projects.RunToCursorActionProvider
+org.apache.netbeans.modules.scala.debugger.projects.StepIntoActionProvider
+org.apache.netbeans.modules.scala.debugger.projects.RunToCursorActionProvider

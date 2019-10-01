@@ -39,28 +39,28 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import java.beans.PropertyChangeEvent;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import javax.swing.SwingUtilities;
-import org.netbeans.api.debugger.ActionsManager;
+import org.apache.netbeans.api.debugger.ActionsManager;
 
 
-import org.netbeans.api.debugger.DebuggerEngine;
+import org.apache.netbeans.api.debugger.DebuggerEngine;
 
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.DebuggerManagerAdapter;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.DebuggerManagerAdapter;
 
-import org.netbeans.api.debugger.jpda.JPDADebugger;
+import org.apache.netbeans.api.debugger.jpda.JPDADebugger;
 
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.project.Project;
-import org.netbeans.spi.debugger.ActionsProviderSupport;
-import org.netbeans.spi.debugger.jpda.EditorContext;
-import org.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.spi.debugger.ActionsProviderSupport;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.spi.project.ActionProvider;
 import org.openide.ErrorManager;
 import org.openide.util.RequestProcessor;
 

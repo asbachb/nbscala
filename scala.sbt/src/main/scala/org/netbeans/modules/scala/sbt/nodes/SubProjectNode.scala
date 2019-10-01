@@ -1,12 +1,12 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import java.awt.Image
 import java.awt.event.ActionEvent
 import javax.swing.AbstractAction
 import javax.swing.Action
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.ui.OpenProjects
-import org.netbeans.modules.scala.sbt.project.SBTProject
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.ui.OpenProjects
+import org.apache.netbeans.modules.scala.sbt.project.SBTProject
 import org.openide.nodes.AbstractNode
 import org.openide.nodes.Children
 import org.openide.util.NbBundle

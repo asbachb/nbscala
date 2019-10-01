@@ -37,18 +37,18 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
 import javax.swing.text.Document
-import org.netbeans.api.lexer.{ TokenHierarchy, TokenSequence }
-import org.netbeans.modules.csl.api.{ DeclarationFinder, OffsetRange }
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.csl.api.DeclarationFinder.DeclarationLocation
-import org.netbeans.modules.csl.spi.ParserResult
-//import org.netbeans.modules.parsing.spi.indexing.support.QuerySupport
+import org.apache.netbeans.api.lexer.{ TokenHierarchy, TokenSequence }
+import org.apache.netbeans.modules.csl.api.{ DeclarationFinder, OffsetRange }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.DeclarationFinder.DeclarationLocation
+import org.apache.netbeans.modules.csl.spi.ParserResult
+//import org.apache.netbeans.modules.parsing.spi.indexing.support.QuerySupport
 
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
 
 /**
  *

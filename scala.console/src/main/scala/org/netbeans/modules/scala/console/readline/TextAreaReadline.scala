@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.console.readline
+package org.apache.netbeans.modules.scala.console.readline
 
 import java.awt.Color
 import java.awt.event.KeyEvent

@@ -36,13 +36,13 @@
  *
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.api.language.util.ast
+package org.apache.netbeans.api.language.util.ast
 
 import javax.swing.Icon
-import org.netbeans.api.lexer.{ Token, TokenId, TokenHierarchy }
-import org.netbeans.modules.csl.api.{ ElementKind, ElementHandle, Modifier, OffsetRange }
-import org.netbeans.modules.csl.api.UiUtils
-import org.netbeans.modules.csl.spi.{ ParserResult }
+import org.apache.netbeans.api.lexer.{ Token, TokenId, TokenHierarchy }
+import org.apache.netbeans.modules.csl.api.{ ElementKind, ElementHandle, Modifier, OffsetRange }
+import org.apache.netbeans.modules.csl.api.UiUtils
+import org.apache.netbeans.modules.csl.spi.{ ParserResult }
 import org.openide.filesystems.{ FileObject }
 
 /**

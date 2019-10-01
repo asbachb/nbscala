@@ -37,13 +37,13 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
-import org.netbeans.modules.csl.api.{ InstantRenamer, ElementKind, OffsetRange }
-import org.netbeans.modules.csl.spi.ParserResult
+import org.apache.netbeans.modules.csl.api.{ InstantRenamer, ElementKind, OffsetRange }
+import org.apache.netbeans.modules.csl.spi.ParserResult
 
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
 
 /**
  * Handle instant rename for Scala

@@ -37,21 +37,21 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor.imports
+package org.apache.netbeans.modules.scala.editor.imports
 
 import java.util.EnumSet
 import java.util.logging.Logger
 import java.util.logging.Level
 import java.util.regex.Pattern
-import org.netbeans.api.java.source.ClassIndex
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.java.source.ClassIndex.NameKind
-import org.netbeans.editor.BaseDocument
-import org.netbeans.api.lexer.{ Token, TokenHierarchy, TokenId, TokenSequence }
-import org.netbeans.api.java.source.ui.ElementIcons
-import org.netbeans.modules.csl.api.{ EditList, OffsetRange }
-import org.netbeans.modules.scala.core.{ ScalaSourceUtil }
-import org.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
+import org.apache.netbeans.api.java.source.ClassIndex
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.java.source.ClassIndex.NameKind
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.api.lexer.{ Token, TokenHierarchy, TokenId, TokenSequence }
+import org.apache.netbeans.api.java.source.ui.ElementIcons
+import org.apache.netbeans.modules.csl.api.{ EditList, OffsetRange }
+import org.apache.netbeans.modules.scala.core.{ ScalaSourceUtil }
+import org.apache.netbeans.modules.scala.core.lexer.{ ScalaLexUtil, ScalaTokenId }
 import org.openide.filesystems.FileObject
 import scala.collection.mutable.ArrayBuffer
 
@@ -186,7 +186,7 @@ object FixImportsHelper {
       }
     } else {
       // *then figure if a list of classes in a package is being imported eg.
-      // import org.netbeans.api.lexer.{Language, Token}
+      // import org.apache.netbeans.api.lexer.{Language, Token}
       val listPattern = Pattern.compile(packageName + """\.\{([\w\,\s]*)\}""")
       val listMatch = imports.find((curr) => listPattern.matcher(curr._3).matches)
       if (listMatch != None) {

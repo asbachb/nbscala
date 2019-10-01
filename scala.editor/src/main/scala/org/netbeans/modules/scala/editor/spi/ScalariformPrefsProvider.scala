@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.editor.spi
+package org.apache.netbeans.modules.scala.editor.spi
 
 import scalariform.formatter.preferences.IFormattingPreferences
 

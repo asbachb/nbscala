@@ -1,15 +1,15 @@
-package org.netbeans.modules.scala.sbt.classpath
+package org.apache.netbeans.modules.scala.sbt.classpath
 
 import java.beans.PropertyChangeEvent
 import java.beans.PropertyChangeListener
 import java.util.concurrent.locks.ReentrantReadWriteLock
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.project.Project
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.sbt.project.ProjectConstants
-import org.netbeans.spi.java.classpath.ClassPathFactory
-import org.netbeans.spi.java.classpath.ClassPathImplementation
-import org.netbeans.spi.java.classpath.ClassPathProvider
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.sbt.project.ProjectConstants
+import org.apache.netbeans.spi.java.classpath.ClassPathFactory
+import org.apache.netbeans.spi.java.classpath.ClassPathImplementation
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileUtil
 import scala.collection.mutable

@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger;
+package org.apache.netbeans.modules.scala.debugger;
 
 import java.awt.EventQueue;
 import java.beans.PropertyChangeEvent;

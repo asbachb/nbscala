@@ -40,25 +40,25 @@
  * Portions Copyrighted 2011 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.modules.maven.spi.actions.ActionConvertor;
-import org.netbeans.modules.maven.spi.actions.ReplaceTokenProvider;
-import org.netbeans.spi.project.ActionProvider;
-import org.netbeans.spi.project.ProjectServiceProvider;
-import org.netbeans.spi.project.SingleMethod;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.modules.maven.spi.actions.ActionConvertor;
+import org.apache.netbeans.modules.maven.spi.actions.ReplaceTokenProvider;
+import org.apache.netbeans.spi.project.ActionProvider;
+import org.apache.netbeans.spi.project.ProjectServiceProvider;
+import org.apache.netbeans.spi.project.SingleMethod;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.Lookup;
 
 /**
- * @see org.netbeans.modules.maven.execute.DefaultReplaceTokenProvider
+ * @see org.apache.netbeans.modules.maven.execute.DefaultReplaceTokenProvider
  */
 @ProjectServiceProvider(service={ReplaceTokenProvider.class, ActionConvertor.class}, projectType="org-netbeans-modules-maven")
 public class ScalaReplaceTokenProvider implements ReplaceTokenProvider, ActionConvertor {

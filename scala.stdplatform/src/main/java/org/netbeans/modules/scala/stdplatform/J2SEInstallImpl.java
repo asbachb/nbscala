@@ -39,18 +39,18 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform;
+package org.apache.netbeans.modules.scala.stdplatform;
 
 import org.openide.filesystems.*;
 import org.openide.util.NbBundle;
 import org.openide.ErrorManager;
-import org.netbeans.modules.scala.stdplatform.wizard.J2SEWizardIterator;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.Util;
+import org.apache.netbeans.modules.scala.stdplatform.wizard.J2SEWizardIterator;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.Util;
 
 import java.io.IOException;
 import java.util.Collections;
 
-import org.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
 import org.openide.WizardDescriptor;
 
 /**
@@ -58,7 +58,7 @@ import org.openide.WizardDescriptor;
  *
  * @author Svatopluk Dedic
  */
-class J2SEInstallImpl extends org.netbeans.spi.scala.platform.PlatformInstall {
+class J2SEInstallImpl extends org.apache.netbeans.spi.scala.platform.PlatformInstall {
 
     J2SEInstallImpl() {
     }

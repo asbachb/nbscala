@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import com.sun.source.tree.ClassTree;
 import com.sun.source.tree.Tree;
@@ -46,19 +46,19 @@ import com.sun.source.util.TreePath;
 import java.io.IOException;
 import java.net.URL;
 import java.text.MessageFormat;
-import org.netbeans.api.fileinfo.NonRecursiveFolder;
-import org.netbeans.api.java.classpath.ClassPath;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.queries.VisibilityQuery;
-import org.netbeans.modules.csl.spi.support.ModificationResult
-import org.netbeans.modules.refactoring.api.AbstractRefactoring
-import org.netbeans.modules.refactoring.api.MoveRefactoring
-import org.netbeans.modules.refactoring.api.Problem
-import org.netbeans.modules.refactoring.api.ProgressEvent
-import org.netbeans.modules.refactoring.api.RenameRefactoring
-import org.netbeans.modules.refactoring.spi.RefactoringElementsBag;
+import org.apache.netbeans.api.fileinfo.NonRecursiveFolder;
+import org.apache.netbeans.api.java.classpath.ClassPath;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.queries.VisibilityQuery;
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult
+import org.apache.netbeans.modules.refactoring.api.AbstractRefactoring
+import org.apache.netbeans.modules.refactoring.api.MoveRefactoring
+import org.apache.netbeans.modules.refactoring.api.Problem
+import org.apache.netbeans.modules.refactoring.api.ProgressEvent
+import org.apache.netbeans.modules.refactoring.api.RenameRefactoring
+import org.apache.netbeans.modules.refactoring.spi.RefactoringElementsBag;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.filesystems.URLMapper;
@@ -67,9 +67,9 @@ import org.openide.util.NbBundle;
 import scala.collection.mutable.ArrayBuffer
 import scala.collection.mutable.HashMap
 import scala.collection.mutable.HashSet
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.ScalaSourceUtil
-import org.netbeans.modules.scala.core.ast.ScalaItems
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.modules.scala.core.ast.ScalaItems
 
 /**
  * Implemented abilities:

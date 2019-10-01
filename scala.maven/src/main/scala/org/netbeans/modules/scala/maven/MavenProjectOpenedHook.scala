@@ -1,8 +1,8 @@
-package org.netbeans.modules.scala.maven
+package org.apache.netbeans.modules.scala.maven
 
-import org.netbeans.api.project.Project
-import org.netbeans.spi.project.LookupProvider
-import org.netbeans.spi.project.ui.ProjectOpenedHook
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.spi.project.LookupProvider
+import org.apache.netbeans.spi.project.ui.ProjectOpenedHook
 import org.openide.util.Lookup
 import org.openide.util.lookup.Lookups
 

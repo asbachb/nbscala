@@ -39,13 +39,13 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.debugger.projects;
+package org.apache.netbeans.modules.scala.debugger.projects;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.Document;
-import org.netbeans.api.debugger.jpda.JPDAThread;
-import org.netbeans.spi.debugger.jpda.EditorContext;
-import org.netbeans.spi.editor.highlighting.support.OffsetsBag;
+import org.apache.netbeans.api.debugger.jpda.JPDAThread;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.spi.editor.highlighting.support.OffsetsBag;
 import org.openide.ErrorManager;
 import org.openide.cookies.EditorCookie;
 import org.openide.filesystems.FileObject;

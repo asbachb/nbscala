@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.wizards;
+package org.apache.netbeans.modules.scala.project.ui.wizards;
 
 import java.io.File;
 import java.io.IOException;
@@ -52,9 +52,9 @@ import org.openide.WizardValidationException;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.NbBundle;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.modules.scala.project.ui.FoldersListSettings;
-import org.netbeans.spi.project.ui.support.ProjectChooser;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.modules.scala.project.ui.FoldersListSettings;
+import org.apache.netbeans.spi.project.ui.support.ProjectChooser;
 
 
 /**

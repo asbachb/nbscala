@@ -36,15 +36,15 @@
  *
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.api.language.util.lex
+package org.apache.netbeans.api.language.util.lex
 
 import java.io.IOException
 import javax.swing.text.{ BadLocationException, Document }
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.lexer.{ Language, Token, TokenHierarchy, TokenId, TokenSequence }
-import org.netbeans.editor.BaseDocument
-import org.netbeans.modules.parsing.spi.Parser
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.lexer.{ Language, Token, TokenHierarchy, TokenId, TokenSequence }
+import org.apache.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.parsing.spi.Parser
 import org.openide.cookies.EditorCookie
 import org.openide.filesystems.{ FileObject, FileUtil }
 import org.openide.loaders.{ DataObject, DataObjectNotFoundException }

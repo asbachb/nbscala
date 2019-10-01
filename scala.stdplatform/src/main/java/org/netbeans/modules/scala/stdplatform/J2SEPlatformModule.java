@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.stdplatform;
+package org.apache.netbeans.modules.scala.stdplatform;
 
 import java.io.IOException;
 import java.util.concurrent.Callable;
@@ -49,14 +49,14 @@ import org.openide.filesystems.FileObject;
 import org.openide.loaders.DataObject;
 import org.openide.modules.ModuleInstall;
 import org.openide.util.Exceptions;
-import org.netbeans.api.scala.platform.ScalaPlatform;
-import org.netbeans.api.scala.platform.ScalaPlatformManager;
-import org.netbeans.api.scala.platform.Specification;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.spi.project.support.ant.EditableProperties;
-import org.netbeans.spi.project.support.ant.PropertyUtils;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.J2SEPlatformImpl;
+import org.apache.netbeans.api.scala.platform.ScalaPlatform;
+import org.apache.netbeans.api.scala.platform.ScalaPlatformManager;
+import org.apache.netbeans.api.scala.platform.Specification;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.spi.project.support.ant.EditableProperties;
+import org.apache.netbeans.spi.project.support.ant.PropertyUtils;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.PlatformConvertor;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.J2SEPlatformImpl;
 import org.openide.filesystems.FileUtil;
 
 

@@ -39,12 +39,12 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.api;
+package org.apache.netbeans.modules.scala.project.api;
 
 import java.util.Map;
 import javax.swing.JComponent;
 
-import org.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.Project;
 
 /**
  * Provider of component that will be added to Run customizer panel that will

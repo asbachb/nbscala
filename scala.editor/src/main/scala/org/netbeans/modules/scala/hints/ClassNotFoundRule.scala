@@ -37,39 +37,39 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
 import scala.collection.JavaConversions._
 
 import scala.collection.mutable
 import scala.collection.immutable
 
-import org.netbeans.modules.csl.api.Error
-import org.netbeans.modules.csl.api.Hint
-import org.netbeans.modules.csl.api.HintFix
-import org.netbeans.modules.csl.api.HintSeverity
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.modules.csl.api.RuleContext
-import org.netbeans.modules.scala.editor.util.NbBundler
+import org.apache.netbeans.modules.csl.api.Error
+import org.apache.netbeans.modules.csl.api.Hint
+import org.apache.netbeans.modules.csl.api.HintFix
+import org.apache.netbeans.modules.csl.api.HintSeverity
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.csl.api.RuleContext
+import org.apache.netbeans.modules.scala.editor.util.NbBundler
 import java.{ util => ju }
 import java.util.prefs.Preferences;
 import javax.swing.JComponent;
 import java.util.regex.{ Pattern, Matcher }
-import org.netbeans.api.java.source.ElementHandle
-import org.netbeans.api.java.source.ClassIndex
+import org.apache.netbeans.api.java.source.ElementHandle
+import org.apache.netbeans.api.java.source.ClassIndex
 import javax.lang.model.element.ElementKind
 import org.openide.filesystems.FileObject
 import javax.lang.model.element.TypeElement
-import org.netbeans.api.language.util.ast.{ AstRef, AstDfn, AstItem, AstRootScope }
-import org.netbeans.api.lexer.{ Language, Token, TokenHierarchy, TokenId, TokenSequence }
+import org.apache.netbeans.api.language.util.ast.{ AstRef, AstDfn, AstItem, AstRootScope }
+import org.apache.netbeans.api.lexer.{ Language, Token, TokenHierarchy, TokenId, TokenSequence }
 
-import org.netbeans.modules.csl.api.EditList
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
-import org.netbeans.editor.BaseDocument
+import org.apache.netbeans.modules.csl.api.EditList
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.editor.BaseDocument
 
-import org.netbeans.modules.scala.editor.imports.FixImportsHelper
+import org.apache.netbeans.modules.scala.editor.imports.FixImportsHelper
 
 class ClassNotFoundRule extends ScalaErrorRule with NbBundler {
 

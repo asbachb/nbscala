@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.api.scala.platform;
+package org.apache.netbeans.api.scala.platform;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
@@ -49,8 +49,8 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
-import org.netbeans.modules.scala.platform.FallbackDefaultScalaPlatform;
-import org.netbeans.modules.scala.platform.ScalaPlatformProvider;
+import org.apache.netbeans.modules.scala.platform.FallbackDefaultScalaPlatform;
+import org.apache.netbeans.modules.scala.platform.ScalaPlatformProvider;
 import org.openide.util.Lookup;
 import org.openide.util.LookupListener;
 import org.openide.util.LookupEvent;
@@ -96,7 +96,7 @@ public final class ScalaPlatformManager {
 
     /**
      * Returns default platform. The platform the IDE is running on.
-     * @return the default platform (never null as of org.netbeans.modules.java.platform/1 1.9)
+     * @return the default platform (never null as of org.apache.netbeans.modules.java.platform/1 1.9)
      */
     public ScalaPlatform getDefaultPlatform() {
         for (ScalaPlatformProvider provider : getProviders()) {

@@ -4,7 +4,7 @@
     <folder name="Services">
         <folder name="MIMEResolver">
             <file name="ScalaMimeResolver.xml" url="ScalaMimeResolver.xml">
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.Bundle"/>
                 <attr name="position" intvalue="288"/>
             </file>
         </folder>
@@ -13,11 +13,11 @@
     <folder name="Editors">
         <folder name="text">
             <folder name="x-scala">
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.Bundle"/>
 
                 <file name="language.instance">
-                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.core.lexer.ScalaTokenId.language"/>
-                    <attr name="instanceOf" stringvalue="org.netbeans.api.lexer.Language"/>
+                    <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId.language"/>
+                    <attr name="instanceOf" stringvalue="org.apache.netbeans.api.lexer.Language"/>
                 </file>
 
                 <folder name="BracesMatchers">
@@ -38,7 +38,7 @@
                     <folder name="NetBeans">
                         <folder name="Defaults">
                             <file name="coloring.xml" url="fontsColors.xml">
-                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.Bundle"/>
+                                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.Bundle"/>
                             </file>
                         </folder>
                     </folder>
@@ -56,7 +56,7 @@
                 <folder name="CodeTemplates">
                     <folder name="Defaults">
                         <file name="codeTemplates.xml" url="codeTemplates.xml">
-                            <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.Bundle"/>
+                            <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.Bundle"/>
                         </file>
                     </folder>
                 </folder>
@@ -105,18 +105,18 @@
                 </folder>
 
                 <file name="org-netbeans-modules-csl-core-GsfReformatTaskFactory.instance">
-                    <!--org.netbeans.modules.javascript2.editor.JsLanguage-->
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.GsfReformatTaskFactory"/>
-                    <attr name="instanceOf" stringvalue="org.netbeans.modules.editor.indent.spi.ReformatTask$Factory"/>
+                    <!--org.apache.netbeans.modules.javascript2.editor.JsLanguage-->
+                    <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.csl.core.GsfReformatTaskFactory"/>
+                    <attr name="instanceOf" stringvalue="org.apache.netbeans.modules.editor.indent.spi.ReformatTask$Factory"/>
                 </file>
                 <file name="org-netbeans-modules-csl-core-GsfIndentTaskFactory.instance">
-                    <!--org.netbeans.modules.javascript2.editor.JsLanguage-->
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.csl.core.GsfIndentTaskFactory"/>
-                    <attr name="instanceOf" stringvalue="org.netbeans.modules.editor.indent.spi.IndentTask$Factory"/>
+                    <!--org.apache.netbeans.modules.javascript2.editor.JsLanguage-->
+                    <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.csl.core.GsfIndentTaskFactory"/>
+                    <attr name="instanceOf" stringvalue="org.apache.netbeans.modules.editor.indent.spi.IndentTask$Factory"/>
                 </file>
 
                 <file name="Reformatter.instance">
-                    <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editor.ScalaReformatter$Factory"/>
+                    <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editor.ScalaReformatter$Factory"/>
                 </file>
 
             </folder>
@@ -126,10 +126,10 @@
     <folder name="Actions">
         <folder name="Scala">
             <file name="org-netbeans-modules-scala-editor-imports-FixImportsAction.instance">
-                <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editor.imports.FixImportsAction"/>
+                <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editor.imports.FixImportsAction"/>
             </file>
             <file name="org-netbeans-modules-scala-editor-ui-actions-ResetGlobalAction.instance">
-                <attr name="instanceClass" stringvalue="org.netbeans.modules.scala.editor.ui.actions.ResetGlobalAction"/>
+                <attr name="instanceClass" stringvalue="org.apache.netbeans.modules.scala.editor.ui.actions.ResetGlobalAction"/>
             </file>
         </folder>
     </folder>
@@ -145,8 +145,8 @@
                 <folder name="text">
                     <folder name="x-scala">
                         <file name="Indents.instance">
-                            <attr name="instanceOf" stringvalue="org.netbeans.modules.options.editor.spi.PreferencesCustomizer$Factory"/>
-                            <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.editor.options.FmtTabsIndents.getController"/>
+                            <attr name="instanceOf" stringvalue="org.apache.netbeans.modules.options.editor.spi.PreferencesCustomizer$Factory"/>
+                            <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.editor.options.FmtTabsIndents.getController"/>
                             <attr name="position" intvalue="100"/>
                         </file>
 
@@ -168,7 +168,7 @@
                 <!-- folder name="hints">
                     <folder name="general">
                        <attr name="position" intvalue="100"/>
-                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.ruby.hints.Bundle"/>
+                        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.ruby.hints.Bundle"/>
                         <file name="org-netbeans-modules-ruby-hints-BlockVarReuse.instance"/>
                         <file name="org-netbeans-modules-ruby-hints-Deprecations.instance"/>
                     </folder>
@@ -262,9 +262,9 @@
                 <attr name="position" intvalue="100"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
+                <attr name="instantiatingIterator" methodvalue="org.apache.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
                 <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/class.png"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.resources.templates.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.resources.templates.Bundle"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/templates/MainScalaObjectFileDescription.html"/>
                 <attr name="templateCategory" stringvalue="scala-classes,java-classes"/>
             </file>
@@ -273,9 +273,9 @@
                 <attr name="position" intvalue="200"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
+                <attr name="instantiatingIterator" methodvalue="org.apache.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
                 <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/class.png"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.resources.templates.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.resources.templates.Bundle"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/templates/EmptyScalaClassFileDescription.html"/>
                 <attr name="templateCategory" stringvalue="scala-classes,java-classes"/>
             </file>
@@ -284,9 +284,9 @@
                 <attr name="position" intvalue="300"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
+                <attr name="instantiatingIterator" methodvalue="org.apache.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
                 <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/class.png"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.resources.templates.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.resources.templates.Bundle"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/templates/EmptyScalaObjectFileDescription.html"/>
                 <attr name="templateCategory" stringvalue="scala-classes,java-classes"/>
             </file>
@@ -295,9 +295,9 @@
                 <attr name="position" intvalue="400"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
+                <attr name="instantiatingIterator" methodvalue="org.apache.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
                 <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/class.png"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.resources.templates.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.resources.templates.Bundle"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/templates/EmptyScalaTraitFileDescription.html"/>
                 <attr name="templateCategory" stringvalue="scala-classes,java-classes"/>
             </file>
@@ -306,9 +306,9 @@
                 <attr name="position" intvalue="500"/>
                 <attr name="template" boolvalue="true"/>
                 <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
-                <attr name="instantiatingIterator" methodvalue="org.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
+                <attr name="instantiatingIterator" methodvalue="org.apache.netbeans.modules.scala.editor.wizards.ScalaFileUtil.create"/>
                 <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/class.png"/>
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.scala.editor.resources.templates.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.apache.netbeans.modules.scala.editor.resources.templates.Bundle"/>
                 <attr name="templateWizardURL" urlvalue="nbresloc:/org/netbeans/modules/scala/editor/resources/templates/EmptyScalaJUnitTestFileDescription.html"/>
                 <attr name="templateCategory" stringvalue="scala-classes,java-classes"/>
             </file>

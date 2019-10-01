@@ -1,14 +1,14 @@
-package org.netbeans.modules.scala.sbt.nodes
+package org.apache.netbeans.modules.scala.sbt.nodes
 
 import javax.swing.event.ChangeListener
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.ProjectUtils
-import org.netbeans.api.project.SourceGroup
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.sbt.project.SBTResolver
-import org.netbeans.spi.java.project.support.ui.PackageView
-import org.netbeans.spi.project.ui.support.NodeFactory
-import org.netbeans.spi.project.ui.support.NodeList
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.ProjectUtils
+import org.apache.netbeans.api.project.SourceGroup
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.sbt.project.SBTResolver
+import org.apache.netbeans.spi.java.project.support.ui.PackageView
+import org.apache.netbeans.spi.project.ui.support.NodeFactory
+import org.apache.netbeans.spi.project.ui.support.NodeList
 import org.openide.nodes.Node
 import org.openide.util.ChangeSupport
 

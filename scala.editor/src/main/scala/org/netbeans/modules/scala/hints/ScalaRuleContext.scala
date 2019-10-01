@@ -37,14 +37,14 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
-import org.netbeans.modules.csl.api.RuleContext
-import org.netbeans.api.editor.document.LineDocumentUtils
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.modules.csl.api.OffsetRange
-import org.netbeans.modules.scala.core.ScalaSourceUtil
-import org.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.modules.csl.api.RuleContext
+import org.apache.netbeans.api.editor.document.LineDocumentUtils
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
 
 class ScalaRuleContext extends RuleContext {
 

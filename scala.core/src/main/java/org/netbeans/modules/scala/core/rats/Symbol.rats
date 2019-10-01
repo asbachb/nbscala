@@ -42,9 +42,9 @@
  * 
  * @author Caoyuan Deng
  */
-module org.netbeans.modules.scala.core.rats.Symbol;
+module org.apache.netbeans.modules.scala.core.rats.Symbol;
 
-import org.netbeans.modules.scala.core.rats.Spacing;
+import org.apache.netbeans.modules.scala.core.rats.Spacing;
 
 String sep = 
   SKIP_N ",":separator SKIP_TILL_N

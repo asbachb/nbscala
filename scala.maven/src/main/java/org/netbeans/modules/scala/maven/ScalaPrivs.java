@@ -40,12 +40,12 @@
  * Portions Copyrighted 2011 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.maven;
+package org.apache.netbeans.modules.scala.maven;
 
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.spi.project.ProjectServiceProvider;
-import org.netbeans.spi.project.ui.PrivilegedTemplates;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.spi.project.ProjectServiceProvider;
+import org.apache.netbeans.spi.project.ui.PrivilegedTemplates;
 
 @ProjectServiceProvider(service=PrivilegedTemplates.class, projectType="org-netbeans-modules-maven")
 public class ScalaPrivs implements PrivilegedTemplates {

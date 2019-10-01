@@ -38,14 +38,14 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.util.logging.Logger
-import org.netbeans.modules.csl.api.Error
-import org.netbeans.modules.csl.spi.DefaultError
-import org.netbeans.modules.csl.spi.ParserResult
-import org.netbeans.modules.parsing.api.Snapshot
-import org.netbeans.modules.scala.core.ast.ScalaRootScope
+import org.apache.netbeans.modules.csl.api.Error
+import org.apache.netbeans.modules.csl.spi.DefaultError
+import org.apache.netbeans.modules.csl.spi.ParserResult
+import org.apache.netbeans.modules.parsing.api.Snapshot
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope
 import scala.collection.mutable.WeakHashMap
 import scala.tools.nsc.reporters.Reporter
 

@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.console.old
+package org.apache.netbeans.modules.scala.console.old
 
 import java.awt.Color
 import java.awt.Font
@@ -9,11 +9,11 @@ import java.io._
 import java.util.logging.Logger
 import javax.swing._
 import javax.swing.text.BadLocationException
-import org.netbeans.api.extexecution.ExecutionDescriptor
-import org.netbeans.api.extexecution.ExecutionService
-import org.netbeans.api.project.ui.OpenProjects
-import org.netbeans.modules.extexecution.base.ExternalProcessBuilder
-import org.netbeans.modules.scala.console.readline.TextAreaReadline
+import org.apache.netbeans.api.extexecution.ExecutionDescriptor
+import org.apache.netbeans.api.extexecution.ExecutionService
+import org.apache.netbeans.api.project.ui.OpenProjects
+import org.apache.netbeans.modules.extexecution.base.ExternalProcessBuilder
+import org.apache.netbeans.modules.scala.console.readline.TextAreaReadline
 import org.openide.ErrorManager
 import org.openide.filesystems.FileUtil
 import org.openide.util.Exceptions

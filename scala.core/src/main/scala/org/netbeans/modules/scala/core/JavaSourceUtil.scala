@@ -37,7 +37,7 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import com.sun.javadoc.Doc;
 import com.sun.source.tree.ClassTree;
@@ -66,13 +66,13 @@ import javax.lang.model.element._
 import javax.lang.model.`type`._
 import javax.lang.model.util._
 
-import org.netbeans.api.java.source.ClasspathInfo
-import org.netbeans.api.java.source.CompilationController
-import org.netbeans.api.java.source.CompilationInfo
-import org.netbeans.api.java.source.ElementHandle
-import org.netbeans.api.java.source.JavaSource
-import org.netbeans.api.java.source.SourceUtils
-import org.netbeans.api.java.source.Task
+import org.apache.netbeans.api.java.source.ClasspathInfo
+import org.apache.netbeans.api.java.source.CompilationController
+import org.apache.netbeans.api.java.source.CompilationInfo
+import org.apache.netbeans.api.java.source.ElementHandle
+import org.apache.netbeans.api.java.source.JavaSource
+import org.apache.netbeans.api.java.source.SourceUtils
+import org.apache.netbeans.api.java.source.Task
 import org.openide.filesystems.FileObject
 import org.openide.util.Exceptions
 import scala.reflect.internal.Symbols

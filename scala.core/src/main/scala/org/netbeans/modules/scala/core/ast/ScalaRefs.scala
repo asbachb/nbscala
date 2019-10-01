@@ -36,13 +36,13 @@
  * 
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
-import org.netbeans.api.lexer.{ Token, TokenId }
-import org.netbeans.modules.csl.api.ElementKind
+import org.apache.netbeans.api.lexer.{ Token, TokenId }
+import org.apache.netbeans.modules.csl.api.ElementKind
 
-import org.netbeans.api.language.util.ast.AstRef
-import org.netbeans.modules.scala.core.{ ScalaGlobal, ScalaMimeResolver }
+import org.apache.netbeans.api.language.util.ast.AstRef
+import org.apache.netbeans.modules.scala.core.{ ScalaGlobal, ScalaMimeResolver }
 
 import org.openide.filesystems.FileObject
 

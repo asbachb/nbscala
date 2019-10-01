@@ -38,11 +38,11 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.refactoring
+package org.apache.netbeans.modules.scala.refactoring
 
 import java.io.IOException
-import org.netbeans.modules.csl.spi.support.ModificationResult
-import org.netbeans.modules.refactoring.spi.{ BackupFacility, Transaction }
+import org.apache.netbeans.modules.csl.spi.support.ModificationResult
+import org.apache.netbeans.modules.refactoring.spi.{ BackupFacility, Transaction }
 import scala.collection.mutable.ArrayBuffer
 
 /**

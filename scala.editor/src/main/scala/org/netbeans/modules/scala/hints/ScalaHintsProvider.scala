@@ -37,18 +37,18 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.hints
+package org.apache.netbeans.modules.scala.hints
 
-import org.netbeans.modules.scala.core.ast.ScalaRootScope
+import org.apache.netbeans.modules.scala.core.ast.ScalaRootScope
 import scala.collection.JavaConversions
 import scala.collection.JavaConversions._
 
 import java.{ lang => jl, util => ju }
-import org.netbeans.modules.csl.api.HintsProvider.HintsManager;
-import org.netbeans.modules.csl.api._;
-import org.netbeans.modules.csl.spi.ParserResult;
-import org.netbeans.modules.scala.core.ScalaParserResult
-import org.netbeans.api.language.util.ast.AstScope
+import org.apache.netbeans.modules.csl.api.HintsProvider.HintsManager;
+import org.apache.netbeans.modules.csl.api._;
+import org.apache.netbeans.modules.csl.spi.ParserResult;
+import org.apache.netbeans.modules.scala.core.ScalaParserResult
+import org.apache.netbeans.api.language.util.ast.AstScope
 import scala.collection.mutable.ListBuffer
 
 class ScalaHintsProvider() extends HintsProvider {

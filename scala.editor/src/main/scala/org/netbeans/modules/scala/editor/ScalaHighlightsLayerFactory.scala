@@ -37,17 +37,17 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor
+package org.apache.netbeans.modules.scala.editor
 
-import org.netbeans.modules.csl.editor.semantic.GsfSemanticLayer
-import org.netbeans.modules.csl.editor.semantic.SemanticHighlighter
-import org.netbeans.spi.editor.highlighting.HighlightsLayer
-import org.netbeans.spi.editor.highlighting.HighlightsLayerFactory;
-import org.netbeans.spi.editor.highlighting.HighlightsLayerFactory.Context;
-import org.netbeans.spi.editor.highlighting.ZOrder;
+import org.apache.netbeans.modules.csl.editor.semantic.GsfSemanticLayer
+import org.apache.netbeans.modules.csl.editor.semantic.SemanticHighlighter
+import org.apache.netbeans.spi.editor.highlighting.HighlightsLayer
+import org.apache.netbeans.spi.editor.highlighting.HighlightsLayerFactory;
+import org.apache.netbeans.spi.editor.highlighting.HighlightsLayerFactory.Context;
+import org.apache.netbeans.spi.editor.highlighting.ZOrder;
 
 /**
- * This class is used to enable "Print to HTML..." @see org.netbeans.modules.editor.ExportHtmlAction#export
+ * This class is used to enable "Print to HTML..." @see org.apache.netbeans.modules.editor.ExportHtmlAction#export
  * including semantic highlightings. The tracking stack is:
  *   ExportHtmlAction#export -> BaseDocument#print -> DrawEnfine#draw -> drawInternal -> initInfo -> ctx.editorUI.getDrawLayerList().currentLayers()
  *   -> HighlightingDrawLayer#init -> fakePane.putClientProperty("HighlightsLayerIncludes", new String [] { "^.*NonLexerSyntaxHighlighting$", "^.*SyntaxHighlighting$"})

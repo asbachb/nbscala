@@ -37,9 +37,9 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.modules.scala.editor.imports
+package org.apache.netbeans.modules.scala.editor.imports
 
 import javax.swing.Icon
-import org.netbeans.modules.csl.api.OffsetRange
+import org.apache.netbeans.modules.csl.api.OffsetRange
 
 case class ImportCandidate(missingName: String, fqn: String, range: OffsetRange, icon: Icon, importantsLevel: Int)

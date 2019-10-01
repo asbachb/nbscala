@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.netbeans.modules.scala.sbt.project.template;
+package org.apache.netbeans.modules.scala.sbt.project.template;
 
 import java.io.File;
 import javax.swing.JFileChooser;
@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Document;
-import org.netbeans.spi.project.ui.support.ProjectChooser;
+import org.apache.netbeans.spi.project.ui.support.ProjectChooser;
 import org.openide.WizardDescriptor;
 import org.openide.WizardValidationException;
 import org.openide.filesystems.FileUtil;

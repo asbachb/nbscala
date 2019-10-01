@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.stdplatform.wizard;
+package org.apache.netbeans.modules.scala.stdplatform.wizard;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -57,7 +57,7 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.netbeans.modules.scala.stdplatform.platformdefinition.J2SEPlatformImpl;
+import org.apache.netbeans.modules.scala.stdplatform.platformdefinition.J2SEPlatformImpl;
 import org.openide.ErrorManager;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
@@ -194,8 +194,8 @@ public final class NewJ2SEPlatform extends J2SEPlatformImpl implements Runnable 
             String[] command = new String[5];
             command[0] = scalaPath;
             command[1] = "-classpath";    //NOI18N
-            command[2] = InstalledFileLocator.getDefault().locate("modules/ext/org-netbeans-modules-scala-stdplatform-probe.jar", "org.netbeans.modules.scala.stdplatform", false).getAbsolutePath(); // NOI18N
-            command[3] = "org.netbeans.modules.scala.stdplatform.wizard.SDKProbe";
+            command[2] = InstalledFileLocator.getDefault().locate("modules/ext/org-netbeans-modules-scala-stdplatform-probe.jar", "org.apache.netbeans.modules.scala.stdplatform", false).getAbsolutePath(); // NOI18N
+            command[3] = "org.apache.netbeans.modules.scala.stdplatform.wizard.SDKProbe";
             command[4] = path;
             if (LOGGER.isLoggable(Level.FINE)) {
                 LOGGER.fine(String.format("Executing: %s %s %s %s %s", command[0],command[1],command[2],command[3],command[4]));

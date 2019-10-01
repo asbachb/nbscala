@@ -36,20 +36,20 @@
  *
  * Portions Copyrighted 2008 Sun Microsystems, Inc.
  */
-package org.netbeans.modules.scala.core.ast
+package org.apache.netbeans.modules.scala.core.ast
 
 import java.io.File
-import org.netbeans.api.lexer.Token
-import org.netbeans.api.lexer.TokenId
-import org.netbeans.api.lexer.TokenSequence
-import org.netbeans.modules.csl.api.{ ElementKind }
+import org.apache.netbeans.api.lexer.Token
+import org.apache.netbeans.api.lexer.TokenId
+import org.apache.netbeans.api.lexer.TokenSequence
+import org.apache.netbeans.modules.csl.api.{ ElementKind }
 import org.openide.filesystems.FileUtil
-import org.netbeans.api.language.util.ast.AstItem
-import org.netbeans.api.language.util.ast.AstScope
-import org.netbeans.modules.scala.core.ScalaGlobal
-import org.netbeans.modules.scala.core.ScalaSourceFile
-import org.netbeans.modules.scala.core.lexer.ScalaLexUtil
-import org.netbeans.modules.scala.core.lexer.ScalaTokenId
+import org.apache.netbeans.api.language.util.ast.AstItem
+import org.apache.netbeans.api.language.util.ast.AstScope
+import org.apache.netbeans.modules.scala.core.ScalaGlobal
+import org.apache.netbeans.modules.scala.core.ScalaSourceFile
+import org.apache.netbeans.modules.scala.core.lexer.ScalaLexUtil
+import org.apache.netbeans.modules.scala.core.lexer.ScalaTokenId
 import scala.reflect.internal.Flags
 import scala.reflect.internal.Flags._
 import scala.reflect.internal.util.OffsetPosition

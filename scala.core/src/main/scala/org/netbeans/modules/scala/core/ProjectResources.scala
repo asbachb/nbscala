@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.core
+package org.apache.netbeans.modules.scala.core
 
 import java.io.File
 import java.io.IOException
@@ -6,13 +6,13 @@ import java.net.MalformedURLException
 import java.net.URISyntaxException
 import java.net.URL
 import java.util.logging.Logger
-import org.netbeans.api.java.classpath.ClassPath
-import org.netbeans.api.project.FileOwnerQuery
-import org.netbeans.api.project.Project
-import org.netbeans.api.project.ProjectUtils
-import org.netbeans.api.project.SourceGroup
-import org.netbeans.spi.java.classpath.ClassPathProvider
-import org.netbeans.spi.java.queries.BinaryForSourceQueryImplementation
+import org.apache.netbeans.api.java.classpath.ClassPath
+import org.apache.netbeans.api.project.FileOwnerQuery
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.api.project.ProjectUtils
+import org.apache.netbeans.api.project.SourceGroup
+import org.apache.netbeans.spi.java.classpath.ClassPathProvider
+import org.apache.netbeans.spi.java.queries.BinaryForSourceQueryImplementation
 import org.openide.filesystems.FileObject
 import org.openide.filesystems.FileStateInvalidException
 import org.openide.filesystems.FileUtil
@@ -28,13 +28,13 @@ import scala.reflect.io.AbstractFile
 object ProjectResources {
   private val log = Logger.getLogger(getClass.getName)
 
-  /** @see org.netbeans.api.java.project.JavaProjectConstants */
+  /** @see org.apache.netbeans.api.java.project.JavaProjectConstants */
   val SOURCES_TYPE_JAVA = "java"
   /** a source group type for separate scala source roots, as seen in maven projects for example */
   val SOURCES_TYPE_SCALA = "scala"
   /** a source group type for managed source roots, as seen in sbt projects for example */
   val SOURCES_TYPE_MANAGED = "managed"
-  /** @see org.netbeans.api.project.Sources Package root sources type for resources, if these are not put together with Java sources. */
+  /** @see org.apache.netbeans.api.project.Sources Package root sources type for resources, if these are not put together with Java sources. */
   val SOURCES_TYPE_RESOURCES = "resources" // NOI18N
 
   @deprecated("Use ClassPath.get(fo, ClassPath.SOURCE) to find src", "1.6.2")

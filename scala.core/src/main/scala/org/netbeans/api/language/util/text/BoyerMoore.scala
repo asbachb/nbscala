@@ -37,7 +37,7 @@
  * Portions Copyrighted 2009 Sun Microsystems, Inc.
  */
 
-package org.netbeans.api.language.util.text
+package org.apache.netbeans.api.language.util.text
 
 object BoyerMoore {
 

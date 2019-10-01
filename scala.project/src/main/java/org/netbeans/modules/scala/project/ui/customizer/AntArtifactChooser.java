@@ -39,7 +39,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project.ui.customizer;
+package org.apache.netbeans.modules.scala.project.ui.customizer;
 
 import java.awt.Component;
 import java.awt.Dimension;
@@ -54,13 +54,13 @@ import java.util.List;
 import javax.swing.DefaultListModel;
 import javax.swing.JFileChooser;
 import javax.swing.JPanel;
-import org.netbeans.api.project.Project;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.api.project.ProjectUtils;
-import org.netbeans.api.project.ant.AntArtifact;
-import org.netbeans.api.project.ant.AntArtifactQuery;
-import org.netbeans.modules.scala.project.ui.FoldersListSettings;
-import org.netbeans.spi.project.ui.support.ProjectChooser;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.project.ProjectUtils;
+import org.apache.netbeans.api.project.ant.AntArtifact;
+import org.apache.netbeans.api.project.ant.AntArtifactQuery;
+import org.apache.netbeans.modules.scala.project.ui.FoldersListSettings;
+import org.apache.netbeans.spi.project.ui.support.ProjectChooser;
 import org.openide.DialogDisplayer;
 import org.openide.ErrorManager;
 import org.openide.NotifyDescriptor;

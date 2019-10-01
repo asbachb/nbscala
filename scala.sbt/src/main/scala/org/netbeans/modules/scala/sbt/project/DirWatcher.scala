@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import java.io.IOException
 import java.util.TimerTask

@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.editor.overridden;
+package org.apache.netbeans.modules.scala.editor.overridden;
 
 import com.sun.source.tree.Tree.Kind;
 import com.sun.source.util.TreePath;
@@ -55,14 +55,14 @@ import javax.lang.model.element.TypeElement;
 import javax.swing.SwingUtilities;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
-import org.netbeans.api.java.source.Task;
-import org.netbeans.api.java.source.CompilationController;
-import org.netbeans.api.java.source.JavaSource;
-import org.netbeans.api.java.source.JavaSource.Phase;
-import org.netbeans.editor.BaseAction;
-import org.netbeans.editor.ext.ExtKit;
-//import org.netbeans.modules.editor.java.GoToSupport;
-//import org.netbeans.modules.editor.java.JavaKit;
+import org.apache.netbeans.api.java.source.Task;
+import org.apache.netbeans.api.java.source.CompilationController;
+import org.apache.netbeans.api.java.source.JavaSource;
+import org.apache.netbeans.api.java.source.JavaSource.Phase;
+import org.apache.netbeans.editor.BaseAction;
+import org.apache.netbeans.editor.ext.ExtKit;
+//import org.apache.netbeans.modules.editor.java.GoToSupport;
+//import org.apache.netbeans.modules.editor.java.JavaKit;
 import org.openide.awt.StatusDisplayer;
 import org.openide.util.Exceptions;
 import org.openide.util.NbBundle;

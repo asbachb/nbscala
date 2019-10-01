@@ -5,11 +5,11 @@
     <folder name="OptionsDialog">
         <folder name="Advanced">
             <file name="org-netbeans-modules-scala-sbt-options-SbtOptionsAdvancedOption.instance">
-                <attr name="controller" newvalue="org.netbeans.modules.scala.sbt.options.SbtOptionsPanelController"/>
-                <attr name="displayName"  bundlevalue="org.netbeans.modules.scala.sbt.options.Bundle#AdvancedOption_DisplayName_Sbt"/>
-                <attr name="instanceCreate" methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory"/>
-                <attr name="keywords" bundlevalue="org.netbeans.modules.scala.sbt.options.Bundle#AdvancedOption_Keywords_Sbt"/>
-                <attr name="tooltip" bundlevalue="org.netbeans.modules.scala.sbt.options.Bundle#AdvancedOption_Tooltip_Sbt"/>
+                <attr name="controller" newvalue="org.apache.netbeans.modules.scala.sbt.options.SbtOptionsPanelController"/>
+                <attr name="displayName"  bundlevalue="org.apache.netbeans.modules.scala.sbt.options.Bundle#AdvancedOption_DisplayName_Sbt"/>
+                <attr name="instanceCreate" methodvalue="org.apache.netbeans.spi.options.AdvancedOption.createSubCategory"/>
+                <attr name="keywords" bundlevalue="org.apache.netbeans.modules.scala.sbt.options.Bundle#AdvancedOption_Keywords_Sbt"/>
+                <attr name="tooltip" bundlevalue="org.apache.netbeans.modules.scala.sbt.options.Bundle#AdvancedOption_Tooltip_Sbt"/>
                 <attr name="keywordsCategory" stringvalue="Advanced/Sbt"/>                
             </file>
         </folder>
@@ -24,17 +24,17 @@
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
                     <file name="RunFile.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.sbt.project.SBTProjectModule.run"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.sbt.project.SBTProjectModule.run"/>
                         <attr name="position" intvalue="550"/>
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
                     <file name="DebugFile.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.sbt.project.SBTProjectModule.debug"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.sbt.project.SBTProjectModule.debug"/>
                         <attr name="position" intvalue="560"/>
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
                     <file name="DebugTestFile.instance">
-                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.scala.sbt.project.SBTProjectModule.debugTest"/>
+                        <attr name="instanceCreate" methodvalue="org.apache.netbeans.modules.scala.sbt.project.SBTProjectModule.debugTest"/>
                         <attr name="position" intvalue="570"/>
                         <attr name="misplaced.action.allowed" boolvalue="true"/>
                     </file>
@@ -99,7 +99,7 @@
                 <folder name="Factories">
                     <file name="SbtDataLoader.instance">
                         <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/netbeans/modules/scala/sbt/resources/sbt.png"/>
-                        <attr name="dataObjectClass" stringvalue="org.netbeans.modules.scala.sbt.SbtDataObject"/>
+                        <attr name="dataObjectClass" stringvalue="org.apache.netbeans.modules.scala.sbt.SbtDataObject"/>
                         <attr name="instanceCreate" methodvalue="org.openide.loaders.DataLoaderPool.factory"/>
                         <attr name="mimeType" stringvalue="text/x-sbt"/>
                     </file>
@@ -119,27 +119,27 @@
         <folder name="org-netbeans-modules-scala-sbt">
             <folder name="Nodes">
                 <file name="org-netbeans-modules-scala-sbt-nodes-AggProjectsNodeFactory.instance">
-                    org.netbeans.modules.scala.sbt.nodes.AggProjectsNodeFactory
+                    org.apache.netbeans.modules.scala.sbt.nodes.AggProjectsNodeFactory
                     <attr intvalue="139" name="position"/>
                 </file>
                 <file name="org-netbeans-modules-scala-sbt-nodes-SourcesNodeFactory.instance">
-                    org.netbeans.modules.scala.sbt.nodes.SourcesNodeFactory
+                    org.apache.netbeans.modules.scala.sbt.nodes.SourcesNodeFactory
                     <attr intvalue="140" name="position"/>
                 </file>
                 <file name="org-netbeans-modules-scala-sbt-nodes-LibrariesNodeFactory.instance">
-                    org.netbeans.modules.scala.sbt.nodes.LibrariesNodeFactory
+                    org.apache.netbeans.modules.scala.sbt.nodes.LibrariesNodeFactory
                     <attr intvalue="141" name="position"/>
                 </file>
                 <file name="org-netbeans-modules-scala-sbt-nodes-DepProjectsNodeFactory.instance">
-                    org.netbeans.modules.scala.sbt.nodes.DepProjectsNodeFactory
+                    org.apache.netbeans.modules.scala.sbt.nodes.DepProjectsNodeFactory
                     <attr intvalue="142" name="position"/>
                 </file>
                 <file name="org-netbeans-modules-scala-sbt-nodes-ProjectFolderNodeFactory.instance">
-                    org.netbeans.modules.scala.sbt.nodes.ProjectFolderNodeFactory
+                    org.apache.netbeans.modules.scala.sbt.nodes.ProjectFolderNodeFactory
                     <attr intvalue="143" name="position"/>
                 </file>
                 <file name="org-netbeans-modules-scala-sbt-nodes-SbtFilesNodeFactory.instance">
-                    org.netbeans.modules.scala.sbt.nodes.SbtFilesNodeFactory
+                    org.apache.netbeans.modules.scala.sbt.nodes.SbtFilesNodeFactory
                     <attr intvalue="144" name="position"/>
                 </file>
             </folder>

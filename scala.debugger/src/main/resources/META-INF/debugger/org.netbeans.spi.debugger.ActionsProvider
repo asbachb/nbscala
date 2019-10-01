@@ -1,2 +1,2 @@
-org.netbeans.modules.scala.debugger.actions.ToggleBreakpointActionProvider
-#org.netbeans.modules.debugger.jpda.ui.actions.ToggleBreakpointActionProvider
+org.apache.netbeans.modules.scala.debugger.actions.ToggleBreakpointActionProvider
+#org.apache.netbeans.modules.debugger.jpda.ui.actions.ToggleBreakpointActionProvider

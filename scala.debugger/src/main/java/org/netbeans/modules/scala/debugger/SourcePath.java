@@ -38,7 +38,7 @@
  * Version 2 license, then the option applies only if the new code is
  * made subject to such option by the copyright holder.
  */
-package org.netbeans.modules.scala.debugger;
+package org.apache.netbeans.modules.scala.debugger;
 
 import com.sun.jdi.AbsentInformationException;
 import com.sun.jdi.StackFrame;
@@ -52,21 +52,21 @@ import java.util.Iterator;
 import java.util.WeakHashMap;
 import java.util.List;
 import java.util.Set;
-import org.netbeans.api.debugger.Properties;
-import org.netbeans.spi.debugger.ContextProvider;
+import org.apache.netbeans.api.debugger.Properties;
+import org.apache.netbeans.spi.debugger.ContextProvider;
 
-import org.netbeans.api.debugger.DebuggerManager;
-import org.netbeans.api.debugger.Session;
-import org.netbeans.api.debugger.jpda.CallStackFrame;
-import org.netbeans.api.debugger.jpda.Field;
-import org.netbeans.api.debugger.jpda.JPDADebugger;
-import org.netbeans.api.debugger.jpda.JPDAThread;
-import org.netbeans.api.debugger.jpda.LineBreakpoint;
-import org.netbeans.api.debugger.jpda.LocalVariable;
-import org.netbeans.api.debugger.jpda.Variable;
-import org.netbeans.spi.debugger.jpda.EditorContext;
-import org.netbeans.spi.debugger.jpda.EditorContext.Operation;
-import org.netbeans.spi.debugger.jpda.SourcePathProvider;
+import org.apache.netbeans.api.debugger.DebuggerManager;
+import org.apache.netbeans.api.debugger.Session;
+import org.apache.netbeans.api.debugger.jpda.CallStackFrame;
+import org.apache.netbeans.api.debugger.jpda.Field;
+import org.apache.netbeans.api.debugger.jpda.JPDADebugger;
+import org.apache.netbeans.api.debugger.jpda.JPDAThread;
+import org.apache.netbeans.api.debugger.jpda.LineBreakpoint;
+import org.apache.netbeans.api.debugger.jpda.LocalVariable;
+import org.apache.netbeans.api.debugger.jpda.Variable;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext;
+import org.apache.netbeans.spi.debugger.jpda.EditorContext.Operation;
+import org.apache.netbeans.spi.debugger.jpda.SourcePathProvider;
 import org.openide.ErrorManager;
 
 /**
@@ -111,7 +111,7 @@ public class SourcePath {
         for (Iterator it = providers.iterator(); it.hasNext(); ) {
             Object provider = it.next();
             // Hack - find our provider:
-            if (provider.getClass().getName().equals("org.netbeans.modules.debugger.jpda.projects.SourcePathProviderImpl")) {
+            if (provider.getClass().getName().equals("org.apache.netbeans.modules.debugger.jpda.projects.SourcePathProviderImpl")) {
                 return (SourcePathProvider) provider;
             }
         }

@@ -39,27 +39,27 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.project;
+package org.apache.netbeans.modules.scala.project;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
 import java.io.File;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import org.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
+import org.apache.netbeans.modules.scala.project.ui.customizer.J2SEProjectProperties;
 import org.openide.util.Mutex;
-import org.netbeans.api.project.Sources;
-import org.netbeans.api.project.SourceGroup;
-import org.netbeans.api.project.ProjectManager;
-import org.netbeans.api.project.FileOwnerQuery;
-import org.netbeans.api.java.project.JavaProjectConstants;
-import org.netbeans.api.project.Project;
-import org.netbeans.modules.java.api.common.SourceRoots;
-import org.netbeans.modules.java.api.common.project.ProjectProperties;
-import org.netbeans.spi.project.support.GenericSources;
-import org.netbeans.spi.project.support.ant.SourcesHelper;
-import org.netbeans.spi.project.support.ant.AntProjectHelper;
-import org.netbeans.spi.project.support.ant.PropertyEvaluator;
+import org.apache.netbeans.api.project.Sources;
+import org.apache.netbeans.api.project.SourceGroup;
+import org.apache.netbeans.api.project.ProjectManager;
+import org.apache.netbeans.api.project.FileOwnerQuery;
+import org.apache.netbeans.api.java.project.JavaProjectConstants;
+import org.apache.netbeans.api.project.Project;
+import org.apache.netbeans.modules.java.api.common.SourceRoots;
+import org.apache.netbeans.modules.java.api.common.project.ProjectProperties;
+import org.apache.netbeans.spi.project.support.GenericSources;
+import org.apache.netbeans.spi.project.support.ant.SourcesHelper;
+import org.apache.netbeans.spi.project.support.ant.AntProjectHelper;
+import org.apache.netbeans.spi.project.support.ant.PropertyEvaluator;
 import org.openide.filesystems.FileObject;
 import org.openide.filesystems.FileUtil;
 import org.openide.util.ChangeSupport;

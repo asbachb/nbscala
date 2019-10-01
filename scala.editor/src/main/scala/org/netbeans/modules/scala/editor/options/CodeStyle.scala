@@ -39,12 +39,12 @@
  * made subject to such option by the copyright holder.
  */
 
-package org.netbeans.modules.scala.editor.options
+package org.apache.netbeans.modules.scala.editor.options
 
 import java.util.prefs.Preferences
 import javax.swing.text.Document
-import org.netbeans.api.project.Project
-import org.netbeans.modules.editor.indent.spi.CodeStylePreferences
+import org.apache.netbeans.api.project.Project
+import org.apache.netbeans.modules.editor.indent.spi.CodeStylePreferences
 
 /**
  *

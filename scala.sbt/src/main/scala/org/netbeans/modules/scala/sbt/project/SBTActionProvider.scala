@@ -1,4 +1,4 @@
-package org.netbeans.modules.scala.sbt.project
+package org.apache.netbeans.modules.scala.sbt.project
 
 import java.awt.event.MouseEvent
 import java.util.logging.Level
@@ -6,16 +6,16 @@ import java.util.logging.Logger
 import javax.swing.JButton
 import javax.swing.event.ChangeEvent
 import javax.swing.event.ChangeListener
-import org.netbeans.modules.scala.core.ProjectResources
-import org.netbeans.modules.scala.core.ScalaSourceUtil
-import org.netbeans.modules.scala.sbt.console.SBTConsoleTopComponent
+import org.apache.netbeans.modules.scala.core.ProjectResources
+import org.apache.netbeans.modules.scala.core.ScalaSourceUtil
+import org.apache.netbeans.modules.scala.sbt.console.SBTConsoleTopComponent
 import org.apache.tools.ant.module.api.support.ActionUtils
-import org.netbeans.api.debugger.jpda.DebuggerStartException
-import org.netbeans.api.debugger.jpda.JPDADebugger
-import org.netbeans.api.language.util.ast.AstDfn
-import org.netbeans.api.project.ProjectManager
-import org.netbeans.modules.scala.console.shell.ScalaConsoleTopComponent
-import org.netbeans.spi.project.ActionProvider
+import org.apache.netbeans.api.debugger.jpda.DebuggerStartException
+import org.apache.netbeans.api.debugger.jpda.JPDADebugger
+import org.apache.netbeans.api.language.util.ast.AstDfn
+import org.apache.netbeans.api.project.ProjectManager
+import org.apache.netbeans.modules.scala.console.shell.ScalaConsoleTopComponent
+import org.apache.netbeans.spi.project.ActionProvider
 import org.openide.DialogDescriptor
 import org.openide.DialogDisplayer
 import org.openide.LifecycleManager
@@ -28,7 +28,7 @@ import org.openide.util.NbBundle
 
 /**
  *
- * Used for predefined project actions, @see org.netbeans.spi.project.ActionProvider
+ * Used for predefined project actions, @see org.apache.netbeans.spi.project.ActionProvider
  *
  * @author Caoyuan Deng
  */
