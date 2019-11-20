@@ -147,27 +147,27 @@
             <artifactId>org-netbeans-modules-csl-types</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-library</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-xml</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-console</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-editor</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scalariform</artifactId>
         </dependency>
 
@@ -182,7 +182,7 @@
              sbt-launcher.jar to a standardalone module.
         -->
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-sbt</artifactId>
             <scope>runtime</scope>
         </dependency>

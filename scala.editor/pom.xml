@@ -205,35 +205,35 @@
 
         <!-- subproject dependencies -->
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-compiler</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-library</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-reflect</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-xml</artifactId>
         </dependency>
          <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-xtc</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scalariform</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-fontscolors</artifactId>
         </dependency>
     </dependencies>

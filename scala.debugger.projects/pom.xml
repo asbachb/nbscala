@@ -165,15 +165,15 @@
         
         <!-- subproject dependencies -->
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-compiler</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-library</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-core</artifactId>
         </dependency>
        

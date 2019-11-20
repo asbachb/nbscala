@@ -15,7 +15,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-library</artifactId>
         </dependency>
 

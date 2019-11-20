@@ -169,27 +169,27 @@
 
         <!-- subproject dependencies -->
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-compiler</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-libs-scala-library</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-console</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-platform</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.netbeans.modules</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>org-netbeans-modules-scala-stdplatform</artifactId>
         </dependency>
         <dependency>
