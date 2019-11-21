@@ -41,6 +41,12 @@
             <email>oliver.guenther [at] gg-net.de</email>
             <timezone>+2</timezone>
         </contributor>
+        <contributor>
+            <name>Benjamin Asbach</name>
+            <!-- email can be obtained from url -->
+            <url>https://www.impl.it</url>
+            <timezone>Europe/Berlin</timezone>
+        </contributor>
     </contributors>
     
     <scm>
